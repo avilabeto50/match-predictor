@@ -1,0 +1,105 @@
+date,home_team,away_team,score,group,location
+2026-06-11,Mexico,South Africa,,Group A,Mexico City Stadium
+2026-06-12,Korea Republic,Czechia,,Group A,Estadio Guadalajara
+2026-06-12,Canada,Bosnia and Herzegovina,,Group B,Toronto Stadium
+2026-06-12,USA,Paraguay,,Group D,Los Angeles Stadium
+2026-06-13,Haiti,Scotland,,Group C,Boston Stadium
+2026-06-13,Australia,Turkey,,Group D,BC Place Vancouver
+2026-06-13,Brazil,Morocco,,Group C,New York New Jersey Stadium
+2026-06-13,Qatar,Switzerland,,Group B,San Francisco Bay Area Stadium
+2026-06-14,Cote d'Ivoire,Ecuador,,Group E,Philadelphia Stadium
+2026-06-14,Germany,Curacao,,Group E,Houston Stadium
+2026-06-14,Netherlands,Japan,,Group F,Dallas Stadium
+2026-06-14,Sweden,Tunisia,,Group F,Estadio Monterrey
+2026-06-15,Saudi Arabia,Uruguay,,Group H,Miami Stadium
+2026-06-15,Spain,Cape Verde,,Group H,Atlanta Stadium
+2026-06-15,Iran,New Zealand,,Group G,Los Angeles Stadium
+2026-06-15,Belgium,Egypt,,Group G,Seattle Stadium
+2026-06-16,France,Senegal,,Group I,New York New Jersey Stadium
+2026-06-16,Iraq,Norway,,Group I,Boston Stadium
+2026-06-16,Argentina,Algeria,,Group J,Kansas City Stadium
+2026-06-16,Austria,Jordan,,Group J,San Francisco Bay Area Stadium
+2026-06-17,Ghana,Panama,,Group L,Toronto Stadium
+2026-06-17,England,Croatia,,Group L,Dallas Stadium
+2026-06-17,Portugal,Congo DR,,Group K,Houston Stadium
+2026-06-17,Uzbekistan,Colombia,,Group K,Mexico City Stadium
+2026-06-18,Czechia,South Africa,,Group A,Atlanta Stadium
+2026-06-18,Switzerland,Bosnia and Herzegovina,,Group B,Los Angeles Stadium
+2026-06-18,Canada,Qatar,,Group B,BC Place Vancouver
+2026-06-18,Mexico,Korea Republic,,Group A,Estadio Guadalajara
+2026-06-19,Brazil,Haiti,,Group C,Philadelphia Stadium
+2026-06-19,Scotland,Morocco,,Group C,Boston Stadium
+2026-06-19,Turkey,Paraguay,,Group D,San Francisco Bay Area Stadium
+2026-06-19,USA,Australia,,Group D,Seattle Stadium
+2026-06-20,Germany,Cote d'Ivoire,,Group E,Toronto Stadium
+2026-06-20,Ecuador,Curacao,,Group E,Kansas City Stadium
+2026-06-20,Netherlands,Sweden,,Group F,Houston Stadium
+2026-06-20,Tunisia,Japan,,Group F,Estadio Monterrey
+2026-06-21,Uruguay,Cape Verde,,Group H,Miami Stadium
+2026-06-21,Spain,Saudi Arabia,,Group H,Atlanta Stadium
+2026-06-21,Belgium,Iran,,Group G,Los Angeles Stadium
+2026-06-21,New Zealand,Egypt,,Group G,BC Place Vancouver
+2026-06-22,Norway,Senegal,,Group I,New York New Jersey Stadium
+2026-06-22,France,Iraq,,Group I,Philadelphia Stadium
+2026-06-22,Argentina,Austria,,Group J,Dallas Stadium
+2026-06-22,Jordan,Algeria,,Group J,San Francisco Bay Area Stadium
+2026-06-23,England,Ghana,,Group L,Boston Stadium
+2026-06-23,Panama,Croatia,,Group L,Toronto Stadium
+2026-06-23,Portugal,Uzbekistan,,Group K,Houston Stadium
+2026-06-23,Colombia,Congo DR,,Group K,Estadio Guadalajara
+2026-06-24,Scotland,Brazil,,Group C,Miami Stadium
+2026-06-24,Morocco,Haiti,,Group C,Atlanta Stadium
+2026-06-24,Switzerland,Canada,,Group B,BC Place Vancouver
+2026-06-24,Bosnia and Herzegovina,Qatar,,Group B,Seattle Stadium
+2026-06-24,Czechia,Mexico,,Group A,Mexico City Stadium
+2026-06-24,South Africa,Korea Republic,,Group A,Estadio Monterrey
+2026-06-25,Curacao,Cote d'Ivoire,,Group E,Philadelphia Stadium
+2026-06-25,Ecuador,Germany,,Group E,New York New Jersey Stadium
+2026-06-25,Japan,Sweden,,Group F,Dallas Stadium
+2026-06-25,Tunisia,Netherlands,,Group F,Kansas City Stadium
+2026-06-25,Turkey,USA,,Group D,Los Angeles Stadium
+2026-06-25,Paraguay,Australia,,Group D,San Francisco Bay Area Stadium
+2026-06-26,Norway,France,,Group I,Boston Stadium
+2026-06-26,Senegal,Iraq,,Group I,Toronto Stadium
+2026-06-26,Egypt,Iran,,Group G,Seattle Stadium
+2026-06-26,New Zealand,Belgium,,Group G,BC Place Vancouver
+2026-06-26,Cape Verde,Saudi Arabia,,Group H,Houston Stadium
+2026-06-26,Uruguay,Spain,,Group H,Estadio Guadalajara
+2026-06-27,Panama,England,,Group L,New York New Jersey Stadium
+2026-06-27,Croatia,Ghana,,Group L,Philadelphia Stadium
+2026-06-27,Algeria,Austria,,Group J,Kansas City Stadium
+2026-06-27,Jordan,Argentina,,Group J,Dallas Stadium
+2026-06-27,Colombia,Portugal,,Group K,Miami Stadium
+2026-06-27,Congo DR,Uzbekistan,,Group K,Atlanta Stadium
+2026-06-28,Group A runners-up,Group B runners-up,,Round of 32,Los Angeles Stadium
+2026-06-29,Group E winners,Third Place A/B/C/D/F,,Round of 32,Boston Stadium
+2026-06-29,Group F winners,Group C runners-up,,Round of 32,Estadio Monterrey
+2026-06-29,Group C winners,Group F runners-up,,Round of 32,Houston Stadium
+2026-06-30,Group I winners,Third Place C/D/F/G/H,,Round of 32,New York New Jersey Stadium
+2026-06-30,Group E runners-up,Group I runners-up,,Round of 32,Dallas Stadium
+2026-06-30,Group A winners,Third Place A/C/E/F/H/I,,Round of 32,Mexico City Stadium
+2026-07-01,Group L winners,Third Place E/H/I/J/K,,Round of 32,Atlanta Stadium
+2026-07-01,Group D winners,Third Place B/E/F/I/J,,Round of 32,San Francisco Bay Area Stadium
+2026-07-01,Group G winners,Third Place A/E/H/I/J,,Round of 32,Seattle Stadium
+2026-07-02,Group K runners-up,Group L runners-up,,Round of 32,Toronto Stadium
+2026-07-02,Group H winners,Group J runners-up,,Round of 32,Los Angeles Stadium
+2026-07-02,Group B winners,Third Place E/F/G/I/J,,Round of 32,BC Place Vancouver
+2026-07-03,Group J winners,Group H runners-up,,Round of 32,Miami Stadium
+2026-07-03,Group K winners,Third Place D/E/I/J/L,,Round of 32,Kansas City Stadium
+2026-07-03,Group D runners-up,Group G runners-up,,Round of 32,Dallas Stadium
+2026-07-04,Winner Match 74,Winner Match 77,,Quarter-final,Philadelphia Stadium
+2026-07-04,Winner Match 73,Winner Match 75,,Quarter-final,Houston Stadium
+2026-07-04,Winner Match 76,Winner Match 78,,Quarter-final,New York New Jersey Stadium
+2026-07-04,Winner Match 85,Winner Match 87,,Quarter-final,BC Place Vancouver
+2026-07-04,Winner Match 86,Winner Match 88,,Quarter-final,Miami Stadium
+2026-07-04,Winner Match 83,Winner Match 84,,Quarter-final,Los Angeles Stadium
+2026-07-04,Winner Match 79,Winner Match 80,,Quarter-final,Mexico City Stadium
+2026-07-04,Winner Match 81,Winner Match 82,,Quarter-final,Dallas Stadium
+2026-07-09,Winner Match 89,Winner Match 90,,Semi-final,Boston Stadium
+2026-07-10,Winner Match 93,Winner Match 94,,Semi-final,Los Angeles Stadium
+2026-07-11,Winner Match 91,Winner Match 92,,Semi-final,Miami Stadium
+2026-07-11,Winner Match 95,Winner Match 96,,Semi-final,Kansas City Stadium
+2026-07-14,Winner Match 97,Winner Match 98,,Semi-final,Dallas Stadium
+2026-07-15,Winner Match 99,Winner Match 100,,Semi-final,Atlanta Stadium
+2026-07-18,Runner-up Match 101,Runner-up Match 102,,Bronze Final,Miami Stadium
+2026-07-19,Winner Match 101,Winner Match 102,,Final,New York New Jersey Stadium
