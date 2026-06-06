@@ -1,3 +1,53 @@
+Canada
+Mexico
+United States
+Australia
+Iraq
+IR Iran
+Japan
+Jordan
+Korea Republic (South Korea)
+Qatar
+Saudi Arabia
+Uzbekistan
+Algeria
+Cabo Verde
+DR Congo
+Côte d'Ivoire
+Egypt
+Ghana
+Morocco
+Senegal
+South Africa
+Tunisia
+Curaçao
+Haiti
+Panama
+Argentina
+Brazil
+Colombia
+Ecuador
+Paraguay
+Uruguay
+New Zealand
+Austria
+Belgium
+Bosnia and Herzegovina
+Croatia
+Czechia
+England
+France
+Germany
+Netherlands
+Norway
+Portugal
+Scotland
+Spain
+Sweden
+Switzerland
+Türkiye
+
+
 Thursday, 11 June 2026
 Mexico v South Africa - Group A – Mexico City Stadium
 Korea Republic v Czechia – Group A - Estadio Guadalajara
@@ -176,3 +226,5 @@ Match 103 – Runner-up match 101 v Runner-up match 102 - Miami Stadium
 FIFA World Cup 2026 Final
 Sunday, 19 July 2026
 Match 104 – Winner match 101 v Winner match 102 - New York New Jersey Stadium
+
+
