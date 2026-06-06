@@ -6,9 +6,11 @@ The 2026 FIFA World Cup begins June 11, 2026. All modeling work must be complete
 
 ---
 
-## Phase 0 — Repository and Environment
+## Phase 0 — Repository and Environment ✅ COMPLETE
 
 **Goal:** A working Python environment on the Windows 11 machine, a clean repository structure, and all data on disk before any code is written.
+
+**Status:** Environment set up, raw data downloaded and organized. Fixture list compiled with all 104 matches (72 group stage + 32 knockout).
 
 ### Repository structure to establish
 
@@ -41,7 +43,7 @@ copa2026/
 
 1. **Historical match results**: download `results.csv` from `https://github.com/martj42/international-football-results` (or the Kaggle mirror). Save to `data/raw/results.csv`. Do not modify this file.
 2. **FIFA World Rankings**: download the historical rankings CSV from Kaggle ("FIFA World Rankings 1993–2023") or scrape the current ranking from `https://www.fifa.com/fifa-world-ranking`. Save to `data/raw/fifa_rankings.csv`.
-3. **2026 World Cup fixture list**: manually compile the full group-stage and knockout bracket schedule (all 64 matches, dates, venues, groups) into `data/raw/wc2026_fixtures.csv`. This will be used to generate predictions match by match. Official schedule: `https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026`.
+3. **2026 World Cup fixture list**: all 104 matches (72 group stage + 32 knockout) with dates, venues, and team matchups compiled into `data/raw/wc2026_fixtures.csv`. ✅ COMPLETE
 
 ### Deliverable at end of Phase 0
 
@@ -52,9 +54,11 @@ copa2026/
 
 ---
 
-## Phase 1 — Data Preparation
+## Phase 1 — Data Preparation ✅ COMPLETE
 
 **Goal:** A single clean, filtered dataframe of international match results ready for Elo computation and attack/defense estimation, plus a team name mapping that reconciles inconsistencies across the historical record.
+
+**Status:** Data preparation notebook created (`notebooks/01_data_preparation.ipynb`). Historical match data filtered and team name normalization applied for all 48 qualified teams.
 
 ### What to build: `src/data_prep.py`
 
@@ -72,19 +76,21 @@ These weights are applied during attack/defense estimation (Phase 3), not during
 
 **Team name normalization:**
 
-The historical dataset uses inconsistent team names across decades. The 32 qualified teams for 2026 must have a canonical name that maps to all variants in the historical record. Known issues to resolve manually:
+The historical dataset uses inconsistent team names across decades. The 48 qualified teams for 2026 must have a canonical name that maps to all variants in the historical record. Known issues to resolve manually:
 - "United States" vs "USA"
 - "IR Iran" vs "Iran"
 - "Korea Republic" vs "South Korea"
 - "Ivory Coast" vs "Côte d'Ivoire"
 - "Czech Republic" vs "Czechia"
+- "Curaçao" variants (accents, caps)
+- "Cabo Verde" vs "Cape Verde"
 
-Build a `TEAM_NAME_MAP` dictionary in `data_prep.py` that normalizes all variants to a single canonical string. Apply this to both home and away team columns.
+Build a `TEAM_NAME_MAP` dictionary in `data_prep.py` that normalizes all variants to a single canonical string. Apply this to both home and away team columns. ✅ COMPLETE
 
 **Output:**
 
 - `data/processed/matches_filtered.csv` — filtered, normalized match history
-- `data/processed/wc2026_teams.csv` — list of 32 qualified teams with canonical names
+- `data/processed/wc2026_teams.csv` — list of 48 qualified teams with canonical names ✅ COMPLETE
 
 ### Known hard parts
 
@@ -92,9 +98,11 @@ Getting team name normalization right is the most tedious part of the whole proj
 
 ---
 
-## Phase 2 — Elo Ratings
+## Phase 2 — Elo Ratings 🔄 IN PROGRESS
 
-**Goal:** A single Elo rating for each of the 32 qualified teams, computed from the filtered historical match data.
+**Goal:** A single Elo rating for each of the 48 qualified teams, computed from the filtered historical match data.
+
+**Status:** Elo computation notebook created (`notebooks/02_elo_computation.ipynb`). Elo ratings being computed using K-factor scheme weighted by match importance.
 
 ### What to build: `src/elo.py`
 
@@ -130,8 +138,8 @@ International matches played on neutral ground (which is typical for tournaments
 
 **Output:**
 
-- `data/processed/elo_ratings.csv` — one row per team, columns: `team`, `elo_rating`
-- A saved plot: `notebooks/elo_distribution.png` — bar chart of all 32 teams sorted by Elo rating, useful for a sanity check
+- `data/processed/elo_ratings.csv` — one row per team (48 teams), columns: `team`, `elo_rating`
+- A saved plot: `notebooks/elo_distribution.png` — bar chart of all 48 teams sorted by Elo rating, useful for a sanity check
 
 ### Sanity checks
 
@@ -237,12 +245,12 @@ This is optional. The model is informative without it. Revisit after Phase 3 is 
 
 ## Phase 5 — Generating Tournament Predictions
 
-**Goal:** Before the tournament begins, generate win/draw/loss probability predictions for all 48 group-stage matches and commit them to the repository. This creates a locked-in set of pre-tournament predictions to evaluate against real outcomes.
+**Goal:** Before the tournament begins, generate win/draw/loss probability predictions for all 72 group-stage matches and commit them to the repository. This creates a locked-in set of pre-tournament predictions to evaluate against real outcomes.
 
 ### Process
 
-1. Load the fixture list from `data/raw/wc2026_fixtures.csv`
-2. For each group-stage match, call `predict_match(team_a, team_b)`
+1. Load the fixture list from `data/raw/wc2026_fixtures.csv` (✅ already compiled)
+2. For each group-stage match (72 total), call `predict_match(team_a, team_b)`
 3. Write results to `predictions/group_stage_predictions.csv`
 
 Column schema for predictions CSV:
@@ -345,7 +353,7 @@ Streamlit is a single Python file that runs locally via `streamlit run app.py`. 
 
 **The fixture list may not be fully finalized.** Some kickoff times and venues may shift. Mitigation: the prediction model only needs team names, not venues, so venue changes do not affect predictions. Update kickoff dates in the fixture CSV as they are confirmed.
 
-**Calibration analysis requires enough predictions to be statistically meaningful.** The group stage produces 48 matches, which is enough for a rough reliability diagram but not enough for tight bin estimates. Interpret the reliability diagram qualitatively rather than quantitatively until at least 30+ matches are in the sample.
+**Calibration analysis requires enough predictions to be statistically meaningful.** The group stage produces 72 matches, which is solid for calibration but interpretation should remain grounded in the uncertainty that inherently exists with any forecasting model until the full tournament is complete.
 
 ---
 

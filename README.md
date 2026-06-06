@@ -25,7 +25,9 @@ All data used in this project is publicly available at no cost:
 
 ## Scope
 
-The model covers all 64 matches of the 2026 FIFA World Cup (June 11 – July 19, 2026), including the group stage, round of 32, quarterfinals, semifinals, and final. Predictions are generated before each round and evaluated after results are known.
+The model covers all 104 matches of the 2026 FIFA World Cup (June 11 – July 19, 2026), including the group stage (72 matches across 12 groups of 4 teams), round of 32, quarterfinals, semifinals, and final. Predictions are generated before each round and evaluated after results are known.
+
+48 teams compete across 12 groups (A–L), with the top 2 from each group plus the best 8 third-place finishers advancing to the knockout stage.
 
 ---
 
