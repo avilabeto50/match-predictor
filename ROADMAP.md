@@ -1,0 +1,352 @@
+# ROADMAP — Copa 2026 Match Predictor
+
+This document is the authoritative development plan for the project. It is organized into phases that follow the logical dependency chain: data before modeling, modeling before evaluation, evaluation before dashboard. Each phase lists exactly what needs to exist at the end of it, what decisions need to be made, and what the known hard parts are.
+
+The 2026 FIFA World Cup begins June 11, 2026. All modeling work must be complete and validated before that date.
+
+---
+
+## Phase 0 — Repository and Environment
+
+**Goal:** A working Python environment on the Windows 11 machine, a clean repository structure, and all data on disk before any code is written.
+
+### Repository structure to establish
+
+```
+copa2026/
+├── data/
+│   ├── raw/                   # untouched source files, never modified
+│   └── processed/             # cleaned, filtered outputs ready for modeling
+├── notebooks/                 # exploratory Jupyter notebooks, numbered sequentially
+├── src/
+│   ├── data_prep.py           # data loading, cleaning, filtering
+│   ├── elo.py                 # Elo rating computation
+│   ├── poisson_model.py       # attack/defense MLE + probability derivation
+│   └── calibration.py         # Brier score, reliability diagrams
+├── predictions/               # one CSV per round, generated before each matchday
+├── results/                   # actual outcomes logged after each round
+├── README.md
+└── ROADMAP.md
+```
+
+### Environment
+
+- Python 3.11 via Anaconda or Miniconda (Miniconda preferred for a clean install)
+- Create a dedicated conda environment: `conda create -n copa2026 python=3.11`
+- Required packages: `pandas`, `numpy`, `scipy`, `scikit-learn`, `matplotlib`, `seaborn`, `jupyter`, `notebook`
+- Optional for dashboard phase: `streamlit`, `plotly`
+- The RTX 4060 is not needed for any phase of this project. All computation is closed-form or lightweight optimization, not neural training.
+
+### Data to download
+
+1. **Historical match results**: download `results.csv` from `https://github.com/martj42/international-football-results` (or the Kaggle mirror). Save to `data/raw/results.csv`. Do not modify this file.
+2. **FIFA World Rankings**: download the historical rankings CSV from Kaggle ("FIFA World Rankings 1993–2023") or scrape the current ranking from `https://www.fifa.com/fifa-world-ranking`. Save to `data/raw/fifa_rankings.csv`.
+3. **2026 World Cup fixture list**: manually compile the full group-stage and knockout bracket schedule (all 64 matches, dates, venues, groups) into `data/raw/wc2026_fixtures.csv`. This will be used to generate predictions match by match. Official schedule: `https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026`.
+
+### Deliverable at end of Phase 0
+
+- Conda environment activates cleanly
+- All three raw data files are on disk
+- Folder structure exists
+- README.md and ROADMAP.md committed to the repo
+
+---
+
+## Phase 1 — Data Preparation
+
+**Goal:** A single clean, filtered dataframe of international match results ready for Elo computation and attack/defense estimation, plus a team name mapping that reconciles inconsistencies across the historical record.
+
+### What to build: `src/data_prep.py`
+
+**Filtering decisions:**
+
+The full historical dataset goes back to 1872. Using all of it would give undue weight to matches that are essentially irrelevant to predicting modern teams. The recommended filter is matches from **January 1, 2014 onward** (approximately three World Cup cycles). This preserves enough history for statistical estimation while keeping the team strengths reflective of current squads.
+
+Additionally, weight matches by recency and importance. A friendly played in 2014 should matter less than a World Cup qualifier played in 2024. A simple weighting scheme:
+- World Cup matches: weight 1.0
+- Continental championship matches (CONMEBOL, UEFA, etc.): weight 0.85
+- World Cup qualifiers: weight 0.75
+- Friendlies: weight 0.5
+
+These weights are applied during attack/defense estimation (Phase 3), not during Elo computation (Phase 2 has its own k-factor scheme).
+
+**Team name normalization:**
+
+The historical dataset uses inconsistent team names across decades. The 32 qualified teams for 2026 must have a canonical name that maps to all variants in the historical record. Known issues to resolve manually:
+- "United States" vs "USA"
+- "IR Iran" vs "Iran"
+- "Korea Republic" vs "South Korea"
+- "Ivory Coast" vs "Côte d'Ivoire"
+- "Czech Republic" vs "Czechia"
+
+Build a `TEAM_NAME_MAP` dictionary in `data_prep.py` that normalizes all variants to a single canonical string. Apply this to both home and away team columns.
+
+**Output:**
+
+- `data/processed/matches_filtered.csv` — filtered, normalized match history
+- `data/processed/wc2026_teams.csv` — list of 32 qualified teams with canonical names
+
+### Known hard parts
+
+Getting team name normalization right is the most tedious part of the whole project. Budget a few hours for this. The safest approach is to filter the dataset to only matches involving the 32 qualified teams before doing anything else, then inspect the unique team name strings for variants.
+
+---
+
+## Phase 2 — Elo Ratings
+
+**Goal:** A single Elo rating for each of the 32 qualified teams, computed from the filtered historical match data.
+
+### What to build: `src/elo.py`
+
+**How Elo works in this context:**
+
+Elo is an iterative rating system. Every team starts with a base rating (conventionally 1500). After each match, ratings are updated based on the outcome and the expected outcome given pre-match ratings. The update rule is:
+
+```
+R_new = R_old + K * (S - E)
+```
+
+Where:
+- `S` is the actual score: 1 for a win, 0.5 for a draw, 0 for a loss
+- `E` is the expected score: `1 / (1 + 10^((R_opponent - R_own) / 400))`
+- `K` is the sensitivity factor, which should vary by match importance
+
+**K-factor scheme:**
+
+- World Cup matches: K = 60
+- Continental championships: K = 50
+- World Cup qualifiers: K = 40
+- Friendlies: K = 20
+
+These values are consistent with the widely cited Club Elo and FiveThirtyEight international Elo implementations.
+
+**Implementation approach:**
+
+Process the filtered match history chronologically. For each match, look up the current Elo of both teams, compute the update, and apply it. At the end of processing, read off the final rating for each of the 32 qualified teams.
+
+**Home advantage:**
+
+International matches played on neutral ground (which is typical for tournaments) have no home advantage adjustment. For historical club matches played at home, add a fixed offset of +100 rating points to the home team's effective rating when computing the expected outcome. The 2026 World Cup is played on neutral ground (across USA, Canada, Mexico), so home advantage does not apply to tournament predictions.
+
+**Output:**
+
+- `data/processed/elo_ratings.csv` — one row per team, columns: `team`, `elo_rating`
+- A saved plot: `notebooks/elo_distribution.png` — bar chart of all 32 teams sorted by Elo rating, useful for a sanity check
+
+### Sanity checks
+
+After computing ratings, verify:
+- Argentina, France, Brazil, England, and Germany should be near the top
+- The spread should be roughly 1200–1900 for qualified teams
+- No team should have a rating below 1000 or above 2200
+
+If results look implausible, the most likely cause is incorrect team name normalization bleeding through from Phase 1.
+
+---
+
+## Phase 3 — Attack / Defense Strength Model (Poisson Model)
+
+**Goal:** Two parameters per team — an attack rating and a defense rating — estimated from historical data via maximum likelihood. From these, derive win/draw/loss probabilities for any match.
+
+### The model
+
+For a match between team $i$ (home) and team $j$ (away), the number of goals scored by each team is modeled as:
+
+```
+Goals_i ~ Poisson(lambda_ij)
+Goals_j ~ Poisson(lambda_ji)
+
+lambda_ij = mu * alpha_i * beta_j
+lambda_ji = mu * alpha_j * beta_i
+```
+
+Where:
+- `mu` is the average number of goals scored per team per match across all matches in the dataset (typically around 1.3–1.5 for international football)
+- `alpha_i` is team $i$'s attack strength (values above 1.0 = above-average attack)
+- `beta_i` is team $i$'s defensive vulnerability (values above 1.0 = above-average leakiness)
+
+All four variables are positive real numbers. By convention, attack and defense ratings are scaled so that their product across all teams equals 1 (i.e., they are multiplicative adjustments relative to the mean).
+
+### What to build: `src/poisson_model.py`
+
+**Part 1 — MLE estimation**
+
+Fit `alpha` and `beta` for all teams simultaneously using maximum likelihood. The log-likelihood function over all historical matches is:
+
+```
+log L = sum over matches [ log P(goals_i | lambda_ij) + log P(goals_j | lambda_ji) ]
+      = sum over matches [ goals_i * log(lambda_ij) - lambda_ij - log(goals_i!)
+                         + goals_j * log(lambda_ji) - lambda_ji - log(goals_j!) ]
+```
+
+Minimize the negative log-likelihood using `scipy.optimize.minimize` with the L-BFGS-B method. Initialize all attack and defense parameters at 1.0. The optimization should converge in seconds.
+
+Apply match weights (from Phase 1) by multiplying each term in the log-likelihood sum by its corresponding weight before summing. This is the mechanism by which recent, high-stakes matches carry more influence.
+
+**Part 2 — Probability derivation**
+
+Given `lambda_ij` and `lambda_ji` for a specific match, compute win/draw/loss probabilities analytically:
+
+```
+P(win for i) = sum over g_i, g_j where g_i > g_j: Poisson_PMF(g_i, lambda_ij) * Poisson_PMF(g_j, lambda_ji)
+P(draw)      = sum over g: Poisson_PMF(g, lambda_ij) * Poisson_PMF(g, lambda_ji)
+P(loss for i) = 1 - P(win) - P(draw)
+```
+
+Truncate the sum at 10 goals per team. The probability mass beyond 10 goals is negligible (less than 0.001% at typical scoring rates). This gives a 10×10 joint probability matrix from which win/draw/loss probabilities are read off directly.
+
+**Part 3 — Expected scoreline**
+
+Also output the most likely scoreline(s) by returning the top 5 (g_i, g_j) pairs by joint probability. This is a useful human-readable summary of the model's expectations and a natural dashboard feature.
+
+**Output:**
+
+- `data/processed/team_ratings.csv` — columns: `team`, `attack`, `defense`, `mu`
+- A function `predict_match(team_a, team_b) -> dict` that returns `{p_win, p_draw, p_loss, top_scorelines}`
+
+### Sanity checks
+
+- `predict_match("Argentina", "Saudi Arabia")` should give Argentina a win probability above 0.70
+- `predict_match("France", "Brazil")` should be competitive, with neither team above 0.55 win probability
+- All three probabilities should sum to 1.0 (allow floating point tolerance of 1e-6)
+- No probability should be negative or above 1.0
+
+---
+
+## Phase 4 — Combining Elo and Poisson (Optional Blending)
+
+**Goal:** Decide whether to blend the Elo-based win probabilities with the Poisson model's probabilities, and if so, how.
+
+### The design choice
+
+Elo and the Poisson attack/defense model answer slightly different questions. Elo is a pure strength signal with no goal-scoring structure. The Poisson model captures offensive and defensive tendencies separately but may be miscalibrated for rare matchups (teams with little shared history).
+
+The simplest approach is to use the Poisson model as the primary output and use the Elo rating purely as a feature — specifically, include the Elo rating difference between the two teams as an input feature that shifts `mu` slightly upward or downward. This keeps the probabilistic structure of the Poisson model while grounding it in the Elo signal.
+
+A concrete implementation:
+
+```
+mu_adjusted = mu * (1 + gamma * (elo_i - elo_j) / 1000)
+```
+
+Where `gamma` is a small scalar (0.05–0.15) that modulates how much the Elo gap shifts the expected scoring rate. The optimal value of `gamma` can be estimated via cross-validation on held-out historical matches, or simply fixed at 0.10 as a reasonable default.
+
+This is optional. The model is informative without it. Revisit after Phase 3 is producing sensible outputs.
+
+---
+
+## Phase 5 — Generating Tournament Predictions
+
+**Goal:** Before the tournament begins, generate win/draw/loss probability predictions for all 48 group-stage matches and commit them to the repository. This creates a locked-in set of pre-tournament predictions to evaluate against real outcomes.
+
+### Process
+
+1. Load the fixture list from `data/raw/wc2026_fixtures.csv`
+2. For each group-stage match, call `predict_match(team_a, team_b)`
+3. Write results to `predictions/group_stage_predictions.csv`
+
+Column schema for predictions CSV:
+```
+match_id, date, group, team_a, team_b, p_win_a, p_draw, p_win_b, predicted_winner
+```
+
+Where `predicted_winner` is `team_a` if `p_win_a > p_win_b`, `team_b` if `p_win_b > p_win_a`, or `"draw"` if `p_draw` is the maximum of the three.
+
+**Do not go back and modify prediction files after matches are played.** The integrity of the calibration analysis depends on predictions being locked before outcomes are known.
+
+For knockout rounds, generate predictions round by round after the bracket is determined.
+
+---
+
+## Phase 6 — Live Calibration Tracking
+
+**Goal:** After each round of matches, record actual outcomes and compute calibration metrics against locked-in predictions. This is the analytical centerpiece of the project.
+
+### What to build: `src/calibration.py`
+
+**Results logging:**
+
+After each matchday, create or append to `results/actual_outcomes.csv`:
+```
+match_id, team_a, team_b, goals_a, goals_b, outcome
+```
+
+Where `outcome` is `win_a`, `draw`, or `win_b`.
+
+**Brier Score:**
+
+The Brier score measures the mean squared error of probability predictions over a set of outcomes. For a three-outcome problem (win/draw/loss):
+
+```
+BS = (1/N) * sum over matches [ (p_win - o_win)^2 + (p_draw - o_draw)^2 + (p_loss - o_loss)^2 ]
+```
+
+Where `o_win`, `o_draw`, `o_loss` are 1 or 0 depending on the actual outcome. Lower is better. A random model predicting 1/3 for each outcome has a Brier score of approximately 0.667. A perfect model has 0.0. In practice, good sports forecasting models score in the 0.55–0.62 range for football.
+
+**Reliability diagram:**
+
+Bin all win probability predictions into 10 buckets of width 0.1 (i.e., 0.0–0.1, 0.1–0.2, ..., 0.9–1.0). For each bucket, compute the mean predicted probability and the actual win rate across the matches in that bucket. Plot predicted probability (x-axis) against observed frequency (y-axis). A perfectly calibrated model lies on the diagonal. Points above the diagonal indicate overconfidence; points below indicate underconfidence.
+
+This plot should be regenerated and saved after each round.
+
+**Log-loss (supplementary metric):**
+
+```
+Log-loss = -(1/N) * sum [ o_win * log(p_win) + o_draw * log(p_draw) + o_loss * log(p_loss) ]
+```
+
+Add a small epsilon (1e-15) inside the log to prevent numerical issues when a predicted probability is exactly 0. Log-loss heavily penalizes confident wrong predictions — a useful complement to Brier score.
+
+**Output after each round:**
+
+- Updated `results/calibration_summary.csv` with cumulative Brier score and log-loss
+- Updated reliability diagram saved as `results/reliability_diagram_after_round_N.png`
+
+---
+
+## Phase 7 — Streamlit Dashboard (Optional)
+
+**Goal:** A local web app for interactive match prediction and live calibration visualization.
+
+### Pages / features
+
+**Match predictor tab:** Two dropdown selectors for team names. On selection, display the predicted win/draw/loss probabilities as a horizontal bar chart, the top 5 most likely scorelines as a table, and the Elo ratings of both teams for context.
+
+**Calibration tab:** Display the reliability diagram and Brier score, updated with the most recent completed round. Show a running Brier score curve over time (after round 1, after round 2, etc.).
+
+**Bracket tab (optional, complex):** Run a Monte Carlo simulation (10,000 iterations) of the full knockout bracket using match probabilities, and display the resulting win probabilities for each team to reach each round. This is a stretch goal — implement only if time allows after Phase 6 is solid.
+
+### Implementation notes
+
+Streamlit is a single Python file that runs locally via `streamlit run app.py`. No web server configuration needed. The app reads from the `predictions/` and `results/` CSV files at load time, so updating predictions and results simply means updating those files — no database required.
+
+---
+
+## Milestone Checklist
+
+| Milestone | Target Date |
+|---|---|
+| Phase 0 complete: repo, environment, raw data downloaded | June 8, 2026 |
+| Phase 1 complete: filtered dataset, team name normalization done | June 9, 2026 |
+| Phase 2 complete: Elo ratings computed, sanity checks passed | June 9, 2026 |
+| Phase 3 complete: Poisson model fit, predict_match function working | June 10, 2026 |
+| Phase 5 complete: all group-stage predictions locked in pre-tournament | June 10, 2026 |
+| Phase 6 active: results logged, calibration updated after each round | June 11 – July 19, 2026 |
+| Phase 7 (optional): Streamlit dashboard running locally | June 12, 2026 |
+| Post-tournament: final calibration analysis, README updated | July 20, 2026 |
+
+---
+
+## Known Risks and Mitigations
+
+**Team name normalization takes longer than expected.** Mitigation: do this first, before writing any modeling code. Get the 32-team name map fully correct before touching Elo or Poisson code.
+
+**Some qualified teams have little recent match history.** A team that has rarely played strong opponents in the last three years will have noisy attack/defense estimates. Mitigation: fall back to Elo rating as the primary signal for such teams. When MLE produces extreme parameter values (attack or defense rating below 0.4 or above 2.5), treat the estimate as unreliable and clip it.
+
+**The fixture list may not be fully finalized.** Some kickoff times and venues may shift. Mitigation: the prediction model only needs team names, not venues, so venue changes do not affect predictions. Update kickoff dates in the fixture CSV as they are confirmed.
+
+**Calibration analysis requires enough predictions to be statistically meaningful.** The group stage produces 48 matches, which is enough for a rough reliability diagram but not enough for tight bin estimates. Interpret the reliability diagram qualitatively rather than quantitatively until at least 30+ matches are in the sample.
+
+---
+
+*This roadmap should be treated as a living document during Phase 0 only. Once modeling begins in Phase 1, the analytical design (Phases 2–6) should not be changed mid-stream, as doing so would invalidate the calibration analysis. Feature additions belong in Phase 7 or a separate v2 document.*
