@@ -1,0 +1,120 @@
+
+================================================================================
+Group A MATCHES
+================================================================================
+2026-06-11 | Mexico               49.4% vs 27.8% vs 22.8% South Africa          →  Predict: Mexico               (1-0)
+2026-06-12 | Korea Republic       42.1% vs 27.1% vs 30.8% Czechia               →  Predict: Korea Republic       (1-1)
+2026-06-18 | Czechia              35.8% vs 31.2% vs 32.9% South Africa          →  Predict: Czechia              (1-0)
+2026-06-18 | Mexico               44.9% vs 25.5% vs 29.5% Korea Republic        →  Predict: Mexico               (1-1)
+2026-06-24 | Czechia              24.2% vs 26.4% vs 49.4% Mexico                →  Predict: Mexico               (0-1)
+2026-06-24 | South Africa         28.9% vs 28.6% vs 42.5% Korea Republic        →  Predict: Korea Republic       (0-1)
+
+================================================================================
+Group B MATCHES
+================================================================================
+2026-06-12 | Canada               36.4% vs 29.1% vs 34.5% Bosnia and Herzegovina  →  Predict: Canada               (1-1)
+2026-06-13 | Qatar                17.1% vs 20.3% vs 62.6% Switzerland           →  Predict: Switzerland          (0-2)
+2026-06-18 | Switzerland          53.3% vs 24.2% vs 22.5% Bosnia and Herzegovina  →  Predict: Switzerland          (1-0)
+2026-06-18 | Canada               44.3% vs 26.7% vs 29.1% Qatar                 →  Predict: Canada               (1-1)
+2026-06-24 | Switzerland          52.0% vs 24.7% vs 23.3% Canada                →  Predict: Switzerland          (1-1)
+2026-06-24 | Bosnia and Herzegovina 43.3% vs 26.6% vs 30.1% Qatar                 →  Predict: Bosnia and Herzegovina (1-1)
+
+================================================================================
+Group C MATCHES
+================================================================================
+2026-06-13 | Haiti                22.6% vs 23.7% vs 53.7% Scotland              →  Predict: Scotland             (1-1)
+2026-06-13 | Brazil               52.1% vs 27.3% vs 20.6% Morocco               →  Predict: Brazil               (1-0)
+2026-06-19 | Brazil               88.2% vs  8.3% vs  3.4% Haiti                 →  Predict: Brazil               (3-0)
+2026-06-19 | Scotland             19.5% vs 27.1% vs 53.4% Morocco               →  Predict: Morocco              (0-1)
+2026-06-24 | Scotland              8.7% vs 15.6% vs 75.7% Brazil                →  Predict: Brazil               (0-2)
+2026-06-24 | Morocco              69.1% vs 20.2% vs 10.7% Haiti                 →  Predict: Morocco              (1-0)
+
+================================================================================
+Group D MATCHES
+================================================================================
+2026-06-12 | United States        42.9% vs 28.4% vs 28.8% Paraguay              →  Predict: United States        (1-0)
+2026-06-13 | Australia            29.8% vs 24.1% vs 46.0% Türkiye               →  Predict: Türkiye              (1-1)
+2026-06-19 | Türkiye              44.6% vs 25.4% vs 29.9% Paraguay              →  Predict: Türkiye              (1-1)
+2026-06-19 | United States        44.3% vs 26.9% vs 28.8% Australia             →  Predict: United States        (1-1)
+2026-06-25 | Türkiye              37.0% vs 24.9% vs 38.1% United States         →  Predict: United States        (1-1)
+2026-06-25 | Paraguay             36.1% vs 28.6% vs 35.3% Australia             →  Predict: Paraguay             (1-1)
+
+================================================================================
+Group E MATCHES
+================================================================================
+2026-06-14 | Côte d'Ivoire        33.1% vs 29.0% vs 37.9% Ecuador               →  Predict: Ecuador              (1-1)
+2026-06-14 | Germany              83.8% vs 10.0% vs  6.1% Curaçao               →  Predict: Germany              (3-0)
+2026-06-20 | Germany              53.6% vs 22.7% vs 23.6% Côte d'Ivoire         →  Predict: Germany              (1-1)
+2026-06-20 | Ecuador              67.2% vs 19.4% vs 13.4% Curaçao               →  Predict: Ecuador              (2-0)
+2026-06-25 | Curaçao              15.0% vs 20.2% vs 64.8% Côte d'Ivoire         →  Predict: Côte d'Ivoire        (0-2)
+2026-06-25 | Ecuador              26.0% vs 23.5% vs 50.5% Germany               →  Predict: Germany              (1-1)
+
+================================================================================
+Group F MATCHES
+================================================================================
+2026-06-14 | Netherlands          49.1% vs 22.5% vs 28.3% Japan                 →  Predict: Netherlands          (1-1)
+2026-06-14 | Sweden               34.4% vs 29.0% vs 36.6% Tunisia               →  Predict: Tunisia              (1-1)
+2026-06-20 | Netherlands          58.6% vs 21.4% vs 20.0% Sweden                →  Predict: Netherlands          (1-1)
+2026-06-20 | Tunisia              28.7% vs 27.0% vs 44.3% Japan                 →  Predict: Japan                (1-1)
+2026-06-25 | Japan                47.9% vs 24.0% vs 28.2% Sweden                →  Predict: Japan                (1-1)
+2026-06-25 | Tunisia              21.1% vs 24.7% vs 54.2% Netherlands           →  Predict: Netherlands          (0-1)
+
+================================================================================
+Group G MATCHES
+================================================================================
+2026-06-15 | IR Iran              55.9% vs 26.8% vs 17.4% New Zealand           →  Predict: IR Iran              (1-0)
+2026-06-15 | Belgium              61.5% vs 22.3% vs 16.2% Egypt                 →  Predict: Belgium              (1-0)
+2026-06-21 | Belgium              59.3% vs 23.6% vs 17.1% IR Iran               →  Predict: Belgium              (1-0)
+2026-06-21 | New Zealand          18.2% vs 26.3% vs 55.5% Egypt                 →  Predict: Egypt                (0-1)
+2026-06-26 | Egypt                33.0% vs 31.9% vs 35.1% IR Iran               →  Predict: IR Iran              (0-0)
+2026-06-26 | New Zealand           5.6% vs 12.1% vs 82.3% Belgium               →  Predict: Belgium              (0-2)
+
+================================================================================
+Group H MATCHES
+================================================================================
+2026-06-15 | Saudi Arabia         14.2% vs 25.3% vs 60.5% Uruguay               →  Predict: Uruguay              (0-1)
+2026-06-15 | Spain                72.0% vs 17.6% vs 10.4% Cabo Verde            →  Predict: Spain                (2-0)
+2026-06-21 | Uruguay              59.7% vs 24.1% vs 16.2% Cabo Verde            →  Predict: Uruguay              (1-0)
+2026-06-21 | Spain                72.5% vs 18.4% vs  9.1% Saudi Arabia          →  Predict: Spain                (2-0)
+2026-06-26 | Cabo Verde           37.6% vs 31.5% vs 30.8% Saudi Arabia          →  Predict: Cabo Verde           (1-0)
+2026-06-26 | Uruguay              27.4% vs 25.9% vs 46.7% Spain                 →  Predict: Spain                (1-1)
+
+================================================================================
+Group I MATCHES
+================================================================================
+2026-06-16 | France               56.9% vs 24.7% vs 18.4% Senegal               →  Predict: France               (1-0)
+2026-06-16 | Iraq                 23.1% vs 26.6% vs 50.2% Norway                →  Predict: Norway               (0-1)
+2026-06-22 | Norway               27.4% vs 26.0% vs 46.7% Senegal               →  Predict: Senegal              (1-1)
+2026-06-22 | France               77.0% vs 16.3% vs  6.7% Iraq                  →  Predict: France               (2-0)
+2026-06-26 | Norway               11.7% vs 17.3% vs 71.0% France                →  Predict: France               (0-2)
+2026-06-26 | Senegal              55.8% vs 27.7% vs 16.5% Iraq                  →  Predict: Senegal              (1-0)
+
+================================================================================
+Group J MATCHES
+================================================================================
+2026-06-16 | Argentina            56.9% vs 23.7% vs 19.5% Algeria               →  Predict: Argentina            (1-0)
+2026-06-16 | Austria              71.5% vs 17.3% vs 11.1% Jordan                →  Predict: Austria              (2-0)
+2026-06-22 | Argentina            50.4% vs 26.3% vs 23.3% Austria               →  Predict: Argentina            (1-0)
+2026-06-22 | Jordan               13.8% vs 18.4% vs 67.9% Algeria               →  Predict: Algeria              (0-2)
+2026-06-27 | Algeria              32.1% vs 25.3% vs 42.6% Austria               →  Predict: Austria              (1-1)
+2026-06-27 | Jordan                5.6% vs 12.5% vs 81.9% Argentina             →  Predict: Argentina            (0-2)
+
+================================================================================
+Group K MATCHES
+================================================================================
+2026-06-17 | Portugal             71.9% vs 17.5% vs 10.5% DR Congo              →  Predict: Portugal             (2-0)
+2026-06-17 | Uzbekistan           11.6% vs 21.0% vs 67.4% Colombia              →  Predict: Colombia             (0-1)
+2026-06-23 | Portugal             74.4% vs 17.1% vs  8.5% Uzbekistan            →  Predict: Portugal             (2-0)
+2026-06-23 | Colombia             64.5% vs 21.2% vs 14.3% DR Congo              →  Predict: Colombia             (1-0)
+2026-06-27 | Colombia             29.9% vs 28.0% vs 42.2% Portugal              →  Predict: Portugal             (1-1)
+2026-06-27 | DR Congo             41.9% vs 27.3% vs 30.9% Uzbekistan            →  Predict: DR Congo             (1-1)
+
+================================================================================
+Group L MATCHES
+================================================================================
+2026-06-17 | Ghana                57.3% vs 23.8% vs 19.0% Panama                →  Predict: Ghana                (1-0)
+2026-06-17 | England              49.7% vs 24.9% vs 25.4% Croatia               →  Predict: England              (1-1)
+2026-06-23 | England              63.5% vs 21.7% vs 14.8% Ghana                 →  Predict: England              (1-0)
+2026-06-23 | Panama                9.9% vs 16.5% vs 73.6% Croatia               →  Predict: Croatia              (0-2)
+2026-06-27 | Panama                5.7% vs 13.4% vs 80.9% England               →  Predict: England              (0-2)
+2026-06-27 | Croatia              53.1% vs 23.6% vs 23.3% Ghana                 →  Predict: Croatia              (1-1)
