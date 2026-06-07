@@ -156,6 +156,8 @@ If results look implausible, the most likely cause is incorrect team name normal
 
 **Goal:** Two parameters per team — an attack rating and a defense rating — estimated from historical data via maximum likelihood. From these, derive win/draw/loss probabilities for any match.
 
+**Status:** ✅ COMPLETE. Model fitted on 1505 filtered historical matches; team attack/defense ratings saved to `data/processed/team_ratings.csv` and sanity checks passed.
+
 ### The model
 
 For a match between team $i$ (home) and team $j$ (away), the number of goals scored by each team is modeled as:
@@ -225,6 +227,8 @@ Also output the most likely scoreline(s) by returning the top 5 (g_i, g_j) pairs
 
 **Goal:** Decide whether to blend the Elo-based win probabilities with the Poisson model's probabilities, and if so, how.
 
+**Status:** ⏭️ SKIPPED. Using the pure Poisson model for the locked pre-tournament predictions; revisit blending after the tournament.
+
 ### The design choice
 
 Elo and the Poisson attack/defense model answer slightly different questions. Elo is a pure strength signal with no goal-scoring structure. The Poisson model captures offensive and defensive tendencies separately but may be miscalibrated for rare matchups (teams with little shared history).
@@ -247,6 +251,8 @@ This is optional. The model is informative without it. Revisit after Phase 3 is 
 
 **Goal:** Before the tournament begins, generate win/draw/loss probability predictions for all 72 group-stage matches and commit them to the repository. This creates a locked-in set of pre-tournament predictions to evaluate against real outcomes.
 
+**Status:** ✅ COMPLETE. All 72 group-stage match predictions are locked in `predictions/group_stage_predictions.csv`, probabilities verified, and team name mismatches corrected.
+
 ### Process
 
 1. Load the fixture list from `data/raw/wc2026_fixtures.csv` (✅ already compiled)
@@ -267,6 +273,8 @@ For knockout rounds, generate predictions round by round after the bracket is de
 ---
 
 ## Phase 6 — Live Calibration Tracking
+
+**Status:** 🔜 IN PROGRESS. Preparation is complete; calibration tracking will begin once actual outcomes are logged during the tournament.
 
 **Goal:** After each round of matches, record actual outcomes and compute calibration metrics against locked-in predictions. This is the analytical centerpiece of the project.
 

@@ -31,4 +31,24 @@ The model covers all 104 matches of the 2026 FIFA World Cup (June 11 – July 19
 
 ---
 
-*Environment setup, model details, and usage instructions will be added as the project is built out. See `ROADMAP.md` for the full development plan.*
+## Project Status (June 6, 2026)
+
+- Phase 0–3 complete: data preparation, Elo ratings, and Poisson attack/defense model fitting are done.
+- Phase 4 skipped for now; a pure Poisson model is being used pending post-tournament calibration review.
+- Phase 5 complete: all 72 group-stage predictions are locked in `predictions/group_stage_predictions.csv`.
+- Phase 6 in progress: live calibration tracking will begin once tournament results are logged.
+
+**Key deliverables:**
+
+- `data/processed/team_ratings.csv`
+- `predictions/group_stage_predictions.csv`
+- `notebooks/03_poisson_model.ipynb`
+- `notebooks/05_group_stage_predictions.ipynb`
+- `notebooks/06_visualize_predictions.ipynb`
+- `src/poisson_model.py`
+
+> Do not modify `predictions/group_stage_predictions.csv` after June 11, 2026.
+
+---
+
+*See `ROADMAP.md` for the current development plan and status.*
