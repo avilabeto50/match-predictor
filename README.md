@@ -46,8 +46,19 @@ The model covers all 104 matches of the 2026 FIFA World Cup (June 11 – July 19
 - `notebooks/05_group_stage_predictions.ipynb`
 - `notebooks/06_visualize_predictions.ipynb`
 - `src/poisson_model.py`
+- `app.py` — Streamlit live calibration dashboard (Phase 7)
 
 > Do not modify `predictions/group_stage_predictions.csv` after June 11, 2026.
+
+## Running the Dashboard
+
+To enter results and monitor calibration metrics during the tournament:
+
+```bash
+streamlit run app.py
+```
+
+The dashboard provides three tabs: **Dashboard** (tournament progress and metrics), **Enter Results** (log match outcomes), and **Match History** (browse all completed matches). See `ROADMAP.md` Phase 7 for detailed feature descriptions.
 
 ---
 

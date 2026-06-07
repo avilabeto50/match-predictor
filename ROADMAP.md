@@ -320,21 +320,68 @@ Add a small epsilon (1e-15) inside the log to prevent numerical issues when a pr
 
 ---
 
-## Phase 7 — Streamlit Dashboard (Optional)
+## Phase 7 — Streamlit Live Calibration Dashboard
 
-**Goal:** A local web app for interactive match prediction and live calibration visualization.
+**Goal:** A local web app for real-time match result entry and live calibration visualization during the tournament.
 
-### Pages / features
+**Status:** ✅ IMPLEMENTED. Functional and ready for tournament (June 11–July 19, 2026).
 
-**Match predictor tab:** Two dropdown selectors for team names. On selection, display the predicted win/draw/loss probabilities as a horizontal bar chart, the top 5 most likely scorelines as a table, and the Elo ratings of both teams for context.
+### How to run
 
-**Calibration tab:** Display the reliability diagram and Brier score, updated with the most recent completed round. Show a running Brier score curve over time (after round 1, after round 2, etc.).
+```bash
+streamlit run app.py
+```
 
-**Bracket tab (optional, complex):** Run a Monte Carlo simulation (10,000 iterations) of the full knockout bracket using match probabilities, and display the resulting win probabilities for each team to reach each round. This is a stretch goal — implement only if time allows after Phase 6 is solid.
+Opens at `localhost:8501`
 
-### Implementation notes
+### Three main tabs
 
-Streamlit is a single Python file that runs locally via `streamlit run app.py`. No web server configuration needed. The app reads from the `predictions/` and `results/` CSV files at load time, so updating predictions and results simply means updating those files — no database required.
+**Dashboard Tab**
+
+- Tournament progress (matches completed / total, percentage)
+- Brier Score (measures prediction accuracy; lower is better)
+- Log-Loss (penalizes confident wrong predictions)
+- Calibration Reliability Diagram (visual check: perfectly calibrated model lies on diagonal)
+- List of 10 most recent completed matches with predictions vs actual outcomes
+
+**Enter Results Tab**
+
+- Dropdown selector for next unplayed match
+- Input fields for home and away goals
+- Shows predicted winner and top scoreline from locked predictions
+- Submit button saves result to `results/actual_outcomes.csv`
+- Dashboard auto-updates with new metrics
+
+**Match History Tab**
+
+- Browse all completed matches
+- Filter by group (A–L) or outcome (home win / draw / away win)
+- Side-by-side view of predicted vs actual outcomes
+- All predictions and goals displayed
+
+### Technical details
+
+- Reads from: `predictions/group_stage_predictions.csv` (locked before tournament)
+- Writes to: `results/actual_outcomes.csv` (appends one row per match)
+- Metrics computed on-the-fly using pandas and numpy
+- Reliability diagrams generated with matplotlib/seaborn
+- Requires: streamlit, pandas, numpy, matplotlib, seaborn
+
+### Calibration workflow during tournament
+
+1. After each matchday, open dashboard
+2. Go to "Enter Results" tab
+3. Select match, enter score, click Submit
+4. Results auto-saved and Brier score updates
+5. Reliability diagram updates after 5+ matches completed
+
+### Integration with Phase 6
+
+The dashboard IS the Phase 6 implementation. As matches are entered, it computes all calibration metrics on-the-fly (Brier score, log-loss, reliability diagram), replacing the need for manual Phase 6 calibration.py code.
+
+### Post-tournament analysis
+
+After July 19, final calibration metrics and reliability diagram inform whether Phase 4 (Elo blending) would improve the model for a v2 version.
 
 ---
 
@@ -345,10 +392,11 @@ Streamlit is a single Python file that runs locally via `streamlit run app.py`. 
 | Phase 0 complete: repo, environment, raw data downloaded | June 8, 2026 |
 | Phase 1 complete: filtered dataset, team name normalization done | June 9, 2026 |
 | Phase 2 complete: Elo ratings computed, sanity checks passed | June 9, 2026 |
-| Phase 3 complete: Poisson model fit, predict_match function working | June 10, 2026 |
-| Phase 5 complete: all group-stage predictions locked in pre-tournament | June 10, 2026 |
+| Phase 3 complete: Poisson model fit, predict_match function working | June 6, 2026 |
+| Phase 4 skipped: defer Elo blending to post-tournament v2 | June 6, 2026 |
+| Phase 5 complete: all group-stage predictions locked in pre-tournament | June 6, 2026 |
+| Phase 7 complete: Streamlit dashboard running locally | June 6, 2026 |
 | Phase 6 active: results logged, calibration updated after each round | June 11 – July 19, 2026 |
-| Phase 7 (optional): Streamlit dashboard running locally | June 12, 2026 |
 | Post-tournament: final calibration analysis, README updated | July 20, 2026 |
 
 ---
