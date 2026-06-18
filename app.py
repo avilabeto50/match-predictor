@@ -39,7 +39,7 @@ def brier_score(predictions_df, results_df):
         return None
     
     # Merge predictions with results
-    merged = predictions_df.merge(results_df, on='match_id', how='inner')
+    merged = predictions_df.merge(results_df, on=['match_id', 'date'], how='inner')
     
     # Map outcomes to binary vectors
     p_win = merged['p_home_win'].values
@@ -60,7 +60,7 @@ def log_loss(predictions_df, results_df):
     if len(results_df) == 0:
         return None
     
-    merged = predictions_df.merge(results_df, on='match_id', how='inner')
+    merged = predictions_df.merge(results_df, on=['match_id', 'date'], how='inner')
     
     p_win = np.clip(merged['p_home_win'].values, 1e-15, 1 - 1e-15)
     p_draw = np.clip(merged['p_draw'].values, 1e-15, 1 - 1e-15)
@@ -80,7 +80,7 @@ def reliability_diagram(predictions_df, results_df):
     if len(results_df) == 0:
         return None
     
-    merged = predictions_df.merge(results_df, on='match_id', how='inner')
+    merged = predictions_df.merge(results_df, on=['match_id', 'date'], how='inner')
     
     p_win = merged['p_home_win'].values
     outcomes = merged['outcome'].values
@@ -183,9 +183,9 @@ if page == "Dashboard":
     if len(results) > 0:
         st.subheader("📋 Recently Completed Matches")
         
-        recent = predictions.merge(results, on='match_id', how='inner').sort_values('date', ascending=False).head(10)
+        recent = predictions.merge(results, on=['match_id', 'date'], how='inner', suffixes=('', '_result')).sort_values('date', ascending=False).head(10)
         
-        display_cols = ['date', 'home_team', 'away_team', 'home_goals', 'away_goals', 'p_home_win', 'p_draw', 'p_away_win', 'outcome']
+        display_cols = ['date', 'home_team', 'away_team', 'home_goals', 'away_goals', 'p_home_win', 'p_draw', 'p_away_win', 'predicted_winner', 'outcome']
         display_df = recent[display_cols].copy()
         display_df['date'] = pd.to_datetime(display_df['date']).dt.strftime('%Y-%m-%d')
         display_df['p_home_win'] = display_df['p_home_win'].apply(lambda x: f"{x:.1%}")
@@ -288,7 +288,7 @@ elif page == "Match History":
             selected_outcome = st.selectbox("Filter by Outcome:", outcomes)
         
         # Apply filters
-        filtered = predictions.merge(results, on='match_id', how='inner')
+        filtered = predictions.merge(results, on=['match_id', 'date'], how='inner', suffixes=('', '_result'))
         
         if selected_group != 'All':
             filtered = filtered[filtered['group'] == selected_group]

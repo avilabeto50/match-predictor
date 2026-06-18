@@ -1,0 +1,21 @@
+match_id,date,home_team,away_team,home_goals,away_goals,outcome,timestamp
+1,2026-06-11,Mexico,South Africa,2,0,home_win,2026-06-11T23:55:59.721887
+2,2026-06-12,Korea Republic,Czechia,2,1,home_win,2026-06-11T23:56:14.036287
+3,2026-06-12,Canada,Bosnia and Herzegovina,1,1,draw,2026-06-12T22:45:32.398029
+4,2026-06-12,United States,Paraguay,4,1,home_win,2026-06-12T22:45:38.168053
+5,2026-06-13,Haiti,Scotland,0,1,away_win,2026-06-14T00:58:26.270340
+6,2026-06-13,Australia,Türkiye,2,0,home_win,2026-06-14T00:58:38.274457
+7,2026-06-13,Brazil,Morocco,1,1,draw,2026-06-14T00:58:50.561005
+8,2026-06-13,Qatar,Switzerland,1,1,draw,2026-06-14T00:58:55.157860
+9,2026-06-14,Côte d'Ivoire,Ecuador,1,0,home_win,2026-06-14T23:27:04.275008
+10,2026-06-14,Germany,Curaçao,7,1,home_win,2026-06-14T23:27:12.171453
+11,2026-06-14,Netherlands,Japan,2,2,draw,2026-06-14T23:27:16.559164
+12,2026-06-14,Sweden,Tunisia,5,1,home_win,2026-06-14T23:27:23.521772
+13,2026-06-15,Saudi Arabia,Uruguay,1,1,draw,2026-06-15T22:07:51.877356
+14,2026-06-15,Spain,Cabo Verde,0,0,draw,2026-06-15T22:07:54.076361
+15,2026-06-15,IR Iran,New Zealand,2,2,draw,2026-06-15T22:07:59.158724
+16,2026-06-15,Belgium,Egypt,1,1,draw,2026-06-15T22:08:03.561502
+17,2026-06-16,France,Senegal,3,1,home_win,2026-06-17T01:04:13.022413
+18,2026-06-16,Iraq,Norway,1,4,away_win,2026-06-17T01:04:20.889256
+19,2026-06-16,Argentina,Algeria,3,0,home_win,2026-06-17T01:04:25.971318
+20,2026-06-16,Austria,Jordan,3,1,home_win,2026-06-17T01:07:30.257079
