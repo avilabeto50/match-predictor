@@ -22,3 +22,52 @@ match_id,date,home_team,away_team,home_goals,away_goals,outcome,timestamp
 21,2026-06-17,Ghana,Panama,1,0,home_win,2026-06-17T22:00:53.195939
 22,2026-06-17,England,Croatia,4,2,home_win,2026-06-17T22:01:08.071190
 23,2026-06-17,Portugal,DR Congo,1,1,draw,2026-06-17T22:01:30.508106
+24,2026-06-17,Uzbekistan,Colombia,1,3,away_win,2026-06-24T22:58:51.810537
+25,2026-06-18,Czechia,South Africa,1,1,draw,2026-06-24T22:59:00.516025
+26,2026-06-18,Switzerland,Bosnia and Herzegovina,4,1,home_win,2026-06-24T22:59:07.284273
+27,2026-06-18,Canada,Qatar,6,0,home_win,2026-06-24T22:59:15.194623
+28,2026-06-18,Mexico,Korea Republic,1,0,home_win,2026-06-24T22:59:19.324132
+29,2026-06-19,Brazil,Haiti,3,0,home_win,2026-06-24T22:59:24.885355
+30,2026-06-19,Scotland,Morocco,0,1,away_win,2026-06-24T22:59:31.372281
+31,2026-06-19,Türkiye,Paraguay,0,1,away_win,2026-06-24T22:59:38.131304
+32,2026-06-19,United States,Australia,2,0,home_win,2026-06-24T22:59:51.294258
+33,2026-06-20,Germany,Côte d'Ivoire,2,1,home_win,2026-06-24T23:00:00.204731
+34,2026-06-20,Ecuador,Curaçao,0,0,draw,2026-06-24T23:00:05.677946
+35,2026-06-20,Netherlands,Sweden,5,1,home_win,2026-06-24T23:00:16.156808
+36,2026-06-20,Tunisia,Japan,0,4,away_win,2026-06-24T23:00:22.478372
+37,2026-06-21,Uruguay,Cabo Verde,2,2,draw,2026-06-24T23:00:28.521333
+38,2026-06-21,Spain,Saudi Arabia,4,0,home_win,2026-06-24T23:00:33.683992
+39,2026-06-21,Belgium,IR Iran,0,0,draw,2026-06-24T23:00:41.879066
+40,2026-06-21,New Zealand,Egypt,1,3,away_win,2026-06-24T23:00:49.661900
+41,2026-06-22,Norway,Senegal,3,2,home_win,2026-06-24T23:00:59.319703
+42,2026-06-22,France,Iraq,3,0,home_win,2026-06-24T23:01:04.294688
+43,2026-06-22,Argentina,Austria,2,0,home_win,2026-06-24T23:01:09.417326
+44,2026-06-22,Jordan,Algeria,1,2,away_win,2026-06-24T23:01:17.180765
+45,2026-06-23,England,Ghana,0,0,draw,2026-06-24T23:01:23.259887
+46,2026-06-23,Panama,Croatia,0,1,away_win,2026-06-24T23:01:30.743819
+47,2026-06-23,Portugal,Uzbekistan,5,0,home_win,2026-06-24T23:01:36.319373
+48,2026-06-23,Colombia,DR Congo,1,0,home_win,2026-06-24T23:01:41.334472
+49,2026-06-24,Scotland,Brazil,0,3,away_win,2026-06-24T23:01:50.619366
+50,2026-06-24,Morocco,Haiti,4,2,home_win,2026-06-24T23:01:59.216193
+51,2026-06-24,Switzerland,Canada,2,1,home_win,2026-06-24T23:02:06.073917
+52,2026-06-24,Bosnia and Herzegovina,Qatar,3,1,home_win,2026-06-24T23:02:13.557381
+53,2026-06-24,Czechia,Mexico,0,3,away_win,2026-06-24T23:02:22.332819
+54,2026-06-24,South Africa,Korea Republic,1,0,home_win,2026-06-24T23:02:27.178274
+55,2026-06-25,Curaçao,Côte d'Ivoire,0,2,away_win,2026-06-29T23:26:35.567624
+56,2026-06-25,Ecuador,Germany,2,1,home_win,2026-06-29T23:26:46.874075
+57,2026-06-25,Japan,Sweden,1,1,draw,2026-06-29T23:26:50.913677
+58,2026-06-25,Tunisia,Netherlands,1,3,away_win,2026-06-29T23:26:57.144552
+59,2026-06-25,Türkiye,United States,3,2,home_win,2026-06-29T23:27:05.800581
+60,2026-06-25,Paraguay,Australia,0,0,draw,2026-06-29T23:27:08.418684
+61,2026-06-26,Norway,France,1,4,away_win,2026-06-29T23:27:15.030092
+62,2026-06-26,Senegal,Iraq,5,0,home_win,2026-06-29T23:27:20.858950
+63,2026-06-26,Egypt,IR Iran,1,1,draw,2026-06-29T23:27:32.050966
+64,2026-06-26,New Zealand,Belgium,1,5,away_win,2026-06-29T23:27:39.558023
+65,2026-06-26,Cabo Verde,Saudi Arabia,0,0,draw,2026-06-29T23:27:46.271390
+66,2026-06-26,Uruguay,Spain,0,1,away_win,2026-06-29T23:27:53.388957
+67,2026-06-27,Panama,England,0,2,away_win,2026-06-29T23:28:00.754237
+68,2026-06-27,Croatia,Ghana,2,1,home_win,2026-06-29T23:28:05.727965
+69,2026-06-27,Algeria,Austria,3,3,draw,2026-06-29T23:28:14.973120
+70,2026-06-27,Jordan,Argentina,1,3,away_win,2026-06-29T23:28:21.974309
+71,2026-06-27,Colombia,Portugal,0,0,draw,2026-06-29T23:28:26.585744
+72,2026-06-27,DR Congo,Uzbekistan,3,1,home_win,2026-06-29T23:28:34.925031
