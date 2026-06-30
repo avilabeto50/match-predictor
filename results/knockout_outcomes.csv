@@ -1,0 +1,5 @@
+match_id,date,home_team,away_team,home_goals,away_goals,outcome,timestamp
+73,2026-06-28,Germany,Paraguay,1,1,draw,2026-06-30T00:48:39.678859
+75,2026-06-29,South Africa,Canada,0,1,away_win,2026-06-30T00:48:55.427843
+81,2026-07-01,Brazil,Japan,2,1,home_win,2026-06-30T00:49:02.390605
+76,2026-06-29,Netherlands,Morocco,1,1,draw,2026-06-30T00:49:19.313339
