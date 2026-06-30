@@ -10,15 +10,48 @@ from datetime import datetime
 st.set_page_config(page_title="Copa 2026 Live Calibration", layout="wide")
 st.title("🏆 Copa 2026 Match Predictor — Live Calibration Tracker")
 
-# Paths
+# Paths — Group Stage
 PREDICTIONS_PATH = Path("predictions/group_stage_predictions.csv")
 RESULTS_PATH = Path("results/actual_outcomes.csv")
 RESULTS_PATH.parent.mkdir(exist_ok=True)
+
+# Paths — Knockout Stage
+KO_PREDICTIONS_PATH = Path("predictions/knockout_predictions.csv")           # re-fitted (PRIMARY)
+KO_FROZEN_PATH      = Path("predictions/knockout_predictions_frozen_model.csv")  # frozen baseline
+KO_RESULTS_PATH     = Path("results/knockout_outcomes.csv")
 
 # Load predictions
 @st.cache_data
 def load_predictions():
     return pd.read_csv(PREDICTIONS_PATH)
+
+@st.cache_data
+def load_ko_predictions():
+    """Load re-fitted knockout predictions (primary)."""
+    if KO_PREDICTIONS_PATH.exists():
+        return pd.read_csv(KO_PREDICTIONS_PATH)
+    return pd.DataFrame()
+
+@st.cache_data
+def load_ko_frozen_predictions():
+    """Load frozen knockout predictions (calibration baseline)."""
+    if KO_FROZEN_PATH.exists():
+        return pd.read_csv(KO_FROZEN_PATH)
+    return pd.DataFrame()
+
+def load_ko_results():
+    """Load or initialize knockout outcomes."""
+    if KO_RESULTS_PATH.exists():
+        return pd.read_csv(KO_RESULTS_PATH)
+    return pd.DataFrame(columns=[
+        'match_id', 'date', 'home_team', 'away_team',
+        'home_goals', 'away_goals', 'outcome', 'timestamp'
+    ])
+
+def save_ko_results(df):
+    KO_RESULTS_PATH.parent.mkdir(exist_ok=True)
+    df.to_csv(KO_RESULTS_PATH, index=False)
+    st.success("✓ Knockout result saved!")
 
 # Load or initialize results
 def load_results():
@@ -110,7 +143,10 @@ results = load_results()
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Select Page:", ["Dashboard", "Enter Results", "Match History"])
+page = st.sidebar.radio(
+    "Select Page:",
+    ["Dashboard", "Enter Results", "Match History", "🔴 Knockout Stage"]
+)
 
 if page == "Dashboard":
     # Status metrics
@@ -323,5 +359,173 @@ elif page == "Match History":
         
         st.write(f"\nTotal: {len(filtered)} matches")
 
+# ============ KNOCKOUT STAGE PAGE ============
+elif page == "🔴 Knockout Stage":
+    st.subheader("⚽ Knockout Stage — Round of 32")
+
+    ko_predictions = load_ko_predictions()
+    ko_frozen      = load_ko_frozen_predictions()
+    ko_results     = load_ko_results()
+
+    if ko_predictions.empty:
+        st.warning("⚠️ Knockout predictions not found. Run `generate_knockout_predictions.py` first.")
+    else:
+        # ── Status metrics ──
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.metric("R32 Matches", len(ko_predictions))
+        with col2:
+            st.metric("Completed", len(ko_results))
+        with col3:
+            remaining = len(ko_predictions) - len(ko_results)
+            st.metric("Remaining", remaining)
+        with col4:
+            pct = (len(ko_results) / len(ko_predictions) * 100) if len(ko_predictions) > 0 else 0
+            st.metric("Progress", f"{pct:.1f}%")
+
+        st.divider()
+
+        # ── Calibration metrics (if results exist) ──
+        if len(ko_results) > 0:
+            st.subheader("📊 Calibration — Re-Fitted vs Frozen Model")
+
+            def ko_brier(pred_df, res_df):
+                merged = pred_df.merge(res_df, on=['match_id', 'date'], how='inner')
+                if len(merged) == 0:
+                    return None
+                o_win  = (merged['outcome'] == 'home_win').astype(int).values
+                o_draw = (merged['outcome'] == 'draw').astype(int).values
+                o_loss = (merged['outcome'] == 'away_win').astype(int).values
+                return float(np.mean(
+                    (merged['p_home_win'].values - o_win)**2 +
+                    (merged['p_draw'].values - o_draw)**2 +
+                    (merged['p_away_win'].values - o_loss)**2
+                ))
+
+            col1, col2 = st.columns(2)
+            bs_new = ko_brier(ko_predictions, ko_results)
+            with col1:
+                if bs_new is not None:
+                    st.metric("Brier Score (Re-Fitted)", f"{bs_new:.4f}",
+                              help="Lower is better. This is the PRIMARY model.")
+            with col2:
+                if not ko_frozen.empty:
+                    bs_frozen = ko_brier(ko_frozen, ko_results)
+                    if bs_frozen is not None:
+                        delta = round(bs_new - bs_frozen, 4) if bs_new is not None else None
+                        st.metric("Brier Score (Frozen)", f"{bs_frozen:.4f}",
+                                  delta=str(delta) if delta is not None else None,
+                                  delta_color="inverse",
+                                  help="Baseline pre-tournament model. Negative delta = re-fitted is better.")
+
+            st.divider()
+
+        # ── Enter knockout result ──
+        st.subheader("✏️ Enter Knockout Result")
+        upcoming_ko = ko_predictions[
+            ~ko_predictions['match_id'].isin(ko_results['match_id'].values)
+        ].sort_values('date')
+
+        if len(upcoming_ko) == 0:
+            st.success("✅ All Round of 32 matches completed!")
+        else:
+            col1, col2 = st.columns(2)
+            with col1:
+                match_options = [
+                    f"{row['date']} | {row['home_team']} vs {row['away_team']}"
+                    for _, row in upcoming_ko.iterrows()
+                ]
+                selected = st.selectbox("Select Knockout Match:", match_options, key="ko_match_select")
+                selected_idx = match_options.index(selected)
+                sel = upcoming_ko.iloc[selected_idx]
+            with col2:
+                st.write("")
+
+            st.info(
+                f"**{sel['home_team']}** vs **{sel['away_team']}** | {sel['round']}  \n"
+                f"Predicted winner: **{sel['predicted_winner']}** | "
+                f"Top scoreline: {sel['top_scoreline']}"
+            )
+
+            col1, col2 = st.columns(2)
+            with col1:
+                home_goals = st.number_input(
+                    f"{sel['home_team']} Goals (FT incl. ET)",
+                    min_value=0, max_value=20, step=1, key="ko_hg"
+                )
+            with col2:
+                away_goals = st.number_input(
+                    f"{sel['away_team']} Goals (FT incl. ET)",
+                    min_value=0, max_value=20, step=1, key="ko_ag"
+                )
+
+            if home_goals > away_goals:
+                outcome = "home_win"
+                result_text = f"✅ **{sel['home_team']}** wins {home_goals}–{away_goals}"
+            elif away_goals > home_goals:
+                outcome = "away_win"
+                result_text = f"✅ **{sel['away_team']}** wins {home_goals}–{away_goals}"
+            else:
+                outcome = "draw"
+                result_text = f"⚖️ Draw {home_goals}–{away_goals} (goes to penalties)"
+
+            st.write(result_text)
+
+            if st.button("✓ Submit Knockout Result", type="primary", key="ko_submit"):
+                new_result = pd.DataFrame({
+                    'match_id':   [sel['match_id']],
+                    'date':       [sel['date']],
+                    'home_team':  [sel['home_team']],
+                    'away_team':  [sel['away_team']],
+                    'home_goals': [home_goals],
+                    'away_goals': [away_goals],
+                    'outcome':    [outcome],
+                    'timestamp':  [datetime.now().isoformat()]
+                })
+                ko_results = pd.concat([ko_results, new_result], ignore_index=True)
+                save_ko_results(ko_results)
+                st.cache_data.clear()
+                st.rerun()
+
+        st.divider()
+
+        # ── Full predictions table ──
+        st.subheader("📋 All Round of 32 Predictions (Re-Fitted Model)")
+        display = ko_predictions.copy()
+        completed_ids = set(ko_results['match_id'].tolist()) if len(ko_results) > 0 else set()
+        display['Status'] = display['match_id'].apply(
+            lambda x: "✅ Done" if x in completed_ids else "⏳ Upcoming"
+        )
+        display['p_home_win'] = display['p_home_win'].apply(lambda x: f"{x:.1%}")
+        display['p_draw']     = display['p_draw'].apply(lambda x: f"{x:.1%}")
+        display['p_away_win'] = display['p_away_win'].apply(lambda x: f"{x:.1%}")
+        st.dataframe(
+            display[['match_id', 'date', 'home_team', 'away_team',
+                      'p_home_win', 'p_draw', 'p_away_win',
+                      'predicted_winner', 'top_scoreline', 'Status']]
+            .rename(columns={
+                'match_id': '#', 'date': 'Date',
+                'home_team': 'Home', 'away_team': 'Away',
+                'p_home_win': 'P(H)', 'p_draw': 'P(D)', 'p_away_win': 'P(A)',
+                'predicted_winner': 'Predicted', 'top_scoreline': 'Top Score'
+            }),
+            use_container_width=True, hide_index=True
+        )
+
+        with st.expander("ℹ️ About the two models"):
+            st.markdown("""
+**Re-Fitted Model** (PRIMARY — `knockout_predictions.csv`)
+- Fitted on 1,433 historical matches + 72 group stage results
+- Incorporates actual tournament performance
+- Use for knockout calibration tracking
+
+**Frozen Model** (BASELINE — `knockout_predictions_frozen_model.csv`)
+- Fitted on 1,433 historical matches only (pre-tournament)
+- Same parameters used for group stage predictions
+- Use as calibration comparison reference
+
+See `predictions/knockout_prediction_diff.md` for full parameter & prediction comparison.
+            """)
+
 st.divider()
-st.markdown("**Last updated:** " + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+st.markdown("**Last updated:** " + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))

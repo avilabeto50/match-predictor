@@ -1,0 +1,33 @@
+match_id,round,date,home_team,away_team,p_home_win,p_draw,p_away_win,predicted_winner,winner_prob,top_scoreline
+74,Round of 32,2026-06-29,Germany,Paraguay,0.6216,0.2057,0.1726,Germany,0.6216,2-0
+77,Round of 32,2026-06-30,France,Sweden,0.6684,0.1919,0.1398,France,0.6684,2-0
+73,Round of 32,2026-06-29,South Africa,Canada,0.2763,0.3033,0.4204,Canada,0.4204,0-1
+75,Round of 32,2026-06-29,Netherlands,Morocco,0.4236,0.2691,0.3073,Netherlands,0.4236,1-1
+83,Round of 32,2026-07-02,Portugal,Croatia,0.5404,0.2368,0.2228,Portugal,0.5404,1-1
+84,Round of 32,2026-07-02,Spain,Austria,0.5259,0.2388,0.2353,Spain,0.5259,1-1
+81,Round of 32,2026-07-01,United States,Bosnia and Herzegovina,0.4808,0.2579,0.2612,United States,0.4808,1-1
+82,Round of 32,2026-07-01,Belgium,Senegal,0.5393,0.2371,0.2236,Belgium,0.5393,1-1
+76,Round of 32,2026-06-29,Brazil,Japan,0.6192,0.2058,0.1749,Brazil,0.6192,2-0
+78,Round of 32,2026-06-30,Côte d'Ivoire,Norway,0.4368,0.2523,0.3109,Côte d'Ivoire,0.4368,1-1
+79,Round of 32,2026-06-30,Mexico,Ecuador,0.3813,0.2873,0.3315,Mexico,0.3813,1-1
+80,Round of 32,2026-07-01,England,DR Congo,0.6638,0.205,0.1313,England,0.6638,1-0
+86,Round of 32,2026-07-03,Argentina,Cabo Verde,0.682,0.2128,0.1052,Argentina,0.682,1-0
+88,Round of 32,2026-07-03,Australia,Egypt,0.3257,0.2976,0.3767,Egypt,0.3767,1-1
+85,Round of 32,2026-07-02,Switzerland,Algeria,0.4521,0.2342,0.3137,Switzerland,0.4521,1-1
+87,Round of 32,2026-07-03,Colombia,Ghana,0.5682,0.2528,0.179,Colombia,0.5682,1-0
+89,Round of 16,2026-07-05,Germany,France,0.2705,0.2224,0.5071,France,0.5071,1-1
+90,Round of 16,2026-07-05,Canada,Netherlands,0.1793,0.2098,0.6109,Netherlands,0.6109,0-2
+91,Round of 16,2026-07-06,Portugal,Spain,0.355,0.2705,0.3745,Spain,0.3745,1-1
+92,Round of 16,2026-07-06,United States,Belgium,0.221,0.2319,0.5471,Belgium,0.5471,1-1
+93,Round of 16,2026-07-04,Brazil,Côte d'Ivoire,0.635,0.2206,0.1444,Brazil,0.635,1-0
+94,Round of 16,2026-07-04,Mexico,England,0.2304,0.2583,0.5113,England,0.5113,0-1
+95,Round of 16,2026-07-07,Argentina,Egypt,0.6318,0.2335,0.1347,Argentina,0.6318,1-0
+96,Round of 16,2026-07-07,Switzerland,Colombia,0.3019,0.263,0.435,Colombia,0.435,1-1
+97,Quarter-final,2026-07-10,France,Netherlands,0.4728,0.2371,0.2901,France,0.4728,1-1
+98,Quarter-final,2026-07-10,Brazil,England,0.4574,0.2668,0.2758,Brazil,0.4574,1-1
+99,Quarter-final,2026-07-09,Spain,Belgium,0.4131,0.2517,0.3351,Spain,0.4131,1-1
+100,Quarter-final,2026-07-09,Argentina,Colombia,0.4509,0.2884,0.2607,Argentina,0.4509,1-0
+101,Semi-final,2026-07-14,France,Brazil,0.3368,0.2638,0.3994,Brazil,0.3994,1-1
+102,Semi-final,2026-07-14,Spain,Argentina,0.3364,0.277,0.3867,Argentina,0.3867,1-1
+103,3rd Place,2026-07-18,France,Spain,0.3975,0.2617,0.3408,France,0.3975,1-1
+104,Final,2026-07-19,Brazil,Argentina,0.3918,0.2791,0.3291,Brazil,0.3918,1-1

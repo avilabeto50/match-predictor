@@ -385,6 +385,82 @@ After July 19, final calibration metrics and reliability diagram inform whether 
 
 ---
 
+## Phase 8 — Knockout Stage Re-Fit and Predictions
+
+**Status:** ✅ COMPLETE (June 30, 2026). Knockout predictions generated and locked.
+
+**Goal:** Re-fit the Poisson model incorporating all 72 group stage results, then generate Round of 32 predictions under both frozen (pre-tournament) and re-fitted (post-group-stage) model states for a before/after calibration comparison.
+
+### What was built
+
+- `src/standings.py` — Group standings utility (reference; not used for bracket resolution since bracket was provided directly)
+- `generate_knockout_predictions.py` — Orchestration script: runs both model fits, generates both CSVs, produces the diff report
+- `data/processed/team_ratings_frozen.csv` — Pre-tournament parameters saved as reference
+- `data/processed/team_ratings_knockout_refitted.csv` — Re-fitted parameters (historical + 72 WC group stage results)
+
+### Outputs
+
+| File | Description |
+|------|-------------|
+| `predictions/knockout_predictions.csv` | **PRIMARY** — 16 Round of 32 predictions (re-fitted model) |
+| `predictions/knockout_predictions_frozen_model.csv` | Baseline — 16 Round of 32 predictions (frozen pre-tournament model) |
+| `predictions/knockout_prediction_diff.md` | Parameter comparison + prediction flips report |
+
+### Key findings from re-fit
+
+- **Log-likelihood improvement**: +5.66 (frozen → re-fitted on combined data)
+- **μ change**: 1.2189 → 1.2285 (+0.01, slightly more goals expected after WC evidence)
+- **Biggest attack movers**: Norway (+0.126), Senegal (+0.101), Netherlands (+0.087), Canada (+0.086), Germany (+0.077)
+- **Biggest defense movers**: Iraq (+0.181 leakier), New Zealand (+0.178 leakier), Cabo Verde (−0.136 tighter)
+- **Prediction flips**: 0/16 — both models agreed on all Round of 32 predicted winners
+- **Closest match**: Mexico vs Ecuador (Mexico 38.1% vs Ecuador 33.1%, within 5 points)
+- **Biggest favorite**: Argentina vs Cabo Verde (Argentina 68.2%)
+
+### Round of 32 Predicted Winners (Re-Fitted Model)
+
+| Match | Home | Away | Predicted |
+|-------|------|------|-----------|
+| 73 | Germany | Paraguay | **Germany** (62.2%) |
+| 74 | France | Sweden | **France** (66.8%) |
+| 75 | South Africa | Canada | **Canada** (42.0% away) |
+| 76 | Netherlands | Morocco | **Netherlands** (42.4%) |
+| 77 | Portugal | Croatia | **Portugal** (54.0%) |
+| 78 | Spain | Austria | **Spain** (52.6%) |
+| 79 | United States | Bosnia and Herzegovina | **United States** (48.1%) |
+| 80 | Belgium | Senegal | **Belgium** (53.9%) |
+| 81 | Brazil | Japan | **Brazil** (61.9%) |
+| 82 | Côte d'Ivoire | Norway | **Côte d'Ivoire** (43.7%) |
+| 83 | Mexico | Ecuador | **Mexico** (38.1%) |
+| 84 | England | DR Congo | **England** (66.4%) |
+| 85 | Argentina | Cabo Verde | **Argentina** (68.2%) |
+| 86 | Australia | Egypt | **Egypt** (37.7% away) |
+| 87 | Switzerland | Algeria | **Switzerland** (45.2%) |
+| 88 | Colombia | Ghana | **Colombia** (56.8%) |
+
+---
+
+## Phase 9 — Knockout Calibration Tracking
+
+**Status:** 🔜 ACTIVE (June 28 – July 3, 2026).
+
+**Goal:** As Round of 32 matches conclude, log actual results and track calibration metrics separately for both frozen and re-fitted models.
+
+### Process
+
+1. After each knockout match, open dashboard → "🔴 Knockout Stage" tab
+2. Select match, enter FT score (including extra time if applicable), click Submit
+3. Results saved to `results/knockout_outcomes.csv`
+4. Brier Score updates live for both models
+5. At end of Round of 32, the side-by-side Brier score comparison will show whether the re-fit improved calibration
+
+### Key difference from group stage tracking
+
+- Goals include extra time (draw in 90 min → goes to penalties, log as "draw" for the model since it only sees 90+ET score)
+- Knockout results saved to `results/knockout_outcomes.csv` (separate from group stage `results/actual_outcomes.csv`)
+- Both frozen and re-fitted models tracked simultaneously for direct comparison
+
+---
+
 ## Milestone Checklist
 
 | Milestone | Target Date |
