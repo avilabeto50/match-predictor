@@ -11,15 +11,46 @@ logger = logging.getLogger(__name__)
 def load_and_weight_data(filtered_path):
     """Load matches_filtered.csv and assign weights by tournament type."""
     df = pd.read_csv(filtered_path)
-
     weight_map = {
-        'World Cup': 1.0,
-        'Continental': 0.85,
-        'World Cup Qualifier': 0.75,
-        'Friendly': 0.5
+        # ── Tier 1 : FIFA World Cup final tournament ──────────────────────────────
+        'FIFA World Cup':                       1.00,
+        'Confederations Cup':                   0.90,
+        # ── Tier 2 : Continental championships (finals) ───────────────────────────
+        'UEFA Euro':                            0.85,
+        'Copa América':                         0.85,
+        'African Cup of Nations':               0.85,
+        'AFC Asian Cup':                        0.85,
+        'Gold Cup':                             0.85,
+        'Arab Cup':                             0.75,
+        'Gulf Cup':                             0.75,
+        'EAFF Championship':                    0.75,
+        'WAFF Championship':                    0.75,
+        'COSAFA Cup':                           0.70,
+        'CAFA Nations Cup':                     0.70,
+        # ── Tier 3 : Nations Leagues ──────────────────────────────────────────────
+        'UEFA Nations League':                  0.80,
+        'CONCACAF Nations League':              0.80,
+        # ── Tier 4 : World Cup & continental qualification ────────────────────────
+        'FIFA World Cup qualification':         0.75,
+        'UEFA Euro qualification':              0.65,
+        'African Cup of Nations qualification': 0.65,
+        # ── Tier 5 : FIFA-sanctioned series / bilateral ───────────────────────────
+        'FIFA Series':                          0.60,
+        'Superclásico de las Américas':         0.65,
+        # ── Tier 6 : Invitational / regional cups ─────────────────────────────────
+        'Kirin Challenge Cup':                  0.50,
+        'Kirin Cup':                            0.50,
+        'Al Ain International Cup':             0.50,
+        'Canadian Shield':                      0.50,
+        'Soccer Ashes':                         0.50,
+        # ── Tier 7 : Friendlies ───────────────────────────────────────────────────
+        'Friendly':                             0.50,
     }
-
-    df['weight'] = df['tournament'].map(weight_map).fillna(0.5)
+    # Raise immediately if any tournament in the data isn't in the map
+    unknown = set(df['tournament'].unique()) - set(weight_map.keys())
+    if unknown:
+        raise ValueError(f"Unknown tournaments (add to weight_map): {unknown}")
+    df['weight'] = df['tournament'].map(weight_map)
     logger.info(f"Loaded {len(df)} matches. Weight distribution:\n{df['weight'].value_counts()}")
     return df
 
@@ -202,7 +233,7 @@ def main():
     """Main entry point: load data, fit model, save results."""
 
     filtered_path = 'data/processed/matches_filtered.csv'
-    output_path = 'data/processed/team_ratings.csv'
+    output_path = 'data/processed/team_ratings_new.csv'
 
     df = load_and_weight_data(filtered_path)
     teams, team_to_idx, idx_to_team = build_team_index(df)

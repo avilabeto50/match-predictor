@@ -11,9 +11,12 @@ st.set_page_config(page_title="Copa 2026 Live Calibration", layout="wide")
 st.title("🏆 Copa 2026 Match Predictor — Live Calibration Tracker")
 
 # Paths — Group Stage
-PREDICTIONS_PATH = Path("predictions/group_stage_predictions.csv")
+PREDICTIONS_PATH = Path("predictions/group_stage_predictions_new.csv")
 RESULTS_PATH = Path("results/actual_outcomes.csv")
 RESULTS_PATH.parent.mkdir(exist_ok=True)
+
+# Paths — Historical training data (for base-rate baseline)
+TRAINING_LOG_PATH = Path("data/processed/elo_match_log.csv")
 
 # Paths — Knockout Stage
 KO_PREDICTIONS_PATH = Path("predictions/knockout_predictions.csv")           # re-fitted (PRIMARY)
@@ -87,6 +90,33 @@ def brier_score(predictions_df, results_df):
     bs = np.mean((p_win - o_win)**2 + (p_draw - o_draw)**2 + (p_loss - o_loss)**2)
     return bs
 
+def uniform_baseline(predictions_df):
+    baseline = predictions_df[['match_id', 'date']].copy()
+    baseline['p_home_win'] = 1/3
+    baseline['p_draw'] = 1/3
+    baseline['p_away_win'] = 1/3
+    return baseline
+
+@st.cache_data
+def load_training_outcome_rates():
+    """Load pre-tournament historical outcome rates from elo_match_log.csv.
+    Uses only matches before 2026-06-11 to avoid leaking tournament data."""
+    if TRAINING_LOG_PATH.exists():
+        log = pd.read_csv(TRAINING_LOG_PATH)
+        pre_tournament = log[log['date'] < '2026-06-11']
+        return pre_tournament['outcome'].value_counts(normalize=True)
+    # Fallback: uniform if file not available yet
+    return pd.Series({'home_win': 1/3, 'draw': 1/3, 'away_win': 1/3})
+
+def base_rate_baseline(predictions_df):
+    """Base-rate baseline using pre-tournament historical outcome proportions."""
+    rates = load_training_outcome_rates()
+    baseline = predictions_df[['match_id', 'date']].copy()
+    baseline['p_home_win'] = rates.get('home_win', 0)
+    baseline['p_draw'] = rates.get('draw', 0)
+    baseline['p_away_win'] = rates.get('away_win', 0)
+    return baseline
+
 # Calculate log-loss
 def log_loss(predictions_df, results_df):
     """Calculate log-loss for all completed matches"""
@@ -94,7 +124,7 @@ def log_loss(predictions_df, results_df):
         return None
     
     merged = predictions_df.merge(results_df, on=['match_id', 'date'], how='inner')
-    
+    print(f"Predictions: {len(predictions_df)}, Results: {len(results_df)}, Matched: {len(merged)}")
     p_win = np.clip(merged['p_home_win'].values, 1e-15, 1 - 1e-15)
     p_draw = np.clip(merged['p_draw'].values, 1e-15, 1 - 1e-15)
     p_loss = np.clip(merged['p_away_win'].values, 1e-15, 1 - 1e-15)
@@ -172,10 +202,32 @@ if page == "Dashboard":
         with col1:
             bs = brier_score(predictions, results)
             st.metric("Brier Score", f"{bs:.4f}", help="Lower is better. Perfect: 0.0, Random: 0.667")
+
+            baseline_uniform = uniform_baseline(predictions)
+            baseline_uniform_bs = brier_score(baseline_uniform, results)
+
+            baseline_rate = base_rate_baseline(predictions)
+            baseline_rate_bs = brier_score(baseline_rate, results)
+
+            # Sanity check — confirm all three metrics are computed on the same match set
+            n_model = len(predictions.merge(results, on=['match_id','date'], how='inner'))
+            n_uniform = len(uniform_baseline(predictions).merge(results, on=['match_id','date'], how='inner'))
+            n_base_rate = len(base_rate_baseline(predictions).merge(results, on=['match_id','date'], how='inner'))
+
+            st.write(f"Matched matches — model: {n_model}, uniform: {n_uniform}, base rate: {n_base_rate}")
+
+            st.metric("Brier Score (Uniform Baseline)", f"{baseline_uniform_bs:.4f}", help="Lower is better. Perfect: 0.0, Random: 0.667")
+            st.metric("Brier Score (Base Rate Baseline)", f"{baseline_rate_bs:.4f}", help="Lower is better. Perfect: 0.0, Random: 0.667")
         
         with col2:
             ll = log_loss(predictions, results)
             st.metric("Log-Loss", f"{ll:.4f}", help="Lower is better. Penalizes confident wrong predictions.")
+
+            ll_uniform = log_loss(uniform_baseline(predictions), results)
+            ll_base_rate = log_loss(base_rate_baseline(predictions), results)
+
+            st.metric("Log-Loss (Uniform Baseline)", f"{ll_uniform:.4f}", help="Lower is better. Penalizes confident wrong predictions.")
+            st.metric("Log-Loss (Base Rate Baseline)", f"{ll_base_rate:.4f}", help="Lower is better. Penalizes confident wrong predictions.")
     
     st.divider()
     
@@ -528,4 +580,4 @@ See `predictions/knockout_prediction_diff.md` for full parameter & prediction co
             """)
 
 st.divider()
-st.markdown("**Last updated:** " + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+st.markdown("**Last updated:** " + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))

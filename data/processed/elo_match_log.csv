@@ -1,0 +1,1434 @@
+date,home_team,away_team,home_elo_before,away_elo_before,outcome,tournament
+2014-01-07,Qatar,Jordan,1500.0,1500.0,home_win,WAFF Championship
+2014-01-29,Mexico,Korea Republic,1500.0,1500.0,home_win,Friendly
+2014-02-01,United States,Korea Republic,1500.0,1490.0,home_win,Friendly
+2014-03-05,Türkiye,Sweden,1500.0,1500.0,home_win,Friendly
+2014-03-05,Switzerland,Croatia,1500.0,1500.0,draw,Friendly
+2014-03-05,South Africa,Brazil,1500.0,1500.0,away_win,Friendly
+2014-03-05,France,Netherlands,1500.0,1500.0,home_win,Friendly
+2014-03-05,Czechia,Norway,1500.0,1500.0,draw,Friendly
+2014-03-05,Japan,New Zealand,1500.0,1500.0,home_win,Friendly
+2014-03-05,Bosnia and Herzegovina,Egypt,1500.0,1500.0,away_win,Friendly
+2014-03-05,Belgium,Côte d'Ivoire,1500.0,1500.0,draw,Friendly
+2014-03-05,Austria,Uruguay,1500.0,1500.0,draw,Friendly
+2014-03-05,Australia,Ecuador,1500.0,1500.0,away_win,Friendly
+2014-03-05,Colombia,Tunisia,1500.0,1500.0,draw,Friendly
+2014-05-17,Netherlands,Ecuador,1490.0,1510.0,draw,Friendly
+2014-05-26,Australia,South Africa,1490.0,1490.0,draw,Friendly
+2014-05-27,France,Norway,1510.0,1500.0,home_win,Friendly
+2014-05-28,Korea Republic,Tunisia,1480.28774368332,1500.0,away_win,Friendly
+2014-05-30,New Zealand,South Africa,1490.0,1490.0,draw,Friendly
+2014-05-30,Bosnia and Herzegovina,Côte d'Ivoire,1490.0,1500.0,home_win,Friendly
+2014-05-31,Netherlands,Ghana,1490.5750112778453,1500.0,home_win,Friendly
+2014-05-31,Mexico,Ecuador,1510.0,1509.4249887221547,home_win,Friendly
+2014-05-31,Colombia,Senegal,1500.0,1500.0,draw,Friendly
+2014-06-01,France,Paraguay,1519.71225631668,1500.0,draw,Friendly
+2014-06-01,Sweden,Belgium,1490.0,1500.0,away_win,Friendly
+2014-06-01,United States,Türkiye,1509.71225631668,1510.0,home_win,Friendly
+2014-06-03,Brazil,Panama,1510.0,1500.0,home_win,Friendly
+2014-06-03,Czechia,Austria,1500.0,1500.0,away_win,Friendly
+2014-06-03,Mexico,Bosnia and Herzegovina,1519.9834498601524,1500.28774368332,away_win,Friendly
+2014-06-04,Ecuador,England,1499.4415388620023,1500.0,draw,Friendly
+2014-06-06,Croatia,Australia,1500.0,1490.0,home_win,Friendly
+2014-06-06,Mexico,Portugal,1509.4171683417792,1500.0,away_win,Friendly
+2014-06-06,Colombia,Jordan,1500.0,1477.5,home_win,Friendly
+2014-06-07,Belgium,Tunisia,1509.71225631668,1509.43324365913,home_win,Friendly
+2014-06-09,Ghana,Korea Republic,1489.7287935411387,1470.85450002419,home_win,Friendly
+2014-06-12,Brazil,Croatia,1519.71225631668,1509.71225631668,home_win,FIFA World Cup
+2014-06-13,Spain,Netherlands,1500.0,1500.8462177367066,away_win,FIFA World Cup
+2014-06-14,Côte d'Ivoire,Japan,1489.71225631668,1510.0,home_win,FIFA World Cup
+2014-06-15,Argentina,Bosnia and Herzegovina,1500.0,1510.8540252016933,home_win,FIFA World Cup
+2014-06-15,Switzerland,Ecuador,1500.0,1499.4576126518014,home_win,FIFA World Cup
+2014-06-16,Germany,Portugal,1500.0,1510.2709815356425,home_win,FIFA World Cup
+2014-06-16,Ghana,United States,1499.1860814767513,1519.7205382437342,away_win,FIFA World Cup
+2014-06-17,Belgium,Algeria,1519.704225688581,1500.0,home_win,FIFA World Cup
+2014-06-17,Brazil,Mexico,1548.84902526672,1499.1461868061367,draw,FIFA World Cup
+2014-06-18,Australia,Netherlands,1480.28774368332,1530.7731495682178,away_win,FIFA World Cup
+2014-06-19,Colombia,Côte d'Ivoire,1509.3533017491309,1521.4620526025544,home_win,FIFA World Cup
+2014-06-19,Uruguay,England,1500.0,1499.983926210201,home_win,FIFA World Cup
+2014-06-20,Switzerland,France,1529.9531665496986,1519.14549997581,away_win,FIFA World Cup
+2014-06-21,Argentina,IR Iran,1530.93690709805,1500.0,home_win,FIFA World Cup
+2014-06-21,Germany,Ghana,1530.8866095741523,1470.9571073276297,draw,FIFA World Cup
+2014-06-22,Korea Republic,Algeria,1461.3972120885774,1471.6995778288879,away_win,FIFA World Cup
+2014-06-22,United States,Portugal,1547.9495123928557,1479.3843719614902,draw,FIFA World Cup
+2014-06-23,Australia,Spain,1454.6165796162845,1470.0730681684888,away_win,FIFA World Cup
+2014-06-23,Croatia,Mexico,1480.57548736664,1503.408835953386,away_win,FIFA World Cup
+2014-06-24,Japan,Colombia,1478.2502037141255,1540.3984322238894,away_win,FIFA World Cup
+2014-06-25,Bosnia and Herzegovina,IR Iran,1479.9171181036434,1472.6642695607418,home_win,FIFA World Cup
+2014-06-25,Ecuador,France,1469.5044461021027,1550.0784080356843,draw,FIFA World Cup
+2014-06-26,Korea Republic,Belgium,1432.28652921866,1548.004647859693,away_win,FIFA World Cup
+2014-06-26,Portugal,Ghana,1485.2290831518467,1476.0811185698444,home_win,FIFA World Cup
+2014-06-26,United States,Germany,1542.1048012024992,1525.7625983319376,away_win,FIFA World Cup
+2014-06-28,Colombia,Uruguay,1565.0886348499175,1529.9986120774217,home_win,FIFA World Cup
+2014-06-29,Netherlands,Mexico,1556.4443136352534,1531.44007973571,home_win,FIFA World Cup
+2014-06-30,Germany,Algeria,1557.172657818856,1500.8102606988052,home_win,FIFA World Cup
+2014-07-01,Argentina,Switzerland,1558.2726375373081,1499.0202584898243,home_win,FIFA World Cup
+2014-07-01,Belgium,United States,1568.3665240760877,1510.694741715581,home_win,FIFA World Cup
+2014-07-04,France,Germany,1543.2431940353881,1582.348184473399,away_win,FIFA World Cup
+2014-07-04,Brazil,Colombia,1544.5863761194707,1592.0689790170115,home_win,FIFA World Cup
+2014-07-05,Argentina,Belgium,1583.2054069817214,1593.431980513674,home_win,FIFA World Cup
+2014-07-08,Brazil,Germany,1578.6610170272204,1608.9857747824035,away_win,FIFA World Cup
+2014-07-09,Netherlands,Argentina,1584.2889943209389,1614.0881853952671,draw,FIFA World Cup
+2014-07-12,Brazil,Netherlands,1551.2728380990827,1586.8557723888055,away_win,FIFA World Cup
+2014-07-13,Germany,Argentina,1636.3739537105412,1611.5214073274005,home_win,FIFA World Cup
+2014-09-03,Morocco,Qatar,1500.0,1522.5,draw,Friendly
+2014-09-03,Czechia,United States,1490.0,1485.6292852779945,away_win,Friendly
+2014-09-03,England,Norway,1469.9853141327792,1490.28774368332,home_win,Friendly
+2014-09-03,Germany,Argentina,1664.2316649523493,1583.6636960855924,away_win,Friendly
+2014-09-04,Uzbekistan,Jordan,1500.0,1468.1466982508691,home_win,Friendly
+2014-09-04,France,Spain,1516.6056037263838,1498.7393274271114,home_win,Friendly
+2014-09-04,Belgium,Australia,1562.5492021001282,1425.950320357662,home_win,Friendly
+2014-09-05,Japan,Uruguay,1453.5600010880974,1503.0182679103277,away_win,Kirin Challenge Cup
+2014-09-05,Brazil,Colombia,1524.3346180805654,1557.994338109262,home_win,Friendly
+2014-09-05,Senegal,Egypt,1500.0,1510.0,home_win,African Cup of Nations qualification
+2014-09-07,Germany,Scotland,1651.9534238261547,1500.0,home_win,UEFA Euro qualification
+2014-09-08,Switzerland,England,1474.087489045411,1480.5690008156057,away_win,UEFA Euro qualification
+2014-09-08,Korea Republic,Uruguay,1411.9246530022654,1511.6042827698523,away_win,Friendly
+2014-09-08,Uzbekistan,New Zealand,1509.085748405115,1490.0,home_win,Friendly
+2014-09-08,Australia,Saudi Arabia,1419.6911601106428,1500.0,home_win,Friendly
+2014-09-08,Austria,Sweden,1510.0,1480.28774368332,draw,UEFA Euro qualification
+2014-09-09,Czechia,Netherlands,1479.874207353627,1613.7939924073228,home_win,UEFA Euro qualification
+2014-09-10,Egypt,Tunisia,1491.99644855419,1499.4412742872291,away_win,African Cup of Nations qualification
+2014-10-06,Qatar,Uzbekistan,1521.8533017491309,1518.5369683069478,home_win,Friendly
+2014-10-10,Korea Republic,Paraguay,1404.7174534062733,1500.56675634087,home_win,Friendly
+2014-10-10,Saudi Arabia,Uruguay,1487.7288312897938,1518.8114823658443,draw,Friendly
+2014-10-10,Senegal,Tunisia,1518.00355144581,1516.5663428780344,draw,African Cup of Nations qualification
+2014-10-10,Türkiye,Czechia,1499.9917180729458,1503.8042837718272,away_win,UEFA Euro qualification
+2014-10-11,Argentina,Brazil,1595.941937211787,1535.300403026709,away_win,Superclásico de las Américas
+2014-10-11,DR Congo,Côte d'Ivoire,1500.0,1490.416922127796,away_win,African Cup of Nations qualification
+2014-10-11,France,Portugal,1526.0918237500844,1514.4393668801665,home_win,Friendly
+2014-10-12,Mexico,Panama,1503.5953990500245,1490.28774368332,home_win,Friendly
+2014-10-13,Bosnia and Herzegovina,Belgium,1509.290947773657,1568.8083623471473,draw,UEFA Euro qualification
+2014-10-14,Japan,Brazil,1444.9739862285728,1555.824215461141,away_win,Friendly
+2014-10-14,Qatar,Australia,1531.7578528985644,1431.962328820849,home_win,Friendly
+2014-10-15,Tunisia,Senegal,1516.6387332937722,1517.9311610300722,home_win,African Cup of Nations qualification
+2014-10-15,Côte d'Ivoire,DR Congo,1508.3994902753209,1482.017431852475,away_win,African Cup of Nations qualification
+2014-11-12,Argentina,Croatia,1575.4181247773552,1452.5442435843158,home_win,Friendly
+2014-11-12,Netherlands,Mexico,1589.8639159891227,1513.2125611390882,away_win,Friendly
+2014-11-12,Türkiye,Brazil,1482.6837456733992,1562.7377151407702,away_win,Friendly
+2014-11-13,Saudi Arabia,Qatar,1488.621082752059,1538.9619772510016,draw,Gulf Cup
+2014-11-14,Jordan,Korea Republic,1459.060949845754,1417.4082972231677,away_win,Friendly
+2014-11-14,United States,Colombia,1495.7550779243675,1547.0285531631182,away_win,Friendly
+2014-11-15,Egypt,Senegal,1474.8713799633847,1500.3660629744797,away_win,African Cup of Nations qualification
+2014-11-18,Spain,Germany,1489.253107403411,1662.2530249671647,away_win,Friendly
+2014-11-18,Scotland,England,1489.70039885899,1497.7425710993766,away_win,Friendly
+2014-11-18,Portugal,Argentina,1504.7746258551806,1582.0219554124142,home_win,Friendly
+2014-11-18,Panama,Canada,1480.6705815942564,1500.0,draw,Friendly
+2014-11-18,Austria,Brazil,1508.507059653102,1570.4735049553565,away_win,Friendly
+2014-11-18,IR Iran,Korea Republic,1443.290439890728,1428.6014461696454,home_win,Friendly
+2014-11-18,France,Sweden,1535.7565647750703,1481.780684030218,home_win,Friendly
+2014-11-18,Japan,Australia,1438.0604865489436,1424.7582044684118,home_win,Friendly
+2014-11-19,Tunisia,Egypt,1534.2038313493647,1458.6532230019122,home_win,African Cup of Nations qualification
+2014-11-26,Saudi Arabia,Qatar,1491.858545419523,1535.7245145835377,away_win,Gulf Cup
+2014-11-30,South Africa,Côte d'Ivoire,1490.0,1489.5731992019073,home_win,Friendly
+2014-12-21,Uzbekistan,Jordan,1508.6324171575143,1447.8678008992763,home_win,Friendly
+2014-12-25,Uzbekistan,Iraq,1516.9010877294631,1500.0,home_win,Friendly
+2014-12-28,Uzbekistan,Iraq,1526.415018665435,1490.4860690640282,draw,Friendly
+2015-01-04,IR Iran,Iraq,1452.8679083883019,1491.5165167722676,home_win,Friendly
+2015-01-04,Korea Republic,Saudi Arabia,1419.0239776720716,1472.1843156396935,home_win,Friendly
+2015-01-11,Tunisia,Algeria,1547.957286076115,1475.6347340442621,draw,Friendly
+2015-01-12,Jordan,Iraq,1439.5991303273274,1480.4086861647647,away_win,AFC Asian Cup
+2015-01-15,Qatar,IR Iran,1555.398744363367,1463.9757389958047,away_win,AFC Asian Cup
+2015-01-15,Sweden,Côte d'Ivoire,1473.3218558349104,1479.5854835101702,home_win,Friendly
+2015-01-16,Iraq,Japan,1502.4856330516448,1447.677803067036,away_win,AFC Asian Cup
+2015-01-17,Australia,Korea Republic,1415.1408879503194,1430.5422255559424,away_win,AFC Asian Cup
+2015-01-18,Uzbekistan,Saudi Arabia,1525.3845709571956,1460.6660677558227,home_win,AFC Asian Cup
+2015-01-18,Tunisia,Cabo Verde,1545.9052296615032,1500.0,draw,African Cup of Nations
+2015-01-19,Algeria,South Africa,1477.686790458874,1499.987715691737,home_win,African Cup of Nations
+2015-01-19,Ghana,Senegal,1446.8708348415246,1516.5842199359522,away_win,African Cup of Nations
+2015-01-20,Japan,Jordan,1476.5891525821294,1417.5221834404474,home_win,AFC Asian Cup
+2015-01-22,Cabo Verde,DR Congo,1503.2840587935812,1500.8437229258886,draw,African Cup of Nations
+2015-01-22,Korea Republic,Uzbekistan,1454.4347355519892,1545.780824945823,home_win,AFC Asian Cup
+2015-01-23,Ghana,Algeria,1426.820862854037,1504.289270886106,home_win,African Cup of Nations
+2015-01-23,IR Iran,Iraq,1495.406411919994,1473.5742835365513,draw,AFC Asian Cup
+2015-01-23,South Africa,Senegal,1473.3852352645051,1536.6341919234399,draw,African Cup of Nations
+2015-01-26,Korea Republic,Iraq,1485.860239829978,1475.1431670311256,home_win,AFC Asian Cup
+2015-01-26,DR Congo,Tunisia,1501.019316319259,1542.621170867922,draw,African Cup of Nations
+2015-01-27,Senegal,Algeria,1532.132681460283,1473.8055482420145,away_win,African Cup of Nations
+2015-01-27,South Africa,Ghana,1477.886745727662,1457.3045854981283,away_win,African Cup of Nations
+2015-01-31,Australia,Korea Republic,1391.2483779542727,1510.0893289417768,home_win,AFC Asian Cup
+2015-02-01,Côte d'Ivoire,Algeria,1469.4052213426298,1502.9635340525836,home_win,African Cup of Nations
+2015-02-04,DR Congo,Côte d'Ivoire,1503.9985854431839,1496.8124547218952,away_win,African Cup of Nations
+2015-02-08,Côte d'Ivoire,Ghana,1522.3294646693334,1483.7838609236421,draw,African Cup of Nations
+2015-02-08,United States,Panama,1487.2202261202217,1481.2263536870712,home_win,Friendly
+2015-03-25,Germany,Australia,1667.6481185707858,1424.481075007569,draw,Friendly
+2015-03-26,Qatar,Algeria,1523.9680714391777,1475.5563006733182,home_win,Friendly
+2015-03-26,France,Brazil,1544.215392970378,1578.7086412023448,away_win,Friendly
+2015-03-27,Korea Republic,Uzbekistan,1476.8566318884805,1514.3553206678343,draw,Friendly
+2015-03-27,Japan,Tunisia,1497.379422309627,1539.641901743997,home_win,Kirin Challenge Cup
+2015-03-28,Croatia,Norway,1445.9404129492568,1479.7040570004935,home_win,UEFA Euro qualification
+2015-03-28,Ghana,Senegal,1486.5461163865714,1502.974695649714,away_win,Friendly
+2015-03-28,Iraq,DR Congo,1450.9140779193267,1478.4815754957456,home_win,Friendly
+2015-03-28,Morocco,Uruguay,1500.6466982508691,1517.919230903579,away_win,Friendly
+2015-03-28,Netherlands,Türkiye,1577.692823643955,1474.947955858813,draw,UEFA Euro qualification
+2015-03-30,Saudi Arabia,Jordan,1440.2698137671953,1396.7319137129498,home_win,Friendly
+2015-03-31,Switzerland,United States,1456.9139187616402,1497.0477257168175,draw,Friendly
+2015-03-31,Sweden,IR Iran,1483.5021180024507,1493.8375284254198,home_win,Friendly
+2015-03-31,Portugal,Cabo Verde,1516.9620570743384,1503.108465400211,away_win,Friendly
+2015-03-31,Netherlands,Spain,1572.6634256231655,1483.85801379979,home_win,Friendly
+2015-03-31,Japan,Uzbekistan,1508.5898699678764,1513.2801930786547,home_win,Friendly
+2015-03-31,Iraq,DR Congo,1461.705873335078,1467.6897800799943,home_win,Friendly
+2015-03-31,Austria,Bosnia and Herzegovina,1500.2719234061137,1512.2597993173488,draw,Friendly
+2015-03-31,Argentina,Ecuador,1569.8345241932564,1476.339660102399,home_win,Friendly
+2015-03-31,Korea Republic,New Zealand,1477.93175947766,1480.5487800981673,home_win,Friendly
+2015-04-15,United States,Mexico,1495.8976925357122,1525.3836534842558,home_win,Friendly
+2015-06-03,Panama,Ecuador,1471.3988540904754,1468.967530561831,draw,Friendly
+2015-06-05,Scotland,Qatar,1479.9318298512756,1532.583617147371,home_win,Friendly
+2015-06-05,Netherlands,United States,1580.1616471770421,1506.7443350461901,away_win,Friendly
+2015-06-06,Ecuador,Panama,1469.0375085359592,1471.3288761163471,home_win,Friendly
+2015-06-07,Brazil,Mexico,1587.7190947097283,1514.5370109737778,home_win,Friendly
+2015-06-07,France,Belgium,1535.2049394629944,1565.8395108034556,away_win,Friendly
+2015-06-08,Norway,Sweden,1460.508747765335,1493.7995073097588,draw,Friendly
+2015-06-10,Germany,United States,1661.6051326350384,1518.8265547316826,away_win,Friendly
+2015-06-11,Japan,Iraq,1518.7248601184774,1471.8780869881277,home_win,Kirin Challenge Cup
+2015-06-11,Uzbekistan,IR Iran,1503.1452029280538,1483.5401391181117,away_win,Friendly
+2015-06-13,Argentina,Paraguay,1577.2066537338244,1487.8759125239756,draw,Copa América
+2015-06-16,Argentina,Uruguay,1570.9167864494639,1527.422496612549,home_win,Copa América
+2015-06-17,Brazil,Colombia,1595.6433528130497,1555.563404967264,away_win,Copa América
+2015-06-19,Mexico,Ecuador,1506.6127528704565,1479.1034584402094,away_win,Copa América
+2015-06-20,Uruguay,Paraguay,1505.5359151323787,1494.165779808336,draw,Copa América
+2015-06-26,Argentina,Colombia,1592.803367929634,1583.434663633537,draw,Copa América
+2015-06-27,Brazil,Paraguay,1567.7720941467767,1494.9836348626998,draw,Copa América
+2015-06-30,Argentina,Paraguay,1592.1293988113518,1500.1458800628725,home_win,Copa América
+2015-07-07,Panama,Haiti,1461.262926212097,1500.0,draw,Gold Cup
+2015-07-10,United States,Haiti,1532.7193430457476,1497.224136185476,home_win,Gold Cup
+2015-07-13,United States,Panama,1555.1741066330371,1464.038790026621,draw,Gold Cup
+2015-07-22,Panama,Mexico,1470.450127653856,1479.6374261826877,away_win,Gold Cup
+2015-07-25,United States,Panama,1548.762769005802,1446.11105288222,draw,Gold Cup
+2015-08-05,Japan,Korea Republic,1527.3846139801065,1488.0070819615041,draw,EAFF Championship
+2015-09-03,Belgium,Bosnia and Herzegovina,1574.9600549051659,1511.9148973724946,home_win,UEFA Euro qualification
+2015-09-04,Portugal,France,1506.5635298402815,1526.0843953612841,away_win,Friendly
+2015-09-06,Norway,Croatia,1461.4640111526592,1465.1357221844153,home_win,UEFA Euro qualification
+2015-09-06,Türkiye,Netherlands,1479.9773538796026,1568.0794274915497,home_win,UEFA Euro qualification
+2015-09-07,Scotland,Germany,1491.4357747020317,1647.7123443209734,away_win,UEFA Euro qualification
+2015-09-08,United States,Brazil,1541.5840643443607,1562.609848946604,away_win,Friendly
+2015-09-08,England,Switzerland,1507.511140107091,1458.0639519427455,home_win,UEFA Euro qualification
+2015-09-08,Mexico,Argentina,1503.9765009543237,1610.6610779695177,draw,Friendly
+2015-09-08,South Africa,Senegal,1451.407470302148,1512.50219522964,home_win,Friendly
+2015-09-08,Sweden,Austria,1492.8442439224348,1500.616825350968,away_win,UEFA Euro qualification
+2015-10-03,Jordan,Iraq,1387.9785168370684,1463.2183331264987,home_win,Friendly
+2015-10-08,Argentina,Ecuador,1607.6834504592405,1506.078785127978,away_win,FIFA World Cup qualification
+2015-10-08,Jordan,Australia,1400.1108629009955,1430.5240609433163,home_win,FIFA World Cup qualification
+2015-10-09,Morocco,Côte d'Ivoire,1491.1434325418993,1519.5672092064042,away_win,Friendly
+2015-10-10,United States,Mexico,1532.188497376933,1506.954128464601,away_win,Friendly
+2015-10-10,Czechia,Türkiye,1521.112256171374,1501.822240207689,away_win,UEFA Euro qualification
+2015-10-13,Algeria,Senegal,1466.940754965125,1500.7616508303074,home_win,Friendly
+2015-10-13,IR Iran,Japan,1494.1038200671633,1524.8453801161293,draw,Friendly
+2015-10-13,Netherlands,Czechia,1546.2345411634633,1502.641633554661,away_win,UEFA Euro qualification
+2015-10-13,Paraguay,Argentina,1481.6142009047066,1581.9958377879273,draw,FIFA World Cup qualification
+2015-10-13,Uruguay,Colombia,1504.718060078015,1584.1086327518192,home_win,FIFA World Cup qualification
+2015-11-12,Ecuador,Uruguay,1531.7663977992913,1529.210234407382,home_win,FIFA World Cup qualification
+2015-11-13,Spain,England,1476.3597922459132,1522.537212978361,home_win,Friendly
+2015-11-13,Argentina,Brazil,1576.3729991989635,1572.0054159140318,draw,FIFA World Cup qualification
+2015-11-13,France,Germany,1535.5231301666595,1657.8319871851081,home_win,Friendly
+2015-11-13,Qatar,Türkiye,1521.0796722966147,1520.292862824402,away_win,Friendly
+2015-11-17,England,France,1511.2158911549952,1548.9049046255304,home_win,Friendly
+2015-11-17,Austria,Switzerland,1517.7253931152834,1443.0378790714756,away_win,Friendly
+2015-11-17,Colombia,Argentina,1559.6164584224523,1576.121594137722,away_win,FIFA World Cup qualification
+2016-01-27,Egypt,Jordan,1444.899768275162,1421.8571292811835,away_win,Friendly
+2016-03-24,Czechia,Scotland,1522.3259165893426,1481.316131837897,away_win,Friendly
+2016-03-24,Ecuador,Paraguay,1551.6192558611185,1487.2370394936704,draw,FIFA World Cup qualification
+2016-03-24,Türkiye,Sweden,1530.31550898271,1475.7356761581193,home_win,Friendly
+2016-03-25,Brazil,Uruguay,1572.2568209752733,1509.3573763455547,draw,FIFA World Cup qualification
+2016-03-25,Canada,Mexico,1499.4442279071852,1517.6791575504099,away_win,FIFA World Cup qualification
+2016-03-25,Haiti,Panama,1474.7693725981865,1453.2897575436614,draw,FIFA World Cup qualification
+2016-03-25,Netherlands,France,1526.5502581287817,1537.8243626908043,away_win,Friendly
+2016-03-26,Cabo Verde,Morocco,1513.5069926342678,1481.9597143093126,away_win,African Cup of Nations qualification
+2016-03-26,Germany,England,1644.4502127262372,1522.2964330897214,away_win,Friendly
+2016-03-29,Switzerland,Bosnia and Herzegovina,1455.1550462661244,1497.5560212952792,away_win,Friendly
+2016-03-29,Portugal,Belgium,1497.1247950349061,1589.3189309823813,home_win,Friendly
+2016-03-29,Paraguay,Brazil,1490.901331208312,1568.6750833443004,draw,FIFA World Cup qualification
+2016-03-29,Panama,Haiti,1454.5246506765889,1473.534479465259,home_win,FIFA World Cup qualification
+2016-03-29,Morocco,Cabo Verde,1501.0443681042561,1494.4223388393243,home_win,African Cup of Nations qualification
+2016-03-29,Sweden,Czechia,1467.2938136526134,1511.151011461739,draw,Friendly
+2016-03-29,England,Netherlands,1535.6742539282552,1516.8746390961899,away_win,Friendly
+2016-03-29,Colombia,Ecuador,1540.565856321591,1547.9549641464769,home_win,FIFA World Cup qualification
+2016-03-29,Austria,Türkiye,1505.6082259206346,1538.757371488216,away_win,Friendly
+2016-03-29,Mexico,Canada,1536.6304333852581,1480.492952072337,home_win,FIFA World Cup qualification
+2016-03-29,Australia,Jordan,1408.7777945631283,1432.519379035292,home_win,FIFA World Cup qualification
+2016-05-22,England,Türkiye,1525.1336849833272,1547.806147041385,home_win,Friendly
+2016-05-27,England,Australia,1535.7853261723913,1430.1423467586944,home_win,Friendly
+2016-05-28,Mexico,Paraguay,1553.4267314909785,1495.3050374143613,home_win,Friendly
+2016-05-28,Switzerland,Belgium,1446.3694215528105,1576.7259472929584,away_win,Friendly
+2016-05-29,Bosnia and Herzegovina,Spain,1506.341646008593,1487.681114069279,away_win,Friendly
+2016-05-29,Portugal,Norway,1509.717778724329,1479.1489448605782,home_win,Friendly
+2016-06-01,Spain,Korea Republic,1498.217691498331,1490.5463158254813,home_win,Friendly
+2016-06-02,England,Portugal,1542.835044510197,1518.8402002998037,home_win,Friendly
+2016-06-03,United States,Colombia,1521.463468291124,1560.991143441303,away_win,Copa América
+2016-06-04,Austria,Netherlands,1496.5594503674656,1527.415208041118,away_win,Friendly
+2016-06-04,Brazil,Ecuador,1564.271377138251,1527.5296770267648,draw,Copa América
+2016-06-04,France,Scotland,1547.499981723396,1492.4910369655006,home_win,Friendly
+2016-06-05,Belgium,Norway,1583.1406630309218,1470.0265232851036,home_win,Friendly
+2016-06-05,Czechia,Korea Republic,1509.895362064785,1480.7670798914014,away_win,Friendly
+2016-06-05,Mexico,Uruguay,1561.7692871786824,1512.9391139765276,home_win,Copa América
+2016-06-07,Canada,Uzbekistan,1463.6966539666166,1492.5815219790022,home_win,Friendly
+2016-06-07,Colombia,Paraguay,1583.159106933199,1486.9624817266574,home_win,Copa América
+2016-06-07,Japan,Bosnia and Herzegovina,1523.9628687353766,1495.8050685795408,away_win,Kirin Cup
+2016-06-08,Brazil,Haiti,1561.637410793076,1452.441276444001,home_win,Copa América
+2016-06-10,Argentina,Panama,1595.1721962385834,1475.6178536978468,home_win,Copa América
+2016-06-11,United States,Paraguay,1499.295504799228,1468.7127673035895,home_win,Copa América
+2016-06-12,Türkiye,Croatia,1537.1545058523209,1447.4507884764962,away_win,UEFA Euro
+2016-06-12,Ecuador,Haiti,1530.1636433719398,1435.0496864824852,home_win,Copa América
+2016-06-13,Spain,Czechia,1507.996927432411,1499.0589414706853,home_win,UEFA Euro
+2016-06-16,United States,Ecuador,1522.1005659995458,1548.4856429293684,home_win,Copa América
+2016-06-17,Czechia,Croatia,1474.7019394189488,1478.7657879264755,draw,UEFA Euro
+2016-06-17,Spain,Türkiye,1532.3539294841476,1505.8395064023416,home_win,UEFA Euro
+2016-06-18,Portugal,Austria,1509.5297315044893,1487.4452229263334,draw,UEFA Euro
+2016-06-19,France,Switzerland,1555.9297955720692,1439.954705814847,draw,UEFA Euro
+2016-06-21,Czechia,Türkiye,1474.994343490257,1482.7436773581935,away_win,UEFA Euro
+2016-06-21,United States,Argentina,1548.9954834843336,1611.8937642269211,away_win,Copa América
+2016-06-21,Croatia,Spain,1478.4733838551672,1555.4497585282957,home_win,UEFA Euro
+2016-06-22,Sweden,Belgium,1468.5494630495673,1589.995328799023,away_win,UEFA Euro
+2016-06-25,Croatia,Portugal,1508.9233948605875,1507.9427601419857,away_win,UEFA Euro
+2016-06-25,United States,Colombia,1528.472574460578,1601.4088213562668,away_win,Copa América
+2016-07-07,France,Germany,1547.8814476380508,1631.0723918877034,home_win,UEFA Euro
+2016-07-10,France,Portugal,1578.7556818332407,1533.0133222947563,away_win,UEFA Euro
+2016-07-24,Uzbekistan,Iraq,1481.7520588001053,1451.0859870625716,home_win,Friendly
+2016-08-08,Qatar,Iraq,1511.0570261383066,1441.9663425955432,home_win,Friendly
+2016-08-18,Jordan,Qatar,1411.154826839726,1519.0942411662986,away_win,Friendly
+2016-09-01,Ecuador,Brazil,1521.5907254445806,1579.0290007545918,away_win,FIFA World Cup qualification
+2016-09-01,Belgium,Spain,1606.595934302059,1524.9997475228754,away_win,Friendly
+2016-09-01,IR Iran,Qatar,1494.986331447916,1526.0837342773539,home_win,FIFA World Cup qualification
+2016-09-01,Argentina,Uruguay,1632.4166732506767,1491.4297741897894,home_win,FIFA World Cup qualification
+2016-09-01,Australia,Iraq,1423.0926284208888,1433.9291275675512,home_win,FIFA World Cup qualification
+2016-09-04,Norway,Germany,1463.1718575170025,1600.1981576925134,away_win,FIFA World Cup qualification
+2016-09-05,Croatia,Türkiye,1483.8528327078168,1507.1861604121123,draw,FIFA World Cup qualification
+2016-09-06,Brazil,Colombia,1595.7523845668675,1621.236396297686,home_win,FIFA World Cup qualification
+2016-09-06,Iraq,Saudi Arabia,1413.3055307339419,1449.0232106430767,away_win,FIFA World Cup qualification
+2016-09-06,Qatar,Uzbekistan,1504.2983889372522,1490.8717032671336,away_win,FIFA World Cup qualification
+2016-09-06,South Africa,Egypt,1463.1480147014806,1434.2375185210533,home_win,Friendly
+2016-09-06,Sweden,Netherlands,1451.9488575465311,1536.5294354822502,draw,FIFA World Cup qualification
+2016-09-06,Switzerland,Portugal,1448.0030537488656,1561.285863164068,home_win,FIFA World Cup qualification
+2016-09-06,Uruguay,Paraguay,1479.127667474441,1445.9077061032717,home_win,FIFA World Cup qualification
+2016-10-06,Uzbekistan,IR Iran,1511.6442208915291,1516.7716767880177,away_win,FIFA World Cup qualification
+2016-10-06,Saudi Arabia,Australia,1466.9743485049669,1443.716225254498,draw,FIFA World Cup qualification
+2016-10-06,Korea Republic,Qatar,1491.6035004855012,1483.5258713128567,home_win,FIFA World Cup qualification
+2016-10-06,Japan,Iraq,1513.1541918517266,1395.3543928720517,home_win,FIFA World Cup qualification
+2016-10-06,Paraguay,Colombia,1427.8141945187224,1599.772043818892,away_win,FIFA World Cup qualification
+2016-10-07,Belgium,Bosnia and Herzegovina,1594.2896537396848,1506.6137454631908,home_win,FIFA World Cup qualification
+2016-10-08,Germany,Czechia,1612.6953268286227,1450.5518604363383,home_win,FIFA World Cup qualification
+2016-10-08,Mexico,New Zealand,1583.2786269654207,1470.4734576143233,home_win,Friendly
+2016-10-08,Senegal,Cabo Verde,1489.7912703468664,1477.2558437717362,home_win,FIFA World Cup qualification
+2016-10-10,Netherlands,France,1531.754542247179,1550.4831409639291,away_win,FIFA World Cup qualification
+2016-10-11,Mexico,Panama,1590.1413080719706,1458.8962857095091,home_win,Friendly
+2016-10-11,South Africa,Ghana,1472.3178189641128,1477.0186168066455,draw,Friendly
+2016-10-11,Morocco,Canada,1518.2108631718443,1474.5261171455136,home_win,Friendly
+2016-10-11,IR Iran,Korea Republic,1536.476538126839,1511.138598533864,home_win,FIFA World Cup qualification
+2016-10-11,Australia,Japan,1445.05307412282,1526.6215209462434,draw,FIFA World Cup qualification
+2016-10-11,Colombia,Uruguay,1610.6095623408205,1497.2211790589904,draw,FIFA World Cup qualification
+2016-10-11,Argentina,Paraguay,1644.718779966025,1416.9766759967938,away_win,FIFA World Cup qualification
+2016-11-06,Jordan,Iraq,1404.1653337286707,1381.8870637775349,draw,Friendly
+2016-11-09,Netherlands,Belgium,1512.8316040216291,1609.347096195942,draw,Friendly
+2016-11-10,Brazil,Argentina,1617.2167370456616,1613.2116362345296,home_win,FIFA World Cup qualification
+2016-11-10,Uruguay,Ecuador,1503.5260689149845,1504.867341632305,home_win,FIFA World Cup qualification
+2016-11-10,Uzbekistan,Jordan,1491.9393595527079,1403.5249909527438,home_win,Friendly
+2016-11-11,United States,Mexico,1508.6449995191588,1596.5337585035209,away_win,FIFA World Cup qualification
+2016-11-11,France,Sweden,1569.406079189479,1456.7237507816023,home_win,FIFA World Cup qualification
+2016-11-11,Korea Republic,Canada,1492.5945872444445,1465.7768809353274,home_win,Friendly
+2016-11-11,Czechia,Norway,1439.2622227003162,1450.6746883808933,home_win,FIFA World Cup qualification
+2016-11-11,England,Scotland,1552.1455133055113,1484.0612231168275,home_win,FIFA World Cup qualification
+2016-11-12,Morocco,Côte d'Ivoire,1526.9600993820304,1528.7509274389909,draw,FIFA World Cup qualification
+2016-11-13,Egypt,Ghana,1425.0677142584211,1476.8833252240904,home_win,FIFA World Cup qualification
+2016-11-15,Argentina,Colombia,1593.4421781583017,1604.3046724848264,home_win,FIFA World Cup qualification
+2016-11-15,England,Spain,1568.2756756803628,1537.3060280852496,draw,Friendly
+2016-11-15,France,Côte d'Ivoire,1583.1378173915773,1528.6478400022304,draw,Friendly
+2016-11-15,Japan,Saudi Arabia,1522.0104717547335,1465.637499636645,home_win,FIFA World Cup qualification
+2016-11-15,Korea Republic,Uzbekistan,1501.8242408897363,1499.448134755787,home_win,FIFA World Cup qualification
+2016-11-15,Panama,Mexico,1452.5038352779588,1611.579698328492,draw,FIFA World Cup qualification
+2017-01-08,Côte d'Ivoire,Sweden,1530.2034539364838,1442.992012579504,home_win,Friendly
+2017-01-08,Egypt,Tunisia,1448.028541560433,1528.4314540857476,home_win,Friendly
+2017-01-15,Tunisia,Senegal,1516.1577175704672,1509.0699861392707,away_win,African Cup of Nations
+2017-01-16,DR Congo,Morocco,1457.5175664269445,1527.0631868187909,home_win,African Cup of Nations
+2017-01-19,Algeria,Tunisia,1477.911135448566,1490.6477850342346,away_win,African Cup of Nations
+2017-01-20,Côte d'Ivoire,DR Congo,1537.7447312984586,1487.455994952587,draw,African Cup of Nations
+2017-01-23,Senegal,Algeria,1534.5799186755032,1453.8272007319385,draw,African Cup of Nations
+2017-01-24,Morocco,Côte d'Ivoire,1497.1247582931485,1534.1512260149623,home_win,African Cup of Nations
+2017-01-25,Egypt,Ghana,1460.3022780757135,1453.9224979220785,home_win,African Cup of Nations
+2017-01-26,Brazil,Colombia,1636.9861951218895,1583.679580706643,home_win,Friendly
+2017-01-29,Egypt,Morocco,1484.8432675806969,1524.7789861051658,home_win,African Cup of Nations
+2017-01-29,DR Congo,Ghana,1491.0495002360833,1429.3815084170951,away_win,African Cup of Nations
+2017-03-18,IR Iran,Iraq,1555.0205494162585,1382.5274065534618,away_win,Friendly
+2017-03-22,Germany,England,1623.9849645646448,1567.3866509196798,home_win,Friendly
+2017-03-22,Scotland,Canada,1467.931060741976,1456.5472272900356,draw,Friendly
+2017-03-23,Iraq,Australia,1397.1208121012571,1449.6641233143298,draw,FIFA World Cup qualification
+2017-03-23,Paraguay,Ecuador,1448.4838197282893,1484.7901321517525,home_win,FIFA World Cup qualification
+2017-03-23,Qatar,IR Iran,1463.9907732644938,1540.4271438684632,away_win,FIFA World Cup qualification
+2017-03-23,Uruguay,Brazil,1523.603278395537,1645.4638343743138,away_win,FIFA World Cup qualification
+2017-03-27,Côte d'Ivoire,Senegal,1506.496998202945,1528.87171362047,draw,Friendly
+2017-03-28,Saudi Arabia,Iraq,1448.8544081999908,1400.1225983697177,home_win,FIFA World Cup qualification
+2017-03-28,Portugal,Sweden,1534.9864471939868,1435.4507352175292,away_win,Friendly
+2017-03-28,Uzbekistan,Qatar,1479.58491228744,1448.3211642201359,home_win,FIFA World Cup qualification
+2017-03-28,Panama,United States,1461.070557516442,1493.5990596941876,draw,FIFA World Cup qualification
+2017-03-28,Ecuador,Colombia,1462.7077470556933,1575.2019414542187,away_win,FIFA World Cup qualification
+2017-03-28,France,Spain,1581.5822034573239,1538.1950528459327,away_win,Friendly
+2017-03-28,Morocco,Tunisia,1496.9179691666807,1514.731719750862,home_win,Friendly
+2017-03-28,Brazil,Paraguay,1658.7231503941164,1470.5662048243485,home_win,FIFA World Cup qualification
+2017-05-28,Mexico,Croatia,1603.0129760900088,1485.193991287962,away_win,Friendly
+2017-05-31,Morocco,Netherlands,1507.4302413103997,1515.5402247580425,away_win,Friendly
+2017-06-01,Iraq,Jordan,1382.9095744587605,1396.0162157496648,home_win,Friendly
+2017-06-02,France,Paraguay,1570.3398720541181,1460.449551478525,home_win,Friendly
+2017-06-04,Netherlands,Côte d'Ivoire,1525.3068430565263,1507.1401054709597,home_win,Friendly
+2017-06-05,Belgium,Czechia,1606.6384754595285,1459.9189408574555,home_win,Friendly
+2017-06-07,Spain,Colombia,1549.4373842491384,1588.9434473838407,draw,Friendly
+2017-06-07,Iraq,Korea Republic,1393.2866350719264,1521.6874633580833,draw,Friendly
+2017-06-08,Australia,Saudi Arabia,1446.6623370458692,1466.067432110948,home_win,FIFA World Cup qualification
+2017-06-09,Argentina,Brazil,1614.067269936485,1668.8398037399397,home_win,Superclásico de las Américas
+2017-06-09,Sweden,France,1448.2397159802433,1577.2783893815424,home_win,FIFA World Cup qualification
+2017-06-10,Norway,Czechia,1430.017970223754,1453.9075429066927,draw,FIFA World Cup qualification
+2017-06-10,Scotland,England,1467.6035248788735,1559.0014225948603,draw,FIFA World Cup qualification
+2017-06-11,Mexico,United States,1589.7461473490532,1491.7320206163865,draw,FIFA World Cup qualification
+2017-06-11,Tunisia,Egypt,1504.2194476071431,1512.704284519182,home_win,African Cup of Nations qualification
+2017-06-12,IR Iran,Uzbekistan,1556.096752912821,1497.7900680569853,home_win,FIFA World Cup qualification
+2017-06-13,Qatar,Korea Republic,1430.1160084505905,1518.1513316709754,home_win,FIFA World Cup qualification
+2017-06-13,Iraq,Japan,1396.8227667590343,1538.7935631913879,draw,FIFA World Cup qualification
+2017-06-13,Norway,Sweden,1431.3910014031271,1475.344084575766,draw,Friendly
+2017-06-13,Canada,Curaçao,1456.874763153138,1500.0,home_win,Friendly
+2017-06-13,France,England,1550.1740207860198,1553.8582339631005,home_win,Friendly
+2017-06-13,Australia,Brazil,1467.7782240217005,1648.6035934244326,away_win,Friendly
+2017-06-18,Portugal,Mexico,1522.1974664312727,1584.2490605038995,draw,Confederations Cup
+2017-06-19,Australia,Germany,1462.5587524405087,1632.3701928894643,away_win,Confederations Cup
+2017-06-21,Mexico,New Zealand,1579.389155747043,1463.6107765077734,home_win,Confederations Cup
+2017-06-24,New Zealand,Portugal,1444.9500004744064,1527.057371188129,away_win,Confederations Cup
+2017-06-29,Germany,Mexico,1647.4063949526044,1598.0499317804101,home_win,Confederations Cup
+2017-07-01,Mexico,Paraguay,1574.4304937980332,1453.5110341511008,home_win,Friendly
+2017-07-01,United States,Ghana,1497.2291074615403,1458.7728581009085,home_win,Friendly
+2017-07-02,Portugal,Mexico,1548.1768038462103,1581.0841837583498,home_win,Confederations Cup
+2017-07-08,United States,Panama,1506.1267457773633,1462.9375965942431,draw,Gold Cup
+2017-07-16,Curaçao,Mexico,1488.7650914266735,1550.987280714216,away_win,Gold Cup
+2017-08-31,Brazil,Ecuador,1653.8230650056244,1448.9662411260713,home_win,FIFA World Cup qualification
+2017-08-31,France,Netherlands,1560.280056990891,1534.78443832264,home_win,FIFA World Cup qualification
+2017-08-31,Japan,Australia,1531.0474754087202,1447.5225503773686,home_win,FIFA World Cup qualification
+2017-08-31,Korea Republic,IR Iran,1493.1893530701868,1572.7715088167447,draw,FIFA World Cup qualification
+2017-08-31,Uruguay,Argentina,1510.3439623757345,1634.3034802519921,draw,FIFA World Cup qualification
+2017-09-01,Cabo Verde,South Africa,1457.977127979332,1472.4531105466679,home_win,FIFA World Cup qualification
+2017-09-01,Czechia,Germany,1452.5345117273196,1671.0258329349813,away_win,FIFA World Cup qualification
+2017-09-01,Mexico,Panama,1571.5572945750448,1466.0293966542934,home_win,FIFA World Cup qualification
+2017-09-01,Tunisia,DR Congo,1522.146735830881,1461.65815055227,home_win,FIFA World Cup qualification
+2017-09-04,Germany,Norway,1679.8803799569034,1432.6493669959177,home_win,FIFA World Cup qualification
+2017-09-05,Uzbekistan,Korea Republic,1481.1153121530617,1497.691998136839,draw,FIFA World Cup qualification
+2017-09-05,Türkiye,Croatia,1505.845001831967,1498.4608200289176,home_win,FIFA World Cup qualification
+2017-09-05,South Africa,Cabo Verde,1451.6202878735157,1478.809950652484,away_win,FIFA World Cup qualification
+2017-09-05,Colombia,Brazil,1587.8112468462389,1663.230543170583,draw,FIFA World Cup qualification
+2017-09-05,Paraguay,Uruguay,1446.8573441907843,1517.1915285211073,away_win,FIFA World Cup qualification
+2017-09-05,Saudi Arabia,Japan,1444.9515451351167,1546.3299281310267,home_win,FIFA World Cup qualification
+2017-09-05,DR Congo,Tunisia,1445.105393962362,1538.6994924207888,draw,FIFA World Cup qualification
+2017-10-05,Colombia,Paraguay,1592.0857998162282,1430.8516894848542,away_win,FIFA World Cup qualification
+2017-10-06,Japan,New Zealand,1520.6542901025061,1423.8305678163251,home_win,Kirin Challenge Cup
+2017-10-06,United States,Panama,1503.0349457173131,1451.923911382498,home_win,FIFA World Cup qualification
+2017-10-07,Bosnia and Herzegovina,Belgium,1491.5563030069336,1612.6498734102913,away_win,FIFA World Cup qualification
+2017-10-07,Cabo Verde,Senegal,1497.2479752340737,1528.2286063524552,away_win,FIFA World Cup qualification
+2017-10-10,Korea Republic,Morocco,1496.7384907945768,1497.663623011916,away_win,Friendly
+2017-10-10,Saudi Arabia,Ghana,1470.6271831636373,1449.8752197850854,away_win,Friendly
+2017-10-10,Qatar,Curaçao,1455.077987051379,1468.1950775658447,away_win,Friendly
+2017-10-10,Portugal,Switzerland,1578.273706890344,1474.3024697189467,home_win,FIFA World Cup qualification
+2017-10-10,Japan,Haiti,1527.9374506417862,1416.7276869250566,draw,Kirin Challenge Cup
+2017-10-10,Ecuador,Argentina,1439.5587629611127,1627.4559141066193,away_win,FIFA World Cup qualification
+2017-10-10,Netherlands,Sweden,1516.249455367009,1474.0857189829753,home_win,FIFA World Cup qualification
+2017-11-09,IR Iran,Panama,1568.2688637500926,1434.8450570288194,home_win,Friendly
+2017-11-09,Scotland,Netherlands,1472.7467135106333,1533.8341610673383,away_win,Friendly
+2017-11-10,Portugal,Saudi Arabia,1592.4611247068242,1460.0306029187166,home_win,Friendly
+2017-11-10,South Africa,Senegal,1433.1822632919261,1546.4499295676098,away_win,FIFA World Cup qualification
+2017-11-10,Korea Republic,Colombia,1486.7651181773042,1563.41790368289,home_win,Friendly
+2017-11-10,England,Germany,1543.7521977582294,1687.6469460443775,draw,Friendly
+2017-11-10,Belgium,Mexico,1625.9483545152589,1585.66277984684,draw,Friendly
+2017-11-10,Japan,Brazil,1524.841590902751,1658.9559902005935,away_win,Friendly
+2017-11-11,Côte d'Ivoire,Morocco,1497.662510204846,1507.6369956291885,away_win,FIFA World Cup qualification
+2017-11-11,Qatar,Czechia,1445.45534798944,1443.6799647053974,away_win,Friendly
+2017-11-12,Ghana,Egypt,1460.471800030006,1494.7769962954442,draw,FIFA World Cup qualification
+2017-11-14,Senegal,South Africa,1560.1512988381833,1419.4808940213527,home_win,FIFA World Cup qualification
+2017-11-14,Germany,France,1683.726934208454,1578.815039946522,draw,Friendly
+2017-11-14,Portugal,United States,1598.8239310297756,1520.1138000709918,draw,Friendly
+2017-11-14,Belgium,Japan,1624.7940110981522,1518.5207645007574,home_win,Friendly
+2017-11-14,Austria,Uruguay,1489.032194288837,1533.1971832270374,home_win,Friendly
+2017-11-14,England,Brazil,1547.672209594153,1665.2768166025871,draw,Friendly
+2017-12-16,Japan,Korea Republic,1511.4875988509684,1498.93624975905,away_win,EAFF Championship
+2017-12-26,Iraq,Qatar,1404.568854541702,1435.4042487956497,home_win,Gulf Cup
+2018-01-28,United States,Bosnia and Herzegovina,1522.341282417881,1478.257821901966,draw,Friendly
+2018-01-31,Mexico,Bosnia and Herzegovina,1586.8171232639468,1479.5198804605757,home_win,Friendly
+2018-02-28,Iraq,Saudi Arabia,1429.0605343998498,1453.6677965957651,home_win,Friendly
+2018-03-21,Iraq,Qatar,1439.7676064537345,1410.9125689375019,away_win,Friendly
+2018-03-23,Senegal,Uzbekistan,1572.4689308509082,1482.0688194953239,draw,Friendly
+2018-03-23,Uruguay,Czechia,1521.932815536313,1453.7310638991878,home_win,Friendly
+2018-03-23,Tunisia,IR Iran,1533.4384339924532,1574.6068889651588,home_win,Friendly
+2018-03-23,Portugal,Egypt,1596.5964486828864,1492.8086230246531,home_win,Friendly
+2018-03-23,France,Colombia,1581.7460989391375,1551.2467721011442,away_win,Friendly
+2018-03-23,Netherlands,England,1542.0938197827481,1550.9335254393827,away_win,Friendly
+2018-03-23,Germany,Spain,1680.7958752158384,1550.5695847867403,draw,Friendly
+2018-03-23,Norway,Australia,1424.8828009084436,1432.240097655062,home_win,Friendly
+2018-03-24,Canada,New Zealand,1468.1096717264645,1416.547407277045,home_win,Friendly
+2018-03-26,Portugal,Netherlands,1603.694991447146,1532.348192078242,away_win,Friendly
+2018-03-27,United States,Paraguay,1521.0792238592715,1459.5195856181924,home_win,Friendly
+2018-03-27,Switzerland,Panama,1460.1150519024666,1428.5070318137532,home_win,Friendly
+2018-03-27,Spain,Argentina,1554.1516019749445,1637.5838745739638,home_win,Friendly
+2018-03-27,Morocco,Uzbekistan,1527.0629757866243,1484.6135746525513,home_win,Friendly
+2018-03-27,Mexico,Croatia,1593.8234337370197,1478.885823712153,away_win,Friendly
+2018-03-27,Germany,Brazil,1677.2138580276342,1662.0155007573574,away_win,Friendly
+2018-03-27,Bosnia and Herzegovina,Senegal,1472.5135699875027,1569.9241756936808,draw,Friendly
+2018-03-27,Belgium,Saudi Arabia,1631.827176747941,1442.9607245418804,home_win,Friendly
+2018-03-27,Australia,Colombia,1422.02836927941,1562.1223653251166,draw,Friendly
+2018-03-27,Algeria,IR Iran,1459.5354057869718,1563.4274802249674,away_win,Friendly
+2018-05-09,Algeria,Saudi Arabia,1452.4396107070081,1437.9178166351667,away_win,Friendly
+2018-05-19,IR Iran,Uzbekistan,1570.523275304931,1475.829323176629,home_win,Friendly
+2018-05-28,Portugal,Tunisia,1591.6698522768081,1544.6178427326445,draw,Friendly
+2018-05-28,Türkiye,IR Iran,1525.4199981487316,1577.8633048905579,home_win,Friendly
+2018-05-29,Argentina,Haiti,1625.2276194717874,1419.8235466640917,home_win,Friendly
+2018-05-30,Japan,Ghana,1488.1751243147987,1462.4401733007971,away_win,Friendly
+2018-06-01,Türkiye,Tunisia,1536.9180776416752,1545.963889481666,draw,Friendly
+2018-06-01,Korea Republic,Bosnia and Herzegovina,1522.2487242952197,1475.2460472944501,away_win,Friendly
+2018-06-01,Czechia,Australia,1445.6692367364299,1425.8554017492775,away_win,Friendly
+2018-06-01,Algeria,Cabo Verde,1442.0218831029385,1479.026652018919,away_win,Friendly
+2018-06-01,Colombia,Egypt,1558.2953328552492,1485.7100802603934,draw,Friendly
+2018-06-02,Mexico,Scotland,1580.6308864624798,1464.4870547952235,home_win,Friendly
+2018-06-02,Belgium,Portugal,1636.8700846546546,1590.3238055277866,draw,Friendly
+2018-06-02,Austria,Germany,1500.2965619795614,1666.7766929548407,home_win,Friendly
+2018-06-03,Croatia,Brazil,1492.078370986693,1672.4526658301509,away_win,Friendly
+2018-06-03,Spain,Switzerland,1566.507857077121,1469.207801522451,draw,Friendly
+2018-06-06,Norway,Panama,1435.0945292840956,1419.4142821937687,home_win,Friendly
+2018-06-06,Belgium,Egypt,1635.5383330545528,1487.7693782857207,home_win,Friendly
+2018-06-07,Uruguay,Uzbekistan,1529.994642699071,1468.4892935910023,home_win,Friendly
+2018-06-07,Portugal,Algeria,1591.6555571278884,1433.0829567215771,home_win,Friendly
+2018-06-08,Germany,Saudi Arabia,1652.3209198525362,1448.3355442392362,home_win,Friendly
+2018-06-08,Croatia,Senegal,1486.84887727809,1567.1916983867334,home_win,Friendly
+2018-06-08,Switzerland,Japan,1471.9373342579438,1477.4357645625048,home_win,Friendly
+2018-06-09,France,United States,1570.870505715165,1529.3257065935447,draw,Friendly
+2018-06-09,Tunisia,Spain,1545.7035889019617,1563.7783243416281,away_win,Friendly
+2018-06-10,Austria,Brazil,1514.7523350818658,1677.682159538754,away_win,Friendly
+2018-06-11,Korea Republic,Senegal,1510.9040717511452,1554.919602089288,away_win,Friendly
+2018-06-12,Japan,Paraguay,1467.2775202276098,1451.2731028839191,home_win,Friendly
+2018-06-15,Egypt,Uruguay,1481.783349179243,1538.2426399955236,away_win,FIFA World Cup
+2018-06-15,Morocco,IR Iran,1535.8472272625465,1566.3652253976143,away_win,FIFA World Cup
+2018-06-15,Portugal,Spain,1597.3840308055292,1573.258560452169,draw,FIFA World Cup
+2018-06-16,France,Australia,1569.680416962657,1436.4250723197322,home_win,FIFA World Cup
+2018-06-17,Germany,Mexico,1657.0427295202146,1587.4071945511853,away_win,FIFA World Cup
+2018-06-17,Brazil,Switzerland,1683.3086562703263,1482.0955785928388,draw,FIFA World Cup
+2018-06-18,Sweden,Korea Republic,1456.501013282646,1502.1642062166866,home_win,FIFA World Cup
+2018-06-18,Belgium,Panama,1641.5243621610305,1409.8652898150717,home_win,FIFA World Cup
+2018-06-18,Tunisia,England,1536.223352791421,1560.679153143889,away_win,FIFA World Cup
+2018-06-19,Colombia,Japan,1556.236034829922,1476.8172016096166,away_win,FIFA World Cup
+2018-06-20,Portugal,Morocco,1595.3042119423253,1508.4756067760998,home_win,FIFA World Cup
+2018-06-20,Uruguay,Saudi Arabia,1563.4100169128817,1443.6137345715579,home_win,FIFA World Cup
+2018-06-20,IR Iran,Spain,1593.736845884061,1575.3383793153728,away_win,FIFA World Cup
+2018-06-21,Argentina,Croatia,1629.920035160156,1499.1209735755353,away_win,FIFA World Cup
+2018-06-23,Belgium,Tunisia,1654.0388583246122,1508.3315556708283,home_win,FIFA World Cup
+2018-06-23,Korea Republic,Mexico,1468.2438760349644,1623.3407692965511,away_win,FIFA World Cup
+2018-06-23,Germany,Sweden,1621.1091547748488,1490.4213434643682,home_win,FIFA World Cup
+2018-06-24,England,Panama,1588.5709502644816,1397.35079365149,home_win,FIFA World Cup
+2018-06-24,Japan,Senegal,1513.557780166644,1563.6594676237467,draw,FIFA World Cup
+2018-06-25,IR Iran,Portugal,1562.1496778979213,1617.9591107820293,draw,FIFA World Cup
+2018-06-25,Saudi Arabia,Egypt,1423.5664487445483,1456.615972261885,home_win,FIFA World Cup
+2018-06-25,Spain,Morocco,1606.9255473015126,1485.8207079363958,draw,FIFA World Cup
+2018-06-27,Korea Republic,Germany,1450.8120527195556,1640.3283820456054,home_win,FIFA World Cup
+2018-06-27,Mexico,Sweden,1640.77259261196,1471.2021161936116,away_win,FIFA World Cup
+2018-06-28,Senegal,Colombia,1559.3630799036384,1519.4954562728944,away_win,FIFA World Cup
+2018-06-28,Panama,Tunisia,1382.3748492125617,1490.2237783037742,away_win,FIFA World Cup
+2018-06-28,England,Belgium,1603.5468947034099,1672.1466356916662,away_win,FIFA World Cup
+2018-06-30,France,Argentina,1588.7070903767992,1589.1308977972672,home_win,FIFA World Cup
+2018-06-30,Uruguay,Portugal,1583.4573027398912,1613.1811612618685,home_win,FIFA World Cup
+2018-07-02,Belgium,Japan,1696.2990503049957,1517.8541678867523,home_win,FIFA World Cup
+2018-07-02,Brazil,Mexico,1667.6475019851985,1597.1922598373972,home_win,FIFA World Cup
+2018-07-03,Sweden,Switzerland,1514.7824489681743,1497.7567328779667,home_win,FIFA World Cup
+2018-07-03,Colombia,England,1552.9228736888304,1579.3944800900804,draw,FIFA World Cup
+2018-07-06,Uruguay,France,1616.017623569807,1618.7436848329742,away_win,FIFA World Cup
+2018-07-06,Brazil,Belgium,1691.645948708171,1712.1165566599288,away_win,FIFA World Cup
+2018-07-07,Sweden,England,1543.3135061109556,1577.1131506186832,away_win,FIFA World Cup
+2018-07-10,France,Belgium,1648.5083026122463,1740.3510248049454,home_win,FIFA World Cup
+2018-07-11,Croatia,England,1539.9101109384242,1604.2038268898898,home_win,FIFA World Cup
+2018-07-14,Belgium,England,1702.6003844898023,1568.7147748878838,home_win,FIFA World Cup
+2018-07-15,France,Croatia,1686.2589429273894,1575.3991629404302,home_win,FIFA World Cup
+2018-09-06,Austria,Sweden,1509.1258383502934,1516.222829839749,home_win,Friendly
+2018-09-06,Portugal,Croatia,1580.6208404319527,1554.6594100107777,draw,Friendly
+2018-09-06,Germany,France,1595.414819104039,1706.9986958570419,draw,UEFA Nations League
+2018-09-07,Mexico,Uruguay,1573.1938131144245,1586.2530057905349,away_win,Friendly
+2018-09-07,Scotland,Belgium,1457.710746706518,1721.5799489840622,away_win,Friendly
+2018-09-07,United States,Brazil,1530.5157953460528,1663.4114805631546,away_win,Friendly
+2018-09-08,England,Spain,1549.735210393624,1596.872405176949,away_win,UEFA Nations League
+2018-09-09,France,Netherlands,1700.0111131763676,1544.37333124858,home_win,UEFA Nations League
+2018-09-10,Sweden,Türkiye,1506.0185904103876,1537.1783782213795,away_win,UEFA Nations League
+2018-09-11,Uzbekistan,IR Iran,1460.2412962945496,1566.927627418082,away_win,Friendly
+2018-09-11,United States,Mexico,1524.1646006556305,1563.5695099813154,home_win,Friendly
+2018-09-11,England,Switzerland,1530.2692320613548,1469.2256757351854,home_win,Friendly
+2018-09-11,Bosnia and Herzegovina,Austria,1486.5906998385246,1519.3300777796549,home_win,UEFA Nations League
+2018-09-11,Spain,Croatia,1616.3383835092181,1555.405252416932,home_win,UEFA Nations League
+2018-09-11,Colombia,Argentina,1555.2042031602275,1559.0943033410922,draw,Friendly
+2018-10-11,Argentina,Iraq,1558.982341936114,1428.9389959644225,home_win,Friendly
+2018-10-11,Türkiye,Bosnia and Herzegovina,1557.6658569076449,1511.2046553807074,draw,Friendly
+2018-10-11,United States,Colombia,1535.2939269790295,1555.3161645652058,away_win,Friendly
+2018-10-12,Qatar,Ecuador,1421.741179426814,1429.4308024937682,home_win,Friendly
+2018-10-12,Korea Republic,Uruguay,1495.725615661122,1595.877308923644,home_win,Friendly
+2018-10-12,Saudi Arabia,Brazil,1456.4115976273142,1669.7626752535768,away_win,Friendly
+2018-10-12,Croatia,England,1536.8113286766677,1538.5301158324473,draw,UEFA Nations League
+2018-10-12,Belgium,Switzerland,1725.1722632531862,1460.964791964093,home_win,UEFA Nations League
+2018-10-12,Japan,Panama,1502.0366615318192,1361.3992643143854,home_win,Kirin Challenge Cup
+2018-10-13,Netherlands,Germany,1531.3283251988419,1602.4024017847132,home_win,UEFA Nations League
+2018-10-14,Scotland,Portugal,1454.118432437394,1579.8749980257985,away_win,Friendly
+2018-10-15,Spain,England,1634.9323072494824,1538.4188077306455,away_win,UEFA Nations League
+2018-10-15,Croatia,Jordan,1536.9226367784695,1385.6391551364989,home_win,Friendly
+2018-10-15,Saudi Arabia,Iraq,1451.8814813026645,1422.5164223389706,draw,Friendly
+2018-10-16,Argentina,Brazil,1565.4049155615658,1674.2927915782266,away_win,Superclásico de las Américas
+2018-10-16,Korea Republic,Panama,1508.5309386291128,1355.2396384181645,draw,Friendly
+2018-10-16,Uzbekistan,Qatar,1453.218969815716,1431.962468438379,home_win,Friendly
+2018-10-16,Belgium,Netherlands,1733.2420664555962,1558.3679483940434,draw,Friendly
+2018-10-16,France,Germany,1713.0561192261057,1575.3627785895117,home_win,UEFA Nations League
+2018-10-16,Japan,Uruguay,1508.19628742804,1583.0719859556532,home_win,Kirin Challenge Cup
+2018-11-14,Switzerland,Qatar,1452.894988761683,1422.5735175064294,away_win,Friendly
+2018-11-15,Croatia,Spain,1542.8241539545447,1606.338030169983,home_win,UEFA Nations League
+2018-11-15,Austria,Bosnia and Herzegovina,1494.716122237472,1512.5340016020043,draw,UEFA Nations League
+2018-11-15,England,United States,1567.0130848101448,1525.869576187461,home_win,Friendly
+2018-11-16,Netherlands,France,1563.0152540071258,1727.0783428469583,home_win,UEFA Nations League
+2018-11-16,Argentina,Mexico,1553.216710198997,1552.4401836579164,home_win,Friendly
+2018-11-16,Brazil,Uruguay,1686.4809969407954,1570.9496457537477,home_win,Friendly
+2018-11-16,Egypt,Tunisia,1423.770823379119,1511.1993632019505,home_win,African Cup of Nations qualification
+2018-11-17,Australia,Korea Republic,1417.39839890559,1504.3844875424493,draw,Friendly
+2018-11-17,Türkiye,Sweden,1556.336510686348,1485.5311117241222,away_win,UEFA Nations League
+2018-11-18,Spain,Bosnia and Herzegovina,1579.7700730257368,1511.3811225998018,home_win,Friendly
+2018-11-18,Switzerland,Belgium,1442.0244756139036,1728.5947608425138,home_win,UEFA Nations League
+2018-11-18,England,Croatia,1575.8343841020135,1569.392111098791,home_win,UEFA Nations League
+2018-11-19,Germany,Netherlands,1561.340554968659,1595.4149042589825,draw,UEFA Nations League
+2018-11-20,Argentina,Mexico,1563.1943600057398,1542.4625338511735,home_win,Friendly
+2018-11-20,France,Uruguay,1694.6786925951017,1564.1575320920172,home_win,Friendly
+2018-11-20,Jordan,Saudi Arabia,1379.7376379604236,1451.0382937890797,draw,Friendly
+2018-11-20,Korea Republic,Uzbekistan,1501.9318599385624,1462.6079207476655,home_win,Friendly
+2018-11-20,Panama,Ecuador,1359.386089504828,1419.2095134822032,away_win,Friendly
+2018-11-20,South Africa,Paraguay,1407.1632620086277,1441.7334215019123,draw,Friendly
+2018-11-20,Tunisia,Morocco,1489.386326179736,1495.8738500609593,away_win,Friendly
+2018-12-23,Qatar,Jordan,1433.4440306542087,1381.7615034472815,home_win,Friendly
+2018-12-27,Qatar,Algeria,1441.9673637247013,1427.3544830439364,away_win,Friendly
+2018-12-31,Korea Republic,Saudi Arabia,1510.8048344607118,1449.0144283022219,draw,Friendly
+2018-12-31,Qatar,IR Iran,1431.547019040746,1573.9499538969155,away_win,Friendly
+2019-01-06,Australia,Jordan,1419.851026509477,1373.238170376789,away_win,AFC Asian Cup
+2019-01-16,IR Iran,Iraq,1580.0663429077085,1423.3596098525554,draw,AFC Asian Cup
+2019-01-17,Saudi Arabia,Qatar,1450.7743826210717,1425.430630029953,away_win,AFC Asian Cup
+2019-01-17,Japan,Uzbekistan,1520.3186276299455,1453.734946225516,home_win,AFC Asian Cup
+2019-01-21,Australia,Uzbekistan,1391.5169419929905,1433.4682220709956,draw,AFC Asian Cup
+2019-01-21,Japan,Saudi Arabia,1540.585351784466,1423.9539806712899,home_win,AFC Asian Cup
+2019-01-22,Qatar,Iraq,1452.2510319797348,1433.9284113829726,home_win,AFC Asian Cup
+2019-01-25,Korea Republic,Qatar,1509.044880141862,1475.9338343347256,away_win,AFC Asian Cup
+2019-01-27,United States,Panama,1517.0482768955924,1351.0911289893822,home_win,Friendly
+2019-01-28,IR Iran,Japan,1569.4975413772913,1557.4947006710643,away_win,AFC Asian Cup
+2019-02-01,Japan,Qatar,1583.358031054223,1503.3091787311782,away_win,AFC Asian Cup
+2019-03-21,United States,Ecuador,1522.6045760011802,1427.504473997649,home_win,Friendly
+2019-03-22,Japan,Colombia,1552.697854923252,1564.7405153567743,away_win,Kirin Challenge Cup
+2019-03-22,England,Czechia,1597.917228984387,1435.0995661659751,home_win,UEFA Euro qualification
+2019-03-23,Brazil,Panama,1693.273110602526,1345.5348298837944,draw,Friendly
+2019-03-23,Spain,Norway,1587.8267151177188,1444.6435216627926,home_win,UEFA Euro qualification
+2019-03-24,Netherlands,Germany,1593.2152901866982,1563.5401690409433,away_win,UEFA Euro qualification
+2019-03-26,Norway,Sweden,1433.973185109681,1512.5540409949888,draw,UEFA Euro qualification
+2019-03-26,Paraguay,Mexico,1440.7416830497443,1533.0585365610289,away_win,Friendly
+2019-03-26,Morocco,Argentina,1505.6871458123414,1572.5983572958844,away_win,Friendly
+2019-03-26,Algeria,Tunisia,1437.7748277278918,1479.5730304283538,home_win,Friendly
+2019-03-26,Czechia,Brazil,1425.248627370748,1685.6535125410098,away_win,Friendly
+2019-03-26,Korea Republic,Colombia,1481.6695357454093,1574.3940384709438,home_win,Friendly
+2019-06-02,Türkiye,Uzbekistan,1529.3135814154814,1430.4641698130886,home_win,Friendly
+2019-06-03,Colombia,Panama,1561.7868216078512,1353.1544279453105,home_win,Friendly
+2019-06-05,Brazil,Qatar,1689.3049740103224,1533.9693548621492,home_win,Friendly
+2019-06-05,Portugal,Switzerland,1586.4056360266186,1479.7723294060115,home_win,UEFA Nations League
+2019-06-06,England,Netherlands,1607.7681677796143,1574.2242067068353,away_win,UEFA Nations League
+2019-06-07,Uruguay,Panama,1557.7469451135087,1348.5284257825112,home_win,Friendly
+2019-06-07,Korea Republic,Australia,1494.276752608502,1394.5209942508975,home_win,Friendly
+2019-06-07,Tunisia,Iraq,1468.3757520591323,1410.2456090279818,home_win,Friendly
+2019-06-08,Türkiye,France,1536.5428274887759,1701.0892795736102,home_win,UEFA Euro qualification
+2019-06-09,Mexico,Ecuador,1540.4622585607547,1420.1753038489426,home_win,Friendly
+2019-06-09,Switzerland,England,1463.968965274849,1583.1025785397162,draw,UEFA Nations League
+2019-06-09,Portugal,Netherlands,1602.209000157781,1598.8897959467333,home_win,UEFA Nations League
+2019-06-10,Spain,Sweden,1598.4970516708304,1508.662135785311,home_win,UEFA Euro qualification
+2019-06-11,Belgium,Scotland,1690.846907050406,1447.5877944365739,home_win,UEFA Euro qualification
+2019-06-11,Croatia,Tunisia,1547.3092662164174,1476.718071247793,away_win,Friendly
+2019-06-11,Korea Republic,IR Iran,1501.4819320756071,1543.6342109941327,draw,Friendly
+2019-06-15,Ghana,South Africa,1473.179533053091,1408.1550004607957,draw,Friendly
+2019-06-15,Argentina,Colombia,1580.6959594340306,1566.4128237706504,away_win,Copa América
+2019-06-16,Paraguay,Qatar,1433.3379610500185,1528.164410598188,draw,Copa América
+2019-06-16,Uruguay,Ecuador,1562.360960148748,1413.5054376494288,home_win,Copa América
+2019-06-19,Colombia,Qatar,1592.439999404679,1521.5056260751123,home_win,Copa América
+2019-06-19,Argentina,Paraguay,1554.668783800002,1439.9967455730941,draw,Copa América
+2019-06-19,Mexico,Canada,1547.1321247602684,1476.6363909320355,home_win,Gold Cup
+2019-06-20,Uruguay,Japan,1577.2605276367908,1543.0443318090825,draw,Copa América
+2019-06-23,Colombia,Paraguay,1612.4056176609238,1447.9609478480286,home_win,Copa América
+2019-06-23,Qatar,Argentina,1501.5400078188675,1546.7045815250676,away_win,Copa América
+2019-06-24,Ecuador,Japan,1398.605870161386,1545.498456173098,draw,Copa América
+2019-06-24,Côte d'Ivoire,South Africa,1478.2365300474103,1410.0050070195489,home_win,African Cup of Nations
+2019-06-26,Egypt,DR Congo,1445.5838604013336,1450.3664523906978,home_win,African Cup of Nations
+2019-06-26,United States,Panama,1529.9337461498867,1343.9144107472719,home_win,Gold Cup
+2019-06-27,Senegal,Algeria,1525.9356624877025,1448.9721060971133,away_win,African Cup of Nations
+2019-06-27,Brazil,Paraguay,1695.1099182742837,1433.9826902024574,draw,Copa América
+2019-06-28,Morocco,Côte d'Ivoire,1497.5895436741953,1498.3890362377201,home_win,African Cup of Nations
+2019-06-29,Haiti,Canada,1415.1311309757232,1456.640482270178,home_win,Gold Cup
+2019-06-30,United States,Curaçao,1542.6961678563412,1477.8177166277837,home_win,Gold Cup
+2019-07-01,South Africa,Morocco,1389.852500829239,1522.6470716869903,away_win,African Cup of Nations
+2019-07-02,Haiti,Mexico,1443.103838275783,1567.128033422126,away_win,Gold Cup
+2019-07-02,Brazil,Argentina,1679.2075848212478,1568.472912149935,home_win,Copa América
+2019-07-06,Egypt,South Africa,1470.9279738235623,1373.968206349611,away_win,African Cup of Nations
+2019-07-07,United States,Mexico,1563.0813038924573,1583.5644676427155,away_win,Gold Cup
+2019-07-08,Ghana,Tunisia,1471.3295264943379,1488.722345146788,draw,African Cup of Nations
+2019-07-11,Côte d'Ivoire,Algeria,1473.331508224925,1479.4212385798146,draw,African Cup of Nations
+2019-07-14,Senegal,Tunisia,1495.4865300050012,1487.471875651053,home_win,African Cup of Nations
+2019-07-19,Senegal,Algeria,1519.9099315384753,1478.9830921248265,away_win,African Cup of Nations
+2019-08-10,Jordan,Saudi Arabia,1401.5722548932754,1407.0446317846915,home_win,WAFF Championship
+2019-09-05,Japan,Paraguay,1535.5164820707412,1449.8850236554933,home_win,Kirin Challenge Cup
+2019-09-06,United States,Mexico,1539.5534807695942,1607.0922907655786,away_win,Friendly
+2019-09-06,Brazil,Colombia,1696.498857631734,1626.383875306495,draw,Friendly
+2019-09-06,Germany,Netherlands,1582.5312525208062,1576.604741755138,away_win,UEFA Euro qualification
+2019-09-07,Curaçao,Haiti,1457.4325805916676,1426.6674040551934,home_win,CONCACAF Nations League
+2019-09-08,Sweden,Norway,1495.5888214971267,1437.8650903193588,draw,UEFA Euro qualification
+2019-09-09,Iraq,Uzbekistan,1401.9032898393211,1423.234923739794,draw,Friendly
+2019-09-09,Scotland,Belgium,1440.665963301228,1697.7687381857518,away_win,UEFA Euro qualification
+2019-09-10,Argentina,Mexico,1551.1816393394488,1615.1724889140928,home_win,Friendly
+2019-09-10,Côte d'Ivoire,Tunisia,1473.7696546799132,1463.048474117579,home_win,Friendly
+2019-09-10,Jordan,Paraguay,1424.426617842898,1442.3009723394819,away_win,Friendly
+2019-09-10,United States,Uruguay,1531.4732826210802,1574.8064032727752,draw,Friendly
+2019-09-10,Haiti,Curaçao,1406.1545721499344,1477.9454124969266,draw,CONCACAF Nations League
+2019-10-09,Germany,Argentina,1564.7327687596571,1563.0028966324953,draw,Friendly
+2019-10-10,Algeria,DR Congo,1506.9144687698943,1425.022338968469,draw,Friendly
+2019-10-10,Brazil,Senegal,1694.5077432355151,1491.9785548934076,draw,Friendly
+2019-10-11,Czechia,England,1421.5971659014353,1575.676258331318,home_win,UEFA Euro qualification
+2019-10-12,Norway,Spain,1440.7461198208966,1611.5703659590147,draw,UEFA Euro qualification
+2019-10-12,Côte d'Ivoire,DR Congo,1483.461172206163,1427.336682807312,home_win,Friendly
+2019-10-13,Ecuador,Argentina,1408.587844263743,1563.0526859432275,away_win,Friendly
+2019-10-14,France,Türkiye,1675.8699302347611,1561.762176827625,draw,UEFA Euro qualification
+2019-10-15,Canada,United States,1428.6677749701182,1532.7140828887982,home_win,CONCACAF Nations League
+2019-10-15,Mexico,Panama,1603.3512316210463,1331.1519890408174,home_win,CONCACAF Nations League
+2019-10-15,Sweden,Spain,1492.7077919955889,1603.5983768520325,draw,UEFA Euro qualification
+2019-10-15,Algeria,Colombia,1504.6001249310514,1628.3749897027137,home_win,Friendly
+2019-11-14,Ghana,South Africa,1472.5799959900728,1405.7693707097974,home_win,African Cup of Nations qualification
+2019-11-14,Jordan,Australia,1414.9406297143748,1387.3158147837923,away_win,FIFA World Cup qualification
+2019-11-14,Iraq,IR Iran,1402.5164932923994,1542.426888808519,home_win,FIFA World Cup qualification
+2019-11-14,Uzbekistan,Saudi Arabia,1422.6217202867158,1384.1902688350692,away_win,FIFA World Cup qualification
+2019-11-15,Brazil,Argentina,1689.259855691726,1568.8783041823958,away_win,Superclásico de las Américas
+2019-11-15,United States,Canada,1503.6704772510066,1457.7113806079099,home_win,CONCACAF Nations League
+2019-11-15,Panama,Mexico,1323.3823752002731,1611.1208454615905,away_win,CONCACAF Nations League
+2019-11-18,Argentina,Uruguay,1592.2102742988848,1573.5656030050573,draw,Friendly
+2019-11-19,Saudi Arabia,Paraguay,1406.3935820567256,1451.786960468005,draw,Friendly
+2019-11-19,Brazil,Korea Republic,1665.927885575237,1502.6892542612209,home_win,Friendly
+2019-11-19,Ecuador,Colombia,1402.7622260245746,1614.9558992173659,away_win,Friendly
+2019-11-26,Qatar,Iraq,1479.7716771940002,1430.1615354514468,away_win,Gulf Cup
+2019-12-05,Qatar,Saudi Arabia,1454.0805724186746,1407.6927247399053,away_win,Gulf Cup
+2019-12-18,Korea Republic,Japan,1497.0699428219075,1543.1005333867527,home_win,EAFF Championship
+2020-09-03,Germany,Spain,1564.682979448925,1598.1951623253326,draw,UEFA Nations League
+2020-09-04,Norway,Austria,1448.7181089278788,1495.8690012396746,away_win,UEFA Nations League
+2020-09-05,Portugal,Croatia,1624.4940543493763,1535.3049923174224,home_win,UEFA Nations League
+2020-09-05,Sweden,France,1498.1110065222888,1670.3205398554892,away_win,UEFA Nations League
+2020-09-06,Switzerland,Germany,1471.3952854832473,1566.8465297728083,draw,UEFA Nations League
+2020-09-07,Czechia,Scotland,1446.386282463849,1434.176017064574,away_win,UEFA Nations League
+2020-09-08,Sweden,Portugal,1485.9316722010306,1641.341769060119,away_win,UEFA Nations League
+2020-09-08,France,Croatia,1682.4998741767474,1518.4572776066796,home_win,UEFA Nations League
+2020-10-07,Portugal,Spain,1654.3989196286507,1596.0316120014493,draw,Friendly
+2020-10-07,Switzerland,Croatia,1477.4257648662362,1505.8558576523917,away_win,Friendly
+2020-10-07,Germany,Türkiye,1560.8160503898193,1567.3115672068968,draw,Friendly
+2020-10-07,Netherlands,Mexico,1594.4032255162872,1618.3321763165352,away_win,Friendly
+2020-10-08,Argentina,Ecuador,1591.6741520626697,1398.2087214505257,home_win,FIFA World Cup qualification
+2020-10-08,Uzbekistan,IR Iran,1400.4184070650595,1514.7818466494716,away_win,Friendly
+2020-10-08,Belgium,Côte d'Ivoire,1704.2586844224058,1491.8596856035938,draw,Friendly
+2020-10-09,Morocco,Senegal,1538.5313661666185,1497.2264424371967,home_win,Friendly
+2020-10-10,Spain,Switzerland,1597.6959306303963,1468.242227214663,home_win,UEFA Nations League
+2020-10-11,Bosnia and Herzegovina,Netherlands,1503.3244805078198,1585.0908691487914,draw,UEFA Nations League
+2020-10-11,England,Belgium,1550.8871417689043,1698.8080336735445,home_win,UEFA Nations League
+2020-10-11,Croatia,Sweden,1515.039395303965,1472.874521632499,home_win,UEFA Nations League
+2020-10-11,France,Portugal,1695.1012941310353,1652.7346009997036,draw,UEFA Nations League
+2020-10-12,Ghana,Qatar,1486.7556830719295,1428.5942100145448,home_win,Friendly
+2020-10-13,Ecuador,Uruguay,1388.3212773245225,1574.1017252412723,home_win,FIFA World Cup qualification
+2020-10-13,Morocco,DR Congo,1547.3480843565862,1418.938169409881,draw,Friendly
+2020-10-13,Mexico,Algeria,1627.644532684031,1518.0192154163992,draw,Friendly
+2020-10-13,Japan,Côte d'Ivoire,1517.636902544742,1497.3103363524551,home_win,Friendly
+2020-10-13,Germany,Switzerland,1561.0029846133316,1453.7581179434787,draw,UEFA Nations League
+2020-10-14,Portugal,Sweden,1655.4647580058067,1453.0918002964336,home_win,UEFA Nations League
+2020-10-14,Croatia,France,1534.8221166400303,1692.3711371249321,away_win,UEFA Nations League
+2020-10-14,Scotland,Czechia,1457.4664309777424,1423.0958685506805,home_win,UEFA Nations League
+2020-11-11,Belgium,Switzerland,1667.268346465448,1460.4908313376534,home_win,Friendly
+2020-11-11,Germany,Czechia,1554.270271219157,1402.8144805256777,home_win,Friendly
+2020-11-11,Netherlands,Spain,1579.8913030244576,1612.1800399015806,draw,Friendly
+2020-11-11,Türkiye,Croatia,1567.1246329833846,1521.8787902218473,draw,Friendly
+2020-11-12,Argentina,Paraguay,1601.5615961886729,1450.4878177848252,draw,FIFA World Cup qualification
+2020-11-12,Jordan,Iraq,1393.353760159183,1455.8526402267723,draw,Friendly
+2020-11-12,Bosnia and Herzegovina,IR Iran,1508.5240466321536,1521.6041487652662,away_win,Friendly
+2020-11-13,Japan,Panama,1527.0525235231337,1316.1710443453285,home_win,Friendly
+2020-11-13,Colombia,Uruguay,1619.5094037914148,1544.3221225592736,away_win,FIFA World Cup qualification
+2020-11-14,Portugal,France,1666.164343890182,1705.3144635431152,away_win,UEFA Nations League
+2020-11-14,Sweden,Croatia,1442.3922144120584,1523.1737579274404,home_win,UEFA Nations League
+2020-11-14,Switzerland,Spain,1455.8267508801002,1611.2533616630458,draw,UEFA Nations League
+2020-11-14,Mexico,Korea Republic,1624.5899641406945,1522.533573663918,home_win,Friendly
+2020-11-15,Netherlands,Bosnia and Herzegovina,1580.8179812629924,1498.9003444707735,home_win,UEFA Nations League
+2020-11-15,Belgium,England,1671.9324269230012,1582.4268289770007,home_win,UEFA Nations League
+2020-11-16,United States,Panama,1523.2113961665216,1311.5909207735115,home_win,Friendly
+2020-11-17,Uruguay,Brazil,1568.5839279386466,1671.5471970145504,away_win,FIFA World Cup qualification
+2020-11-17,Ecuador,Colombia,1418.1008800065213,1595.2475984120417,home_win,FIFA World Cup qualification
+2020-11-17,Uzbekistan,Iraq,1393.5961049492648,1454.072933120817,away_win,Friendly
+2020-11-17,Korea Republic,Qatar,1515.3893257932507,1420.2527677841579,home_win,Friendly
+2020-11-17,Croatia,Portugal,1495.5346039821811,1646.1890369802309,away_win,UEFA Nations League
+2020-11-17,Spain,Germany,1601.8096311687782,1560.1676628481653,home_win,UEFA Nations League
+2020-11-17,France,Sweden,1725.2897704530662,1470.0313683573177,home_win,UEFA Nations League
+2020-11-17,Japan,Mexico,1531.6326470949507,1631.734212011362,away_win,Friendly
+2020-11-18,Austria,Norway,1515.3341086513808,1429.2530015161726,draw,UEFA Nations League
+2021-02-15,Jordan,Uzbekistan,1395.1334672651383,1385.3193983089861,away_win,Friendly
+2021-03-24,Türkiye,Netherlands,1565.8296652777915,1598.1091442897268,home_win,FIFA World Cup qualification
+2021-03-25,South Africa,Ghana,1391.5936836279407,1495.0971253023165,draw,African Cup of Nations qualification
+2021-03-25,Scotland,Austria,1477.7478190027452,1509.8708129949305,draw,FIFA World Cup qualification
+2021-03-25,Japan,Korea Republic,1524.436640746142,1522.7175215302923,home_win,Friendly
+2021-03-27,Czechia,Belgium,1396.9170888966694,1688.7609407453047,draw,FIFA World Cup qualification
+2021-03-27,Norway,Türkiye,1434.716297172623,1587.6824934044027,away_win,FIFA World Cup qualification
+2021-03-29,Uzbekistan,Iraq,1395.6017948157255,1462.3496397610957,away_win,Friendly
+2021-03-31,Bosnia and Herzegovina,France,1481.609181444039,1733.7063920789012,away_win,FIFA World Cup qualification
+2021-05-30,Switzerland,United States,1465.2704813743678,1527.7765151190583,home_win,Friendly
+2021-06-02,England,Austria,1565.5983151546973,1508.0269159316674,home_win,Friendly
+2021-06-02,Netherlands,Scotland,1576.2563161631156,1479.5917160660083,draw,Friendly
+2021-06-03,Uruguay,Paraguay,1554.3433430899638,1458.6747371757028,draw,FIFA World Cup qualification
+2021-06-04,Brazil,Ecuador,1685.7877818632332,1447.4977462438546,home_win,FIFA World Cup qualification
+2021-06-04,Spain,Portugal,1621.62572810913,1659.501370202656,draw,Friendly
+2021-06-05,Tunisia,DR Congo,1453.3569565913292,1422.4745299270414,home_win,Friendly
+2021-06-06,Belgium,Croatia,1675.0448217003236,1482.222270759756,home_win,Friendly
+2021-06-06,United States,Mexico,1515.9966086360246,1638.9302183601706,home_win,CONCACAF Nations League
+2021-06-08,Morocco,Ghana,1543.811723839426,1490.0326965317856,home_win,Friendly
+2021-06-08,Senegal,Cabo Verde,1488.409724247229,1487.9655784002805,home_win,Friendly
+2021-06-08,Colombia,Argentina,1565.8507321747084,1593.3746767977952,draw,FIFA World Cup qualification
+2021-06-08,Paraguay,Brazil,1464.0467748570386,1693.8815450780874,away_win,FIFA World Cup qualification
+2021-06-11,Tunisia,Algeria,1462.4704224648863,1521.0737839597357,away_win,Friendly
+2021-06-12,Panama,Curaçao,1307.0258018209747,1473.361279674663,home_win,FIFA World Cup qualification
+2021-06-12,Ghana,Côte d'Ivoire,1481.568336533642,1487.8947153740635,draw,Friendly
+2021-06-12,Haiti,Canada,1410.738704972198,1438.1704616923948,away_win,FIFA World Cup qualification
+2021-06-13,England,Croatia,1573.9562785234232,1477.2647628615987,home_win,UEFA Euro
+2021-06-13,Colombia,Ecuador,1567.4318315900398,1439.4039830290005,home_win,Copa América
+2021-06-14,Scotland,Czechia,1482.3043131470872,1410.6332079416504,away_win,UEFA Euro
+2021-06-14,Spain,Sweden,1622.7115786215095,1461.6147467314827,draw,UEFA Euro
+2021-06-15,Curaçao,Panama,1444.4564083948335,1335.9306731008041,draw,FIFA World Cup qualification
+2021-06-15,Australia,Jordan,1408.9026843389843,1384.851070758399,home_win,FIFA World Cup qualification
+2021-06-15,IR Iran,Iraq,1531.2278509266464,1470.4517741979414,home_win,FIFA World Cup qualification
+2021-06-15,Saudi Arabia,Uzbekistan,1433.179087144035,1387.4996603788798,home_win,FIFA World Cup qualification
+2021-06-15,Canada,Haiti,1456.5946359842255,1392.3145306803674,home_win,FIFA World Cup qualification
+2021-06-15,Germany,France,1540.3515659078134,1741.2991428207056,away_win,UEFA Euro
+2021-06-17,Netherlands,Austria,1573.5437190820367,1499.6689525629415,home_win,UEFA Euro
+2021-06-18,Croatia,Czechia,1459.0480497489766,1440.7184302719995,draw,UEFA Euro
+2021-06-18,England,Scotland,1592.1729916360453,1452.2190908167381,draw,UEFA Euro
+2021-06-18,Argentina,Uruguay,1591.7935773824638,1548.971305408628,home_win,Copa América
+2021-06-19,Germany,Portugal,1528.388624340399,1658.4155196902766,home_win,UEFA Euro
+2021-06-20,Switzerland,Türkiye,1477.0503878574016,1599.4050941382238,home_win,UEFA Euro
+2021-06-21,Argentina,Paraguay,1613.7277758797266,1455.634225110067,home_win,Copa América
+2021-06-22,Scotland,Croatia,1461.7780664336588,1457.7303498926155,away_win,UEFA Euro
+2021-06-22,England,Czechia,1582.6140160191246,1442.0361301283606,home_win,UEFA Euro
+2021-06-23,Brazil,Colombia,1702.294094825059,1583.6149934387188,home_win,Copa América
+2021-06-23,Portugal,France,1624.4729859968738,1753.26208438812,draw,UEFA Euro
+2021-06-27,Brazil,Ecuador,1719.071782442304,1423.2208211803215,draw,Copa América
+2021-06-27,Belgium,Portugal,1680.0023295984809,1633.3377503621966,home_win,UEFA Euro
+2021-06-27,Netherlands,Czechia,1593.3066891680285,1426.6334145202989,away_win,UEFA Euro
+2021-06-28,Croatia,Spain,1483.0215933337922,1611.8847324153141,away_win,UEFA Euro
+2021-06-28,France,Switzerland,1744.3973200227972,1510.5077456933343,draw,UEFA Euro
+2021-06-28,Uruguay,Paraguay,1527.0371069113653,1441.2848433803217,home_win,Copa América
+2021-06-29,England,Germany,1598.0167316271863,1562.3311580338018,home_win,UEFA Euro
+2021-06-30,Mexico,Panama,1608.7854155944026,1341.9823636765361,home_win,Friendly
+2021-07-02,Switzerland,Spain,1525.1845766063998,1628.0153106160992,draw,UEFA Euro
+2021-07-03,Uruguay,Colombia,1545.9890506343636,1566.8373058214736,draw,Copa América
+2021-07-03,Argentina,Ecuador,1628.077157609472,1440.5174871155232,home_win,Copa América
+2021-07-06,Argentina,Colombia,1640.7554841356125,1565.338951230892,draw,Copa América
+2021-07-10,Brazil,Argentina,1701.7751165071024,1635.412482684377,away_win,Copa América
+2021-07-11,United States,Haiti,1546.1414114017925,1375.9731414137182,home_win,Gold Cup
+2021-07-13,Qatar,Panama,1412.9245720471163,1338.4395523911164,draw,Gold Cup
+2021-07-15,Haiti,Canada,1362.3242589960796,1472.9360252508748,away_win,Gold Cup
+2021-07-18,South Africa,Senegal,1396.6581123984715,1498.3969407091138,draw,COSAFA Cup
+2021-07-18,United States,Canada,1559.790293819431,1490.2353018979638,home_win,Gold Cup
+2021-07-29,Mexico,Canada,1612.3282268798223,1470.1743784427126,home_win,Gold Cup
+2021-07-29,United States,Qatar,1579.8512172746823,1407.6455733049002,home_win,Gold Cup
+2021-08-01,United States,Mexico,1593.3840319446624,1627.6344235954637,home_win,Gold Cup
+2021-09-01,France,Bosnia and Herzegovina,1729.7204891097317,1474.0164307022346,draw,FIFA World Cup qualification
+2021-09-01,Norway,Netherlands,1422.9936964388019,1557.1561206254898,draw,FIFA World Cup qualification
+2021-09-02,Ecuador,Paraguay,1427.8391605893826,1422.3328996573234,home_win,FIFA World Cup qualification
+2021-09-02,Sweden,Spain,1472.441592937678,1620.8247884535037,home_win,FIFA World Cup qualification
+2021-09-02,Korea Republic,Iraq,1512.767001354983,1453.9150729930514,draw,FIFA World Cup qualification
+2021-09-04,Haiti,Jordan,1345.0249823489905,1366.2333855013628,home_win,Friendly
+2021-09-04,Qatar,Portugal,1394.11275863492,1611.6754903878182,away_win,Friendly
+2021-09-05,Sweden,Uzbekistan,1500.4991752448127,1370.1141323641518,home_win,Friendly
+2021-09-05,Belgium,Czechia,1701.6645895728593,1462.7839830628375,home_win,FIFA World Cup qualification
+2021-09-05,Paraguay,Colombia,1402.6498389812286,1570.6819526821275,draw,FIFA World Cup qualification
+2021-09-05,United States,Canada,1620.8405931612813,1454.8681817270713,draw,FIFA World Cup qualification
+2021-09-06,South Africa,Ghana,1402.352822751407,1481.7504042321127,home_win,FIFA World Cup qualification
+2021-09-07,Iraq,IR Iran,1457.2708282148808,1547.7645521315364,away_win,FIFA World Cup qualification
+2021-09-07,Austria,Scotland,1479.9059824769497,1436.486822992482,away_win,FIFA World Cup qualification
+2021-09-07,Netherlands,Türkiye,1549.7953832324552,1565.947736302291,home_win,FIFA World Cup qualification
+2021-09-08,Panama,Mexico,1343.7185511333325,1600.1778623788448,draw,FIFA World Cup qualification
+2021-09-09,Uruguay,Ecuador,1547.4874052249452,1447.5222212654774,home_win,FIFA World Cup qualification
+2021-10-07,Saudi Arabia,Japan,1450.564615158763,1534.3871609214514,home_win,FIFA World Cup qualification
+2021-10-07,Mexico,Canada,1587.6173489797654,1463.7562886411176,draw,FIFA World Cup qualification
+2021-10-07,Paraguay,Argentina,1411.6328444376386,1665.1304211901809,draw,FIFA World Cup qualification
+2021-10-07,Uruguay,Colombia,1561.8866521840152,1561.6989472257176,draw,FIFA World Cup qualification
+2021-10-07,Belgium,France,1709.7364270528287,1717.186339928992,away_win,UEFA Nations League
+2021-10-08,Türkiye,Norway,1545.0186014129704,1430.3544338318366,draw,FIFA World Cup qualification
+2021-10-09,Curaçao,New Zealand,1438.4047178191015,1408.020688071474,away_win,Friendly
+2021-10-09,Portugal,Qatar,1616.1212181637259,1389.6670308590124,home_win,Friendly
+2021-10-10,Spain,France,1592.767206146369,1739.2039559669156,away_win,UEFA Nations League
+2021-10-10,Argentina,Uruguay,1652.6737076506067,1561.875847019095,home_win,FIFA World Cup qualification
+2021-10-10,Panama,United States,1356.279064532412,1611.952486247235,home_win,FIFA World Cup qualification
+2021-10-10,Colombia,Brazil,1561.7097523906377,1672.0571780012986,draw,FIFA World Cup qualification
+2021-10-12,IR Iran,Korea Republic,1562.6700023555136,1509.4112461331536,draw,FIFA World Cup qualification
+2021-10-12,Japan,Australia,1509.6534377058874,1427.5203695960204,home_win,FIFA World Cup qualification
+2021-10-12,Jordan,Uzbekistan,1355.6237156541636,1363.7001318880061,home_win,Friendly
+2021-10-13,Canada,Panama,1470.598851010591,1388.8121427356502,home_win,FIFA World Cup qualification
+2021-10-14,Colombia,Ecuador,1567.8565549618781,1433.1229743064073,draw,FIFA World Cup qualification
+2021-10-14,Brazil,Uruguay,1665.9103754300581,1546.986764663476,home_win,FIFA World Cup qualification
+2021-10-27,Mexico,Ecuador,1580.774786610292,1440.5121194778199,away_win,Friendly
+2021-11-11,Brazil,Colombia,1679.319975845799,1560.4674097904656,home_win,FIFA World Cup qualification
+2021-11-11,Australia,Saudi Arabia,1412.1621818114293,1475.298338374327,draw,FIFA World Cup qualification
+2021-11-12,Uruguay,Argentina,1533.577164247735,1667.562790006226,away_win,FIFA World Cup qualification
+2021-11-12,United States,Mexico,1579.4194080439966,1566.9436112007957,home_win,FIFA World Cup qualification
+2021-11-14,Ghana,South Africa,1457.2578467992762,1426.8453801842436,home_win,FIFA World Cup qualification
+2021-11-14,Spain,Sweden,1579.2261559961717,1506.9131757209584,home_win,FIFA World Cup qualification
+2021-11-16,Iraq,Korea Republic,1442.3653779909037,1512.4532764808287,away_win,FIFA World Cup qualification
+2021-11-16,Canada,Mexico,1485.975907244013,1547.6614672883957,home_win,FIFA World Cup qualification
+2021-11-16,Netherlands,Norway,1570.7245181217759,1436.7253885582295,home_win,FIFA World Cup qualification
+2021-11-16,Colombia,Paraguay,1547.0541635362965,1424.0895579772127,draw,FIFA World Cup qualification
+2021-11-16,Argentina,Brazil,1680.2108530645392,1692.733222099968,draw,FIFA World Cup qualification
+2021-12-01,Saudi Arabia,Jordan,1471.703413142348,1365.856131737658,away_win,Arab Cup
+2021-12-04,Jordan,Morocco,1395.0063424037737,1552.2760838375696,away_win,Arab Cup
+2021-12-06,Qatar,Iraq,1385.395751857923,1426.346109499153,home_win,Arab Cup
+2021-12-07,Morocco,Saudi Arabia,1565.234238649547,1442.5532024762322,home_win,Arab Cup
+2021-12-07,Algeria,Egypt,1529.4028600979757,1439.1268094633758,draw,Arab Cup
+2021-12-11,Egypt,Jordan,1444.844993963692,1382.0481875917962,home_win,Arab Cup
+2021-12-11,Morocco,Algeria,1580.1039079029792,1523.6846755976594,draw,Arab Cup
+2021-12-15,Tunisia,Egypt,1454.1413463266463,1463.3219731644442,home_win,Arab Cup
+2021-12-15,Qatar,Algeria,1410.535492931847,1527.306615982557,away_win,Arab Cup
+2021-12-18,Tunisia,Algeria,1477.2357472738443,1542.5169285504955,away_win,Arab Cup
+2021-12-18,United States,Bosnia and Herzegovina,1598.7015519563965,1486.5505798829743,home_win,Friendly
+2021-12-18,Qatar,Egypt,1395.3251803639087,1440.2275722172462,draw,Arab Cup
+2022-01-05,Algeria,Ghana,1560.8383642127444,1475.5116222024478,home_win,Friendly
+2022-01-10,Morocco,Ghana,1576.4819675180815,1467.9193106090747,home_win,African Cup of Nations
+2022-01-20,Côte d'Ivoire,Algeria,1487.7126476755927,1568.4306758061175,home_win,African Cup of Nations
+2022-01-25,Senegal,Cabo Verde,1492.7022303561782,1477.9783619383957,home_win,African Cup of Nations
+2022-01-26,Côte d'Ivoire,Egypt,1518.418486676797,1437.33576663937,draw,African Cup of Nations
+2022-01-27,Paraguay,Uruguay,1430.8865164485746,1520.9291011894218,away_win,FIFA World Cup qualification
+2022-01-27,IR Iran,Iraq,1559.6279720078385,1401.206368425229,home_win,FIFA World Cup qualification
+2022-01-27,Ecuador,Brazil,1454.3432948873162,1692.0126885681766,draw,FIFA World Cup qualification
+2022-01-28,Jordan,New Zealand,1363.5712083910441,1418.8929881247177,home_win,Friendly
+2022-01-30,Canada,United States,1509.4899670874704,1605.581219062581,home_win,FIFA World Cup qualification
+2022-01-30,Egypt,Morocco,1443.066474421394,1593.9149408949834,home_win,African Cup of Nations
+2022-02-01,Brazil,Paraguay,1680.1295418148386,1415.9567736144093,home_win,FIFA World Cup qualification
+2022-02-01,Japan,Saudi Arabia,1525.0116254904785,1427.6835332228,home_win,FIFA World Cup qualification
+2022-02-01,Argentina,Colombia,1680.9313865963306,1540.2572050649346,home_win,FIFA World Cup qualification
+2022-02-02,Mexico,Panama,1524.1474074449382,1373.4350865022284,home_win,FIFA World Cup qualification
+2022-02-06,Senegal,Egypt,1516.6433966547652,1478.2866242144628,draw,African Cup of Nations
+2022-03-24,Portugal,Türkiye,1620.3924971648153,1538.6476466865774,home_win,FIFA World Cup qualification
+2022-03-24,Paraguay,Ecuador,1408.7824391476695,1466.2264416406542,home_win,FIFA World Cup qualification
+2022-03-24,Sweden,Czechia,1491.0167607546223,1454.712145582868,home_win,FIFA World Cup qualification
+2022-03-24,Korea Republic,IR Iran,1528.4725449725793,1571.0920268072969,home_win,FIFA World Cup qualification
+2022-03-24,Mexico,United States,1535.9778160570775,1580.186614600109,draw,FIFA World Cup qualification
+2022-03-24,Australia,Japan,1415.7571070434083,1539.5510663723505,away_win,FIFA World Cup qualification
+2022-03-25,DR Congo,Morocco,1413.3610640534844,1558.6947911019147,draw,FIFA World Cup qualification
+2022-03-25,Egypt,Senegal,1481.0354572454826,1513.8945636237454,home_win,FIFA World Cup qualification
+2022-03-25,France,Côte d'Ivoire,1752.745006117113,1512.687778894773,home_win,Friendly
+2022-03-26,England,Switzerland,1620.457939966339,1532.3750987689953,home_win,Friendly
+2022-03-27,United States,Panama,1577.655397690139,1361.604677890089,home_win,FIFA World Cup qualification
+2022-03-29,England,Côte d'Ivoire,1627.975667216935,1508.6736357772895,home_win,Friendly
+2022-03-29,France,South Africa,1756.7591492345964,1408.591604781072,home_win,Friendly
+2022-03-29,Austria,Scotland,1457.4195055505852,1458.9732999188466,draw,Friendly
+2022-03-29,Netherlands,Germany,1583.3719088883583,1539.8899496946492,draw,Friendly
+2022-03-29,Saudi Arabia,Australia,1413.144092340928,1402.5962586718629,home_win,FIFA World Cup qualification
+2022-03-29,Senegal,Egypt,1492.0086609679345,1502.9213599012935,home_win,FIFA World Cup qualification
+2022-03-29,Morocco,DR Congo,1550.784775912373,1421.271079243026,home_win,FIFA World Cup qualification
+2022-03-29,Ecuador,Argentina,1442.9495046195148,1693.248833282131,draw,FIFA World Cup qualification
+2022-03-30,Panama,Canada,1352.6528897757569,1534.8845715499426,home_win,FIFA World Cup qualification
+2022-06-01,Australia,Jordan,1383.2032543132682,1375.150175417894,home_win,Friendly
+2022-06-01,United States,Morocco,1586.607185804471,1563.6565247306141,home_win,Friendly
+2022-06-02,Czechia,Switzerland,1436.794434036382,1524.857371518399,home_win,UEFA Nations League
+2022-06-02,Spain,Portugal,1595.1225709625078,1635.7718342514595,draw,UEFA Nations League
+2022-06-02,Japan,Paraguay,1552.711914743896,1432.059376168809,home_win,Friendly
+2022-06-02,Korea Republic,Brazil,1550.9136873681746,1687.3038762815784,away_win,Friendly
+2022-06-02,Mexico,Uruguay,1538.5090329670475,1535.8588440235872,away_win,Friendly
+2022-06-03,Belgium,Netherlands,1687.7188110149052,1582.1268908820562,away_win,UEFA Nations League
+2022-06-03,Croatia,Austria,1466.8910151330072,1457.4642270493107,away_win,UEFA Nations League
+2022-06-05,Portugal,Switzerland,1633.1513256690414,1496.7734673960385,home_win,UEFA Nations League
+2022-06-05,Czechia,Spain,1464.8783381587425,1597.7430795449259,draw,UEFA Nations League
+2022-06-05,Sweden,Norway,1508.9344723011084,1424.077997791647,away_win,UEFA Nations League
+2022-06-05,Mexico,Ecuador,1528.4327558769803,1455.2928847885269,draw,Friendly
+2022-06-05,Saudi Arabia,Colombia,1432.5370966995226,1527.9397583791342,away_win,Friendly
+2022-06-05,United States,Uruguay,1595.9475718233052,1545.9351211136543,draw,Friendly
+2022-06-06,Croatia,France,1443.7806841592708,1759.1343740640273,draw,UEFA Nations League
+2022-06-06,Japan,Brazil,1559.372428781087,1693.568203786261,away_win,Friendly
+2022-06-07,Germany,England,1541.1349677009514,1634.6707617608708,draw,UEFA Nations League
+2022-06-09,Switzerland,Spain,1482.678043404105,1589.5350047849993,away_win,UEFA Nations League
+2022-06-09,Portugal,Czechia,1647.246749660975,1473.086412918669,home_win,UEFA Nations League
+2022-06-09,Canada,Curaçao,1505.2611825672157,1427.5324177658579,home_win,CONCACAF Nations League
+2022-06-09,Morocco,South Africa,1554.31613871178,1406.216379951641,home_win,African Cup of Nations qualification
+2022-06-10,Austria,France,1480.574558023047,1742.9342017906652,draw,UEFA Nations League
+2022-06-10,Korea Republic,Paraguay,1544.649359863492,1425.398862131618,draw,Friendly
+2022-06-10,Japan,Ghana,1553.0536273405976,1450.486337232173,home_win,Kirin Cup
+2022-06-11,Ecuador,Cabo Verde,1457.3674640280246,1454.0371956398087,home_win,Friendly
+2022-06-11,Uruguay,Panama,1547.3647344997044,1382.2762787584838,home_win,Friendly
+2022-06-12,Norway,Sweden,1451.9665981946202,1481.0458718981351,home_win,UEFA Nations League
+2022-06-12,IR Iran,Algeria,1548.6508844117016,1537.7248368049131,away_win,Friendly
+2022-06-12,Spain,Czechia,1605.3251705421608,1461.0065746795142,home_win,UEFA Nations League
+2022-06-12,Switzerland,Portugal,1466.8878776469435,1659.3265879001299,home_win,UEFA Nations League
+2022-06-13,France,Croatia,1728.5746902703286,1459.980856432633,away_win,UEFA Nations League
+2022-06-14,Japan,Tunisia,1560.1843752461698,1458.9143116115954,away_win,Kirin Cup
+2022-06-14,Korea Republic,Egypt,1541.3457757240114,1482.2933809497908,home_win,Friendly
+2022-07-27,Japan,Korea Republic,1547.3494230936176,1549.6622912074668,home_win,EAFF Championship
+2022-08-31,Mexico,Paraguay,1526.3581766374825,1428.7024462710986,away_win,Friendly
+2022-09-22,Australia,New Zealand,1392.9715095705815,1407.314021097868,home_win,Friendly
+2022-09-22,France,Austria,1691.4786237580988,1494.9340695433837,home_win,UEFA Nations League
+2022-09-23,Saudi Arabia,Ecuador,1425.216011838975,1467.2716141341646,draw,Friendly
+2022-09-23,Canada,Qatar,1522.809785307801,1398.216985941785,home_win,Friendly
+2022-09-23,IR Iran,Uruguay,1538.336511109494,1552.9411216468116,home_win,Friendly
+2022-09-23,Japan,United States,1569.999202696021,1594.5179584372552,home_win,Kirin Challenge Cup
+2022-09-23,Brazil,Ghana,1699.8870052267503,1443.3555893266007,home_win,Friendly
+2022-09-24,Czechia,Portugal,1447.3498207861362,1625.4995281233728,away_win,UEFA Nations League
+2022-09-24,Spain,Switzerland,1618.9819244355388,1500.7149374237006,away_win,UEFA Nations League
+2022-09-25,New Zealand,Australia,1396.9014447665086,1403.3840859019408,away_win,Friendly
+2022-09-25,Austria,Croatia,1483.9584538962424,1497.0769229448626,away_win,UEFA Nations League
+2022-09-25,Netherlands,Belgium,1611.262005694236,1658.5836962027254,home_win,UEFA Nations League
+2022-09-26,England,Germany,1628.7555857151933,1547.050143746629,draw,UEFA Nations League
+2022-09-27,Ecuador,Japan,1466.0670340579088,1580.7037400196166,draw,Kirin Challenge Cup
+2022-09-27,Switzerland,Czechia,1530.591207592969,1435.4718416508063,home_win,UEFA Nations League
+2022-09-27,Portugal,Spain,1637.3775072587027,1589.1056542662702,away_win,UEFA Nations League
+2022-09-27,Saudi Arabia,United States,1426.4205919152307,1583.8134211136596,draw,Friendly
+2022-09-27,Paraguay,Morocco,1441.4414507976583,1564.7777173305615,draw,Friendly
+2022-09-27,Canada,Uruguay,1529.3699216395803,1542.5210145763756,away_win,Friendly
+2022-09-27,IR Iran,Senegal,1548.75661817993,1512.6366399194371,draw,Friendly
+2022-09-27,Brazil,Tunisia,1703.6054918995521,1471.7492637641476,home_win,Friendly
+2022-09-27,Mexico,Colombia,1513.6191721109228,1535.260843239682,away_win,Friendly
+2022-11-07,Qatar,Panama,1391.6568496100056,1376.6998916113766,home_win,Friendly
+2022-11-09,Mexico,Iraq,1504.241265109617,1389.7423136257705,home_win,Friendly
+2022-11-10,Saudi Arabia,Panama,1430.6643171649089,1367.1301217236953,draw,Friendly
+2022-11-12,Iraq,Ecuador,1382.9235175735193,1469.251801199179,draw,Friendly
+2022-11-16,Türkiye,Scotland,1523.2683095999332,1458.928578420121,home_win,Friendly
+2022-11-16,Saudi Arabia,Croatia,1428.8557705005992,1518.727771687211,away_win,Friendly
+2022-11-16,Mexico,Sweden,1511.0600611618681,1456.667077193289,away_win,Friendly
+2022-11-16,IR Iran,Tunisia,1547.7207309152614,1467.5815106609546,away_win,Friendly
+2022-11-17,Japan,Canada,1577.5189728783464,1519.7482598487775,away_win,Friendly
+2022-11-17,Jordan,Spain,1365.3819201605806,1614.7117884994,away_win,Friendly
+2022-11-17,Switzerland,Ghana,1547.0806818990177,1439.6371026537988,away_win,Friendly
+2022-11-18,Egypt,Belgium,1473.9768654663355,1633.0379446484378,home_win,Friendly
+2022-11-19,Colombia,Paraguay,1544.6387502409877,1444.8493883563438,home_win,Friendly
+2022-11-19,Sweden,Algeria,1468.2199668714425,1548.0392101071207,home_win,Friendly
+2022-11-19,Türkiye,Czechia,1531.4373455438995,1418.9823673447577,home_win,Friendly
+2022-11-20,Qatar,Ecuador,1401.226619497687,1466.8169760896037,away_win,FIFA World Cup
+2022-11-21,Senegal,Netherlands,1513.6725271841058,1636.8077572485236,away_win,FIFA World Cup
+2022-11-21,England,IR Iran,1623.5597558823004,1535.45419293765,home_win,FIFA World Cup
+2022-11-22,Argentina,Saudi Arabia,1680.905453113119,1421.3863042687278,away_win,FIFA World Cup
+2022-11-22,France,Australia,1702.45423940524,1413.1975221410917,home_win,FIFA World Cup
+2022-11-23,Germany,Japan,1552.245973579522,1565.8713547390378,away_win,FIFA World Cup
+2022-11-23,Morocco,Croatia,1561.369779771876,1526.1972379190825,draw,FIFA World Cup
+2022-11-23,Belgium,Canada,1618.7549309796484,1531.395877988086,home_win,FIFA World Cup
+2022-11-24,Uruguay,Korea Republic,1552.1426763671784,1527.0125116050633,draw,FIFA World Cup
+2022-11-24,Portugal,Ghana,1611.771373025573,1452.6346261203873,home_win,FIFA World Cup
+2022-11-25,Netherlands,Ecuador,1656.5992904134687,1491.2197856440314,draw,FIFA World Cup
+2022-11-25,England,United States,1646.1110965998541,1579.5696958639815,draw,FIFA World Cup
+2022-11-25,Qatar,Senegal,1376.8238099432592,1493.8809940191607,away_win,FIFA World Cup
+2022-11-26,Argentina,Mexico,1631.9055673512446,1499.5071714837147,home_win,FIFA World Cup
+2022-11-26,Tunisia,Australia,1479.8480486385658,1403.6527719271792,away_win,FIFA World Cup
+2022-11-27,Spain,Germany,1618.5574031779197,1523.4218807863704,draw,FIFA World Cup
+2022-11-27,Belgium,Morocco,1641.3667890288255,1558.343071027004,away_win,FIFA World Cup
+2022-11-27,Croatia,Canada,1529.2239466639544,1508.784019938909,home_win,FIFA World Cup
+2022-11-28,Brazil,Switzerland,1707.7732450027452,1534.0831584324292,home_win,FIFA World Cup
+2022-11-28,Korea Republic,Ghana,1529.178648256521,1435.4890017544128,away_win,FIFA World Cup
+2022-11-28,Portugal,Uruguay,1628.9169973915475,1549.9765397157207,home_win,FIFA World Cup
+2022-11-29,Qatar,Netherlands,1356.5654950429594,1643.308245913972,away_win,FIFA World Cup
+2022-11-29,IR Iran,United States,1512.9028522200963,1585.2461068587625,away_win,FIFA World Cup
+2022-11-29,Ecuador,Senegal,1504.510830143528,1514.1393089194605,away_win,FIFA World Cup
+2022-11-30,Saudi Arabia,Mexico,1470.3861900306022,1480.416345433027,away_win,FIFA World Cup
+2022-11-30,Tunisia,France,1443.3723069540738,1711.9989896191526,home_win,FIFA World Cup
+2022-12-01,Japan,Spain,1594.6954475321893,1610.5420734280651,home_win,FIFA World Cup
+2022-12-01,Croatia,Belgium,1557.4610548772876,1604.331351799405,draw,FIFA World Cup
+2022-12-01,Canada,Morocco,1480.546911725576,1595.3785082564245,away_win,FIFA World Cup
+2022-12-02,Ghana,Uruguay,1473.3882682291196,1526.6778851915717,away_win,FIFA World Cup
+2022-12-02,Korea Republic,Portugal,1491.2793817818142,1652.2156519156965,home_win,FIFA World Cup
+2022-12-03,Argentina,Australia,1650.9963934019324,1440.1285136116712,home_win,FIFA World Cup
+2022-12-03,Netherlands,United States,1652.9697241663532,1609.088225304066,home_win,FIFA World Cup
+2022-12-04,England,Senegal,1640.4346856050731,1543.3081320039078,home_win,FIFA World Cup
+2022-12-05,Brazil,Korea Republic,1723.911611808452,1534.260331196107,home_win,FIFA World Cup
+2022-12-05,Japan,Croatia,1626.0628071640779,1561.483787995995,draw,FIFA World Cup
+2022-12-06,Morocco,Spain,1615.809088171941,1579.1747137961765,draw,FIFA World Cup
+2022-12-06,Portugal,Switzerland,1609.2347025014037,1517.9447916267222,home_win,FIFA World Cup
+2022-12-09,Croatia,Brazil,1566.996646757112,1738.989277610679,draw,FIFA World Cup
+2022-12-09,Netherlands,Argentina,1679.2007107553304,1664.7375934592858,draw,FIFA World Cup
+2022-12-10,Morocco,Portugal,1612.6574932340875,1631.5286279556988,home_win,FIFA World Cup
+2022-12-10,England,France,1662.2599544867476,1662.5359249481019,away_win,FIFA World Cup
+2022-12-13,Argentina,Croatia,1665.9857185167264,1580.7427418245702,home_win,FIFA World Cup
+2022-12-14,France,Morocco,1692.5120957479726,1644.2853574781557,home_win,FIFA World Cup
+2022-12-17,Croatia,Morocco,1557.9589930574114,1618.4230484426837,home_win,FIFA World Cup
+2022-12-18,Argentina,France,1688.7694672838852,1718.3744047834446,draw,FIFA World Cup
+2023-01-09,Iraq,Saudi Arabia,1385.3583426830946,1441.252022744936,home_win,Gulf Cup
+2023-01-16,Iraq,Qatar,1411.4471220924934,1346.9040167905782,home_win,Gulf Cup
+2023-01-28,United States,Colombia,1582.857238715089,1551.8430380921493,draw,Friendly
+2023-03-23,Argentina,Panama,1691.3195941413444,1368.938668388005,home_win,Friendly
+2023-03-24,Australia,Ecuador,1426.3873135543179,1475.3420070590807,home_win,Friendly
+2023-03-24,Japan,Uruguay,1620.5499484029608,1552.1122366229283,draw,Friendly
+2023-03-24,Korea Republic,Colombia,1519.1826653938801,1552.7333350423828,draw,Friendly
+2023-03-24,France,Netherlands,1715.8242779259854,1677.9525856978898,home_win,UEFA Euro qualification
+2023-03-24,Sweden,Belgium,1480.477766467662,1600.3086186806975,away_win,UEFA Euro qualification
+2023-03-25,Curaçao,Canada,1409.9838150252726,1460.1163318100594,away_win,CONCACAF Nations League
+2023-03-25,Morocco,Brazil,1583.2542385083266,1725.2431825432209,home_win,Friendly
+2023-03-25,Spain,Norway,1582.3263087340301,1476.3453928994663,home_win,UEFA Euro qualification
+2023-03-28,Argentina,Curaçao,1694.0235223946597,1390.708061355724,home_win,Friendly
+2023-03-28,Australia,Ecuador,1437.7870915743845,1463.9422290390141,away_win,Friendly
+2023-03-28,Germany,Belgium,1531.437210536225,1612.0013191930707,away_win,Friendly
+2023-03-28,Japan,Colombia,1618.6052400709998,1551.7706596365097,away_win,Friendly
+2023-03-28,Korea Republic,Uruguay,1520.1453407997533,1554.0569449548893,away_win,Friendly
+2023-03-28,Scotland,Spain,1450.7595424761548,1594.6477803341306,home_win,UEFA Euro qualification
+2023-03-28,Türkiye,Croatia,1538.3091167499813,1593.1278029917685,away_win,UEFA Euro qualification
+2023-04-19,United States,Mexico,1581.9669417648554,1509.550512718693,draw,Friendly
+2023-06-12,Morocco,Cabo Verde,1597.127726368719,1444.1330455336688,draw,Friendly
+2023-06-14,Netherlands,Croatia,1662.3526274891199,1607.8893248994232,away_win,UEFA Nations League
+2023-06-15,Panama,Canada,1366.2347401346897,1479.3920854796079,away_win,CONCACAF Nations League
+2023-06-15,United States,Mexico,1579.9122972755147,1511.6051572080337,home_win,CONCACAF Nations League
+2023-06-15,Argentina,Australia,1696.9945098195162,1428.5384780717725,home_win,Friendly
+2023-06-16,Sweden,New Zealand,1468.7850659552887,1387.0880085273577,home_win,Friendly
+2023-06-16,Colombia,Iraq,1563.6709316142485,1429.8147253153782,home_win,Friendly
+2023-06-17,Belgium,Austria,1619.7231834061004,1462.307605153894,draw,UEFA Euro qualification
+2023-06-17,Portugal,Bosnia and Herzegovina,1599.9007637116306,1479.6709127767897,home_win,UEFA Euro qualification
+2023-06-17,Norway,Scotland,1464.0239212993658,1475.1192856533366,away_win,UEFA Euro qualification
+2023-06-17,South Africa,Morocco,1395.7548013328596,1592.9883473371262,home_win,African Cup of Nations qualification
+2023-06-18,United States,Canada,1598.0448401828326,1494.8125623630224,home_win,CONCACAF Nations League
+2023-06-18,Panama,Mexico,1350.8142632512752,1493.4726143007158,away_win,CONCACAF Nations League
+2023-06-18,Croatia,Spain,1633.887770569388,1570.2880371569488,draw,UEFA Nations League
+2023-06-20,Uzbekistan,IR Iran,1353.4677158045117,1489.0607337747927,away_win,CAFA Nations Cup
+2023-06-20,Austria,Sweden,1469.7350638047872,1476.4760367103847,home_win,UEFA Euro qualification
+2023-06-20,Algeria,Tunisia,1535.7814105109012,1492.8353716251245,draw,Friendly
+2023-06-20,Brazil,Senegal,1711.3696946828284,1521.4828631222333,away_win,Friendly
+2023-06-20,Germany,Colombia,1523.7153463231953,1569.998185227365,away_win,Friendly
+2023-06-25,Haiti,Qatar,1355.6346521961898,1328.5364135676934,home_win,Gold Cup
+2023-06-29,Haiti,Mexico,1378.6887214288365,1507.2204475374235,away_win,Gold Cup
+2023-07-02,Mexico,Qatar,1523.3718783174593,1305.4823443350467,away_win,Gold Cup
+2023-07-08,Panama,Qatar,1337.0664300145675,1344.3842772510402,home_win,Gold Cup
+2023-07-09,United States,Canada,1614.049525319716,1478.807877226139,draw,Gold Cup
+2023-07-12,United States,Panama,1604.7815427047708,1362.5929135989736,draw,Gold Cup
+2023-07-16,Mexico,Panama,1484.4699454014658,1377.6556091783257,home_win,Gold Cup
+2023-09-07,Argentina,Ecuador,1700.5096668792553,1473.1908425416261,home_win,FIFA World Cup qualification
+2023-09-07,Norway,Jordan,1447.0825943419572,1361.536305482061,home_win,Friendly
+2023-09-09,Mexico,Australia,1502.017368483397,1425.0233210120334,draw,Friendly
+2023-09-09,United States,Uzbekistan,1589.7188471254187,1340.8995420466263,home_win,Friendly
+2023-09-09,Germany,Japan,1515.0396492323712,1606.704968093261,away_win,Friendly
+2023-09-12,Ecuador,Uruguay,1464.6816749121833,1563.0839783268132,home_win,FIFA World Cup qualification
+2023-09-12,Egypt,Tunisia,1488.259879135125,1494.065200798824,away_win,Friendly
+2023-09-12,Germany,France,1507.6184301135743,1731.4242361347553,home_win,Friendly
+2023-09-12,Japan,Türkiye,1614.1261872120579,1523.5475948423266,home_win,Friendly
+2023-09-12,Korea Republic,Saudi Arabia,1511.1183074278294,1415.1632433355373,home_win,Friendly
+2023-09-12,Mexico,Uzbekistan,1499.8368795964261,1337.044789937195,draw,Friendly
+2023-09-12,Scotland,England,1492.0606126107452,1632.2837836868769,away_win,Friendly
+2023-09-12,Senegal,Algeria,1536.4620750828637,1534.5515813372017,away_win,Friendly
+2023-09-12,South Africa,DR Congo,1422.243784902125,1408.399330424785,home_win,Friendly
+2023-09-12,Sweden,Austria,1458.6365429150978,1487.574557600074,away_win,UEFA Euro qualification
+2023-10-12,Croatia,Türkiye,1629.8144352850452,1516.0971538006704,away_win,UEFA Euro qualification
+2023-10-12,Spain,Scotland,1574.3613724412917,1485.8908180467647,home_win,UEFA Euro qualification
+2023-10-12,Colombia,Uruguay,1578.673882318189,1537.5662406553536,draw,FIFA World Cup qualification
+2023-10-12,Argentina,Paraguay,1709.018834508698,1437.6451005051822,home_win,FIFA World Cup qualification
+2023-10-12,Algeria,Cabo Verde,1544.6065692132127,1448.2724245652616,home_win,Friendly
+2023-10-13,Netherlands,France,1636.354181819155,1715.746949070098,away_win,UEFA Euro qualification
+2023-10-13,Korea Republic,Tunisia,1518.42464020025,1503.8981257582066,home_win,Friendly
+2023-10-13,Japan,Canada,1621.576628253714,1488.0758598410841,home_win,Friendly
+2023-10-13,Austria,Belgium,1503.6203385410486,1612.2957247552072,away_win,UEFA Euro qualification
+2023-10-13,England,Australia,1638.4535782508574,1427.2038098990042,home_win,Friendly
+2023-10-13,DR Congo,New Zealand,1398.7975950865932,1379.3970377722617,draw,Friendly
+2023-10-13,Curaçao,Panama,1387.7370739308676,1360.1081860963945,away_win,CONCACAF Nations League
+2023-10-13,Iraq,Qatar,1423.4874717022617,1318.857793666634,draw,Friendly
+2023-10-14,Côte d'Ivoire,Morocco,1501.9785412333538,1566.4993637678608,draw,Friendly
+2023-10-14,Mexico,Ghana,1495.4665829322332,1447.953916797763,home_win,Friendly
+2023-10-14,United States,Germany,1593.57359923485,1523.2957171782316,away_win,Friendly
+2023-10-15,Norway,Spain,1454.6689540893321,1587.4990747656436,away_win,UEFA Euro qualification
+2023-10-16,Algeria,Egypt,1551.9027858189975,1478.4269541757424,draw,Friendly
+2023-10-16,Belgium,Sweden,1624.4936487587152,1442.5907619741233,draw,UEFA Euro qualification
+2023-10-16,Bosnia and Herzegovina,Portugal,1467.9960894963033,1611.575586992117,away_win,UEFA Euro qualification
+2023-10-17,Mexico,Germany,1504.1075199791642,1535.2913339024697,draw,Friendly
+2023-10-17,United States,Ghana,1581.577982510612,1439.312979750832,home_win,Friendly
+2023-10-17,Côte d'Ivoire,South Africa,1503.8145423001333,1431.8455202403168,draw,Friendly
+2023-10-17,Ecuador,Colombia,1490.199412583643,1576.318516909705,draw,FIFA World Cup qualification
+2023-10-17,Australia,New Zealand,1422.6311684208795,1379.9548510596978,home_win,Soccer Ashes
+2023-10-17,Uruguay,Brazil,1539.9216060638375,1696.390482722198,home_win,FIFA World Cup qualification
+2023-10-17,France,Scotland,1729.316191569866,1472.7531157224128,home_win,Friendly
+2023-11-16,Colombia,Brazil,1571.4601958234778,1667.9466898211663,home_win,FIFA World Cup qualification
+2023-11-16,Argentina,Uruguay,1715.952352636304,1568.3653989648692,away_win,FIFA World Cup qualification
+2023-11-18,Germany,Türkiye,1534.3961939949452,1539.1288479159155,away_win,Friendly
+2023-11-19,Scotland,Norway,1469.035180710288,1443.551500437847,draw,UEFA Euro qualification
+2023-11-21,Austria,Germany,1491.4224145375406,1524.532402300176,home_win,Friendly
+2023-11-21,Jordan,Saudi Arabia,1353.949945734686,1407.8569105631168,away_win,FIFA World Cup qualification
+2023-11-21,Uzbekistan,IR Iran,1341.4150866013879,1501.628907532678,draw,FIFA World Cup qualification
+2023-11-21,Brazil,Argentina,1642.5309951844904,1687.9332015000423,away_win,FIFA World Cup qualification
+2023-11-21,Paraguay,Colombia,1430.7115823775762,1596.8758904601536,away_win,FIFA World Cup qualification
+2023-12-16,Mexico,Colombia,1505.0026598866887,1607.97892089605,away_win,Friendly
+2024-01-05,Qatar,Jordan,1321.7814258982485,1337.028416334107,away_win,Friendly
+2024-01-06,Iraq,Korea Republic,1420.5638394706473,1528.006776970158,away_win,Friendly
+2024-01-09,Japan,Jordan,1627.912735539839,1346.589854170002,home_win,Friendly
+2024-01-10,Tunisia,Cabo Verde,1494.3159889882986,1440.9762079594768,home_win,Friendly
+2024-01-14,Ghana,Cabo Verde,1433.1932189888744,1432.499501181458,away_win,African Cup of Nations
+2024-01-18,Egypt,Ghana,1480.5107851053388,1408.143302046394,draw,African Cup of Nations
+2024-01-19,Iraq,Japan,1413.56134612594,1631.2184201158768,home_win,AFC Asian Cup
+2024-01-20,Jordan,Korea Republic,1343.2841695939642,1535.0092703148653,draw,AFC Asian Cup
+2024-01-21,Morocco,DR Congo,1564.6633627010813,1398.239781799157,draw,African Cup of Nations
+2024-01-22,Cabo Verde,Egypt,1457.5494181239385,1475.377547245258,draw,African Cup of Nations
+2024-01-23,Australia,Uzbekistan,1431.4089857682363,1350.0352213085255,draw,AFC Asian Cup
+2024-01-24,South Africa,Tunisia,1433.8878276920932,1502.7926957663174,draw,African Cup of Nations
+2024-01-28,Egypt,DR Congo,1474.0958349843095,1409.3759530901193,draw,African Cup of Nations
+2024-01-29,Iraq,Jordan,1452.451720209015,1355.8314171569416,away_win,AFC Asian Cup
+2024-01-29,Côte d'Ivoire,Senegal,1501.772234848357,1526.4070872068528,draw,African Cup of Nations
+2024-01-30,Morocco,South Africa,1553.527191410119,1438.7819333777204,away_win,African Cup of Nations
+2024-01-30,Saudi Arabia,Korea Republic,1424.7784399636957,1522.4620227518878,draw,AFC Asian Cup
+2024-02-02,Australia,Korea Republic,1425.658439898259,1515.6126576870631,away_win,AFC Asian Cup
+2024-02-03,IR Iran,Japan,1493.0087728255405,1592.3280460328017,home_win,AFC Asian Cup
+2024-02-03,Qatar,Uzbekistan,1312.2199880623537,1355.7857671785027,draw,AFC Asian Cup
+2024-02-03,Cabo Verde,South Africa,1458.831130384887,1471.7508692372921,draw,African Cup of Nations
+2024-02-06,Jordan,Korea Republic,1387.6099568657428,1534.2807864728063,home_win,AFC Asian Cup
+2024-02-07,Qatar,IR Iran,1315.3384707380949,1524.9668596288047,home_win,AFC Asian Cup
+2024-02-07,Côte d'Ivoire,DR Congo,1503.5418903183727,1413.9797949421902,home_win,African Cup of Nations
+2024-02-10,Qatar,Jordan,1353.8243569050408,1422.5785147638599,home_win,AFC Asian Cup
+2024-02-10,South Africa,DR Congo,1470.821647566349,1395.2852531123224,draw,African Cup of Nations
+2024-03-21,Portugal,Sweden,1622.2290099124464,1450.9984947397184,home_win,Friendly
+2024-03-21,Panama,Mexico,1384.393676447351,1497.8827103869507,away_win,CONCACAF Nations League
+2024-03-22,Egypt,New Zealand,1469.4919931322386,1371.177033712341,home_win,FIFA Series
+2024-03-22,Netherlands,Scotland,1622.784939319387,1467.7538888970873,home_win,Friendly
+2024-03-22,Norway,Czechia,1444.8327922510475,1412.1105961386759,away_win,Friendly
+2024-03-22,Spain,Colombia,1598.6165284171288,1615.098870395788,away_win,Friendly
+2024-03-23,Tunisia,Croatia,1497.8985900806902,1606.7827411698001,draw,FIFA Series
+2024-03-23,England,Brazil,1643.0262197289821,1625.1297801473859,away_win,Friendly
+2024-03-23,France,Germany,1733.034126581991,1513.5822947196546,away_win,Friendly
+2024-03-24,United States,Mexico,1587.6977432725696,1513.283839446424,home_win,CONCACAF Nations League
+2024-03-26,Spain,Brazil,1589.0905727865356,1635.6444259971693,draw,Friendly
+2024-03-26,Côte d'Ivoire,Uruguay,1522.2364321482405,1596.384550101131,home_win,Friendly
+2024-03-26,Germany,Netherlands,1529.1740521041963,1628.597109713724,home_win,Friendly
+2024-03-26,England,Belgium,1632.5115738791987,1616.0859159931201,draw,Friendly
+2024-03-26,New Zealand,Tunisia,1360.311852800951,1502.4514109105999,draw,FIFA Series
+2024-03-26,Egypt,Croatia,1480.3571740436284,1602.2299203398904,away_win,FIFA Series
+2024-03-26,Algeria,South Africa,1549.818954889401,1465.4704159360083,draw,FIFA Series
+2024-03-26,Austria,Türkiye,1502.372522118062,1548.9926396106846,home_win,Friendly
+2024-06-03,England,Bosnia and Herzegovina,1632.039157355426,1457.342666575974,home_win,Friendly
+2024-06-05,Mexico,Uruguay,1495.530537999886,1584.2822169427168,away_win,Friendly
+2024-06-06,Netherlands,Canada,1615.8111194632322,1481.739752554959,home_win,Friendly
+2024-06-06,Senegal,DR Congo,1524.637431736837,1400.636484742663,draw,FIFA World Cup qualification
+2024-06-08,United States,Colombia,1605.4510447191076,1624.6248260263812,away_win,Friendly
+2024-06-08,Switzerland,Austria,1495.6508661724272,1513.7063612056156,draw,Friendly
+2024-06-08,Mexico,Brazil,1488.0308666306648,1634.3124602643943,away_win,Friendly
+2024-06-08,Portugal,Croatia,1627.6643257324142,1612.1739408452518,away_win,Friendly
+2024-06-09,Argentina,Ecuador,1705.3344165371468,1495.0577336698702,home_win,Friendly
+2024-06-09,France,Canada,1717.4423691974491,1475.417855189447,draw,Friendly
+2024-06-11,IR Iran,Uzbekistan,1486.4809734618589,1352.6672845027615,draw,FIFA World Cup qualification
+2024-06-11,Saudi Arabia,Jordan,1431.6278050285205,1392.6948388354347,away_win,FIFA World Cup qualification
+2024-06-12,United States,Brazil,1596.0023509419443,1640.3344631802106,draw,Friendly
+2024-06-14,Germany,Scotland,1541.960042354688,1461.9417185027503,home_win,UEFA Euro
+2024-06-15,Spain,Croatia,1590.4225385193106,1622.6194947747774,home_win,UEFA Euro
+2024-06-16,Panama,Paraguay,1368.9925473878777,1419.6085519416797,away_win,Friendly
+2024-06-17,Austria,France,1513.187149605089,1711.4203006889888,away_win,UEFA Euro
+2024-06-18,Portugal,Czechia,1617.2187718028886,1423.0496417655168,home_win,UEFA Euro
+2024-06-19,Scotland,Switzerland,1442.599810495363,1496.1700777729538,draw,UEFA Euro
+2024-06-20,Argentina,Canada,1709.9268456983143,1481.4399236979073,home_win,Copa América
+2024-06-21,Netherlands,France,1622.1330168287443,1723.5260240146783,draw,UEFA Euro
+2024-06-22,Türkiye,Portugal,1537.658800523131,1629.5404257061232,away_win,UEFA Euro
+2024-06-23,Germany,Switzerland,1561.3019503620753,1492.3456463763425,draw,UEFA Euro
+2024-06-23,Uruguay,Panama,1591.781888311938,1360.4391731665305,home_win,Copa América
+2024-06-24,Colombia,Paraguay,1634.0735198035445,1428.161926163027,home_win,Copa América
+2024-06-25,Netherlands,Austria,1629.228531904296,1501.0814262793995,away_win,UEFA Euro
+2024-06-26,Czechia,Türkiye,1410.7279878622821,1519.1202798270622,away_win,UEFA Euro
+2024-06-27,United States,Panama,1597.2714516426763,1349.9953878202057,away_win,Copa América
+2024-06-28,Paraguay,Brazil,1416.4570980773126,1639.0653624794786,away_win,Copa América
+2024-06-30,Mexico,Ecuador,1482.0088637148485,1490.4653045087027,draw,Copa América
+2024-07-01,France,Belgium,1716.4305089391266,1616.558332516893,home_win,UEFA Euro
+2024-07-01,United States,Uruguay,1556.9776305886403,1602.2256736582628,away_win,Copa América
+2024-07-02,Austria,Türkiye,1534.9057774342843,1536.5643905043264,away_win,UEFA Euro
+2024-07-02,Brazil,Colombia,1649.9306551535904,1645.7783478892588,draw,Copa América
+2024-07-04,Argentina,Ecuador,1720.507107816311,1489.8569348114063,draw,Copa América
+2024-07-05,Germany,Spain,1556.404285508311,1617.7326865208724,away_win,UEFA Euro
+2024-07-05,Portugal,France,1648.078946402192,1734.4357357028277,draw,UEFA Euro
+2024-07-06,Colombia,Panama,1646.0771161899393,1390.2892088742417,home_win,Copa América
+2024-07-06,Uruguay,Brazil,1623.98809872453,1649.63188685291,draw,Copa América
+2024-07-06,Netherlands,Türkiye,1595.4041807494111,1561.4450446068838,home_win,UEFA Euro
+2024-07-06,England,Switzerland,1637.395861043912,1497.2433112301069,draw,UEFA Euro
+2024-07-09,Spain,France,1638.3650224773037,1728.3467434189658,home_win,UEFA Euro
+2024-07-09,Argentina,Canada,1705.9838699479155,1470.8596615799106,home_win,Copa América
+2024-07-10,Netherlands,England,1617.9683764007286,1627.8246839037142,away_win,UEFA Euro
+2024-07-10,Uruguay,Colombia,1625.8299741406993,1655.405766551359,away_win,Copa América
+2024-07-13,Canada,Uruguay,1460.5945912780164,1602.9529978361534,draw,Copa América
+2024-07-14,Spain,England,1669.6987457154676,1652.1156557633285,home_win,UEFA Euro
+2024-07-14,Argentina,Colombia,1716.2489402498097,1678.2827428559049,home_win,Copa América
+2024-09-05,Portugal,Croatia,1654.167938686054,1595.3093467732156,home_win,UEFA Nations League
+2024-09-06,Brazil,Ecuador,1647.7900114367405,1504.3801726798017,home_win,FIFA World Cup qualification
+2024-09-06,Uruguay,Paraguay,1593.2466913156118,1405.5918054032009,draw,FIFA World Cup qualification
+2024-09-06,Egypt,Cabo Verde,1470.4131535382671,1459.7603520558303,home_win,African Cup of Nations qualification
+2024-09-07,Mexico,New Zealand,1482.617233412145,1366.1276105616253,home_win,Friendly
+2024-09-07,United States,Canada,1535.2152055223733,1470.300897798558,away_win,Friendly
+2024-09-07,Netherlands,Bosnia and Herzegovina,1593.6774045411144,1451.9859628874879,home_win,UEFA Nations League
+2024-09-08,Portugal,Scotland,1672.8922946787488,1446.4242418919744,home_win,UEFA Nations League
+2024-09-08,Switzerland,Spain,1506.8144883703046,1693.4346197281302,away_win,UEFA Nations League
+2024-09-09,France,Belgium,1697.013020180802,1598.5531057531919,home_win,UEFA Nations League
+2024-09-09,Norway,Austria,1433.8937466242066,1510.025123331727,home_win,UEFA Nations League
+2024-09-10,Paraguay,Brazil,1415.4532932195439,1659.9736249710913,home_win,FIFA World Cup qualification
+2024-09-10,Colombia,Argentina,1656.0038081040987,1738.527875001616,home_win,FIFA World Cup qualification
+2024-09-10,Netherlands,Germany,1607.4784378996198,1535.7719495518797,draw,UEFA Nations League
+2024-09-10,United States,New Zealand,1523.3682630895973,1359.3602179794311,draw,Friendly
+2024-09-10,Mexico,Canada,1489.384625994339,1482.147840231334,draw,Friendly
+2024-10-10,Ecuador,Paraguay,1492.196559145451,1447.5886024113408,draw,FIFA World Cup qualification
+2024-10-10,Uzbekistan,IR Iran,1360.0106598307432,1479.1375981338772,draw,FIFA World Cup qualification
+2024-10-10,Jordan,Korea Republic,1414.9266666380306,1499.3122285746892,away_win,FIFA World Cup qualification
+2024-10-10,Saudi Arabia,Japan,1409.3959772259245,1560.3699592295375,away_win,FIFA World Cup qualification
+2024-10-11,Bosnia and Herzegovina,Germany,1438.1849295289824,1540.3508462153666,away_win,UEFA Nations League
+2024-10-12,United States,Panama,1518.9696962120827,1380.960558512822,home_win,Friendly
+2024-10-12,Croatia,Scotland,1576.5849907805207,1436.814467371859,home_win,UEFA Nations League
+2024-10-13,Austria,Norway,1482.6722625852133,1461.2466073707203,home_win,UEFA Nations League
+2024-10-14,Germany,Netherlands,1556.4188900230909,1602.899541236133,home_win,UEFA Nations League
+2024-10-14,Belgium,France,1582.2640074047185,1713.3021185292753,away_win,UEFA Nations League
+2024-10-15,Canada,Panama,1482.3561015516614,1374.7362553989908,home_win,Friendly
+2024-10-15,Mexico,United States,1489.1763646740117,1525.1939993259139,home_win,Friendly
+2024-10-15,Scotland,Portugal,1422.9074040105313,1682.502069198864,draw,UEFA Nations League
+2024-10-15,Uruguay,Ecuador,1583.3852034992688,1489.6427361836531,draw,FIFA World Cup qualification
+2024-10-15,IR Iran,Qatar,1472.5367670003557,1383.708032833466,home_win,FIFA World Cup qualification
+2024-10-15,Korea Republic,Iraq,1514.5479229083753,1420.673180500214,home_win,FIFA World Cup qualification
+2024-10-15,Japan,Australia,1572.1878225307098,1406.9903111125159,draw,FIFA World Cup qualification
+2024-11-14,Australia,Saudi Arabia,1415.842585414515,1397.5781139247522,draw,FIFA World Cup qualification
+2024-11-14,Iraq,Jordan,1405.9492730088523,1399.6909723043445,draw,FIFA World Cup qualification
+2024-11-14,Paraguay,Argentina,1450.1424253731386,1713.8647730572934,home_win,FIFA World Cup qualification
+2024-11-14,Qatar,Uzbekistan,1368.7128482182884,1366.6114909642647,home_win,FIFA World Cup qualification
+2024-11-15,Scotland,Croatia,1437.1602467909029,1590.4920541418485,home_win,UEFA Nations League
+2024-11-15,Uruguay,Colombia,1578.116196162605,1680.6669100484212,home_win,FIFA World Cup qualification
+2024-11-15,Cabo Verde,Egypt,1442.796755452367,1487.3767501417303,draw,African Cup of Nations qualification
+2024-11-16,Germany,Bosnia and Herzegovina,1581.9111563189156,1422.116885721258,home_win,UEFA Nations League
+2024-11-18,Croatia,Portugal,1558.6603670681338,1668.2492264184925,draw,UEFA Nations League
+2024-11-18,Spain,Switzerland,1704.8912394407896,1495.3578686576452,home_win,UEFA Nations League
+2024-11-19,Colombia,Ecuador,1654.929281519752,1494.9117435203168,away_win,FIFA World Cup qualification
+2024-11-19,Bosnia and Herzegovina,Netherlands,1409.2924029063415,1577.4072749403083,draw,UEFA Nations League
+2024-11-19,Brazil,Uruguay,1627.8383157792944,1603.8538246912742,draw,FIFA World Cup qualification
+2024-12-28,Iraq,Saudi Arabia,1405.5890552192998,1398.6285339719254,away_win,Gulf Cup
+2025-01-22,Uzbekistan,Jordan,1346.7324533365127,1400.051190093897,draw,Friendly
+2025-03-20,Canada,Mexico,1489.3539612678517,1500.209337773046,away_win,CONCACAF Nations League
+2025-03-20,United States,Panama,1514.1610262268796,1367.7383956828005,away_win,CONCACAF Nations League
+2025-03-20,Croatia,France,1565.531005492364,1727.6967902366484,home_win,UEFA Nations League
+2025-03-20,Netherlands,Spain,1567.2971160060792,1715.2583053470585,draw,UEFA Nations League
+2025-03-20,Brazil,Colombia,1626.4598465111965,1626.318349035603,home_win,FIFA World Cup qualification
+2025-03-21,Uruguay,Argentina,1605.232293959372,1681.0543856467953,away_win,FIFA World Cup qualification
+2025-03-23,Spain,Netherlands,1706.2164298085472,1576.3389915445905,draw,UEFA Nations League
+2025-03-23,France,Croatia,1695.396461527924,1597.8313342010886,home_win,UEFA Nations League
+2025-03-23,United States,Canada,1482.7028457895467,1467.5567290167196,away_win,CONCACAF Nations League
+2025-03-23,Panama,Mexico,1399.1965761201334,1522.006570024178,away_win,CONCACAF Nations League
+2025-03-25,Colombia,Paraguay,1606.3264942846026,1482.9528127836368,draw,FIFA World Cup qualification
+2025-03-25,Argentina,Brazil,1696.7577105632383,1646.4517012621968,home_win,FIFA World Cup qualification
+2025-03-25,IR Iran,Uzbekistan,1487.5319516155332,1348.2551549050775,draw,FIFA World Cup qualification
+2025-03-25,Korea Republic,Jordan,1529.271830399737,1398.5284885253322,draw,FIFA World Cup qualification
+2025-03-25,Japan,Saudi Arabia,1563.3355482287106,1421.5792384632111,draw,FIFA World Cup qualification
+2025-05-30,Saudi Arabia,Jordan,1429.3148289769397,1405.718453976041,home_win,Friendly
+2025-06-04,Germany,Portugal,1594.7356391338321,1661.3785879942623,away_win,UEFA Nations League
+2025-06-05,Australia,Japan,1414.7921653673418,1555.599957714982,home_win,FIFA World Cup qualification
+2025-06-05,Qatar,IR Iran,1388.5918858460404,1479.9180747303244,home_win,FIFA World Cup qualification
+2025-06-05,Iraq,Korea Republic,1382.638350728014,1522.0818649490282,away_win,FIFA World Cup qualification
+2025-06-05,Ecuador,Brazil,1523.522676004466,1629.3274792495504,draw,FIFA World Cup qualification
+2025-06-05,Paraguay,Uruguay,1489.7705914691485,1589.528969042929,home_win,FIFA World Cup qualification
+2025-06-05,Spain,France,1698.1765912404715,1711.7391290159399,home_win,UEFA Nations League
+2025-06-06,Morocco,Tunisia,1520.5582555505473,1496.6356531499257,home_win,Friendly
+2025-06-07,Mexico,Switzerland,1536.8688493345721,1484.9908027513763,away_win,Friendly
+2025-06-07,United States,Türkiye,1459.2226010377296,1538.8808489555663,away_win,Friendly
+2025-06-07,Côte d'Ivoire,New Zealand,1534.3387653066548,1363.7587848569458,away_win,Canadian Shield
+2025-06-08,Germany,France,1576.4992878637984,1688.3612621372947,away_win,UEFA Nations League
+2025-06-08,Portugal,Spain,1679.614939264296,1721.5544581191166,draw,UEFA Nations League
+2025-06-09,Croatia,Czechia,1581.4886667130727,1393.283877185018,home_win,FIFA World Cup qualification
+2025-06-10,Canada,Côte d'Ivoire,1491.0369737685367,1519.7889163085447,draw,Canadian Shield
+2025-06-10,Saudi Arabia,Australia,1438.6367130066556,1442.4812740934874,away_win,FIFA World Cup qualification
+2025-06-10,Jordan,Iraq,1396.3965699463251,1370.2604322684874,away_win,FIFA World Cup qualification
+2025-06-10,Uzbekistan,Qatar,1355.8690317902863,1413.7312193625937,home_win,FIFA World Cup qualification
+2025-06-10,Brazil,Paraguay,1623.418412586987,1515.3603715318422,home_win,FIFA World Cup qualification
+2025-06-10,England,Senegal,1628.3797817506659,1517.7877603849372,away_win,Friendly
+2025-06-10,United States,Switzerland,1451.47600257262,1496.4729740127282,away_win,Friendly
+2025-06-10,Sweden,Algeria,1445.5631789197505,1546.2472333843634,home_win,Friendly
+2025-06-10,Mexico,Türkiye,1525.3866780732203,1546.627447420676,home_win,Friendly
+2025-06-10,Haiti,Curaçao,1362.5372906488008,1363.4515835799111,away_win,FIFA World Cup qualification
+2025-06-10,Argentina,Colombia,1713.8819325758848,1599.508715599091,draw,FIFA World Cup qualification
+2025-06-15,Haiti,Saudi Arabia,1342.589921459156,1418.858014700411,away_win,Gold Cup
+2025-06-19,United States,Saudi Arabia,1442.7639266544777,1438.4565680884366,home_win,Gold Cup
+2025-06-21,Curaçao,Canada,1383.398952769556,1491.8626372469587,draw,Gold Cup
+2025-06-22,United States,Haiti,1467.4540031694523,1322.9913680711304,home_win,Gold Cup
+2025-06-28,Mexico,Saudi Arabia,1535.997276026489,1413.766491573462,home_win,Gold Cup
+2025-07-06,United States,Mexico,1482.6194121841859,1552.5478155591381,away_win,Gold Cup
+2025-09-04,Paraguay,Ecuador,1501.3875944789233,1529.4317426670293,draw,FIFA World Cup qualification
+2025-09-05,Australia,New Zealand,1462.2599723997319,1378.308633855056,home_win,Soccer Ashes
+2025-09-06,Mexico,Japan,1572.5829241245303,1527.9108489888365,draw,Friendly
+2025-09-06,United States,Korea Republic,1462.5843036187937,1534.4597834085548,away_win,Friendly
+2025-09-07,Türkiye,Spain,1536.0168494674072,1718.8515617517437,away_win,FIFA World Cup qualification
+2025-09-08,Czechia,Saudi Arabia,1383.169305257431,1397.215952040813,draw,Friendly
+2025-09-09,Bosnia and Herzegovina,Austria,1419.4025618405706,1503.786488972115,away_win,FIFA World Cup qualification
+2025-09-09,DR Congo,Senegal,1407.4861560945628,1530.8675353351884,away_win,FIFA World Cup qualification
+2025-09-09,Ecuador,Argentina,1527.8208886204723,1707.5260308134914,home_win,FIFA World Cup qualification
+2025-09-09,New Zealand,Australia,1370.6789944450984,1469.8896118096895,away_win,Soccer Ashes
+2025-09-09,Mexico,Korea Republic,1571.3041973010243,1542.4200561625596,draw,Friendly
+2025-09-09,United States,Japan,1454.624030864789,1529.1895758123426,home_win,Friendly
+2025-10-09,Czechia,Croatia,1383.5733801156077,1591.6032386406596,draw,FIFA World Cup qualification
+2025-10-10,Sweden,Switzerland,1458.3826125357418,1505.1850499308705,away_win,FIFA World Cup qualification
+2025-10-10,Canada,Australia,1484.3020803656143,1477.1092624478003,away_win,Friendly
+2025-10-10,Japan,Paraguay,1517.0757620626737,1502.9984485254804,draw,Kirin Cup
+2025-10-10,Korea Republic,Brazil,1543.2494985642788,1637.3911896399059,away_win,Friendly
+2025-10-10,United States,Ecuador,1466.7378446144578,1557.3321205241439,draw,Friendly
+2025-10-11,Mexico,Colombia,1570.474754899305,1605.8646173614843,away_win,Friendly
+2025-10-13,Uzbekistan,Uruguay,1379.1693905995012,1563.939188980235,away_win,Friendly
+2025-10-14,Japan,Brazil,1516.6708059886914,1644.745996145357,home_win,Kirin Cup
+2025-10-14,Canada,Colombia,1474.0950839960444,1614.8495235166895,draw,Friendly
+2025-10-14,Korea Republic,Paraguay,1535.8946920588278,1503.4034045994626,home_win,Friendly
+2025-10-14,Mexico,Ecuador,1561.4898487440998,1554.7821395047808,draw,Friendly
+2025-10-14,Norway,New Zealand,1440.1323809838186,1363.4593438069876,draw,Friendly
+2025-10-14,United States,Australia,1469.2878256338208,1487.3162588173702,home_win,Friendly
+2025-10-14,Saudi Arabia,Iraq,1396.8118771826362,1391.7621177180677,draw,FIFA World Cup qualification
+2025-11-13,Canada,Ecuador,1477.9383296375602,1554.9751789124953,draw,Friendly
+2025-11-13,IR Iran,Cabo Verde,1454.7787412137711,1445.029965072461,draw,Al Ain International Cup
+2025-11-14,Uzbekistan,Egypt,1374.0370268291567,1485.1435405216364,home_win,Al Ain International Cup
+2025-11-14,Tunisia,Jordan,1487.3231149245782,1374.894884496745,home_win,Friendly
+2025-11-14,Japan,Ghana,1530.1987343141504,1413.2765399064747,home_win,Kirin Cup
+2025-11-14,Saudi Arabia,Côte d'Ivoire,1396.5212101283098,1518.9632528301227,home_win,Friendly
+2025-11-15,Brazil,Senegal,1631.218067819898,1544.0493650277085,home_win,Friendly
+2025-11-15,Colombia,New Zealand,1611.0062778751737,1365.6310307953192,home_win,Friendly
+2025-11-15,Mexico,Uruguay,1561.2968093363854,1569.0715527505795,draw,Friendly
+2025-11-15,United States,Paraguay,1479.806260428334,1494.3358623364713,home_win,Friendly
+2025-11-15,Switzerland,Sweden,1522.5070640234528,1441.0605984431595,home_win,FIFA World Cup qualification
+2025-11-17,Cabo Verde,Egypt,1445.310483789663,1472.0503679791293,draw,Al Ain International Cup
+2025-11-18,United States,Uruguay,1490.224212367645,1568.8478149915231,home_win,Friendly
+2025-11-18,IR Iran,Uzbekistan,1454.498222496569,1387.1301993716638,draw,Al Ain International Cup
+2025-11-18,Austria,Bosnia and Herzegovina,1519.0222720726058,1404.1667787400797,draw,FIFA World Cup qualification
+2025-11-18,Spain,Türkiye,1729.2015187756251,1525.6668924435257,draw,FIFA World Cup qualification
+2025-11-18,Mexico,Paraguay,1561.5205470954418,1483.9179103971605,away_win,Friendly
+2025-11-18,Colombia,Australia,1614.9230992610976,1476.797824022857,home_win,Friendly
+2025-11-18,Ecuador,New Zealand,1552.7935166948512,1361.7142094093954,home_win,Friendly
+2025-11-18,Korea Republic,Ghana,1544.962234321819,1406.520292206415,home_win,Friendly
+2025-11-18,Brazil,Tunisia,1638.7605009672632,1494.1955806727822,draw,Friendly
+2025-11-18,Saudi Arabia,Algeria,1409.9063791370725,1533.427799768372,away_win,Friendly
+2025-12-07,Qatar,Tunisia,1390.4308605533788,1498.1319051965231,away_win,Arab Cup
+2025-12-08,Morocco,Saudi Arabia,1529.8707937758948,1403.3190260722804,home_win,Arab Cup
+2025-12-09,Egypt,Jordan,1471.2822482711413,1368.022418748541,away_win,Arab Cup
+2025-12-09,Algeria,Iraq,1540.0151528331642,1392.052784772394,home_win,Arab Cup
+2025-12-12,Jordan,Iraq,1397.019369134633,1378.5947243175735,home_win,Arab Cup
+2025-12-15,Saudi Arabia,Jordan,1388.6703535257097,1418.3273025881933,away_win,Arab Cup
+2025-12-18,Jordan,Morocco,1438.911363546401,1544.5194663224654,away_win,Arab Cup
+2025-12-26,Egypt,South Africa,1442.2852978850492,1469.042137441046,home_win,African Cup of Nations
+2025-12-27,Senegal,DR Congo,1536.5069318803432,1394.3043264020428,draw,African Cup of Nations
+2026-01-06,Algeria,DR Congo,1553.4732132879847,1404.0011103887086,home_win,African Cup of Nations
+2026-01-10,Egypt,Côte d'Ivoire,1469.2068099888534,1505.57808382136,home_win,African Cup of Nations
+2026-01-14,Senegal,Egypt,1526.8101478936774,1496.814414944217,home_win,African Cup of Nations
+2026-01-18,Morocco,Senegal,1560.3833946680334,1549.657128053968,home_win,African Cup of Nations
+2026-01-22,Panama,Mexico,1384.3342968097393,1549.323380821997,away_win,Friendly
+2026-03-26,Colombia,Croatia,1621.1445365621987,1580.8799337700648,away_win,Friendly
+2026-03-26,Brazil,France,1634.8241764435222,1703.857410829125,away_win,Friendly
+2026-03-27,Austria,Ghana,1512.641423066112,1400.3066653061683,home_win,Friendly
+2026-03-27,England,Uruguay,1615.3000068004146,1556.6226996917032,draw,Friendly
+2026-03-27,Morocco,Ecuador,1584.6118228612456,1557.7885360149335,draw,Friendly
+2026-03-27,Netherlands,Norway,1584.3788301126663,1437.960693995487,home_win,Friendly
+2026-03-27,Saudi Arabia,Egypt,1368.0862925675021,1473.9674347839264,away_win,Friendly
+2026-03-27,South Africa,Panama,1442.1206253372418,1378.7556089071704,draw,Friendly
+2026-03-27,Switzerland,Germany,1537.9026639346027,1561.003139171968,away_win,Friendly
+2026-03-28,United States,Belgium,1502.4493276674648,1567.8693356973454,away_win,Friendly
+2026-03-28,Scotland,Japan,1468.9919338646177,1536.9549820142101,away_win,Friendly
+2026-03-28,Mexico,Portugal,1554.9020687245659,1682.317835631669,draw,Friendly
+2026-03-28,Côte d'Ivoire,Korea Republic,1477.9704788659963,1551.1758612220658,home_win,Friendly
+2026-03-28,Haiti,Tunisia,1307.8259590563969,1513.8723053970562,away_win,Friendly
+2026-03-29,Colombia,France,1609.990788725085,1711.8962157261071,away_win,Friendly
+2026-03-30,Germany,Ghana,1570.3392320760295,1393.4317721508653,home_win,Friendly
+2026-03-31,Australia,Curaçao,1470.5763867217559,1390.9595096509004,home_win,FIFA Series
+2026-03-31,United States,Portugal,1494.3103250295064,1678.8065358777797,away_win,Friendly
+2026-03-31,Spain,Egypt,1718.6638694310097,1481.0108961711624,draw,Friendly
+2026-03-31,South Africa,Panama,1440.316789181618,1380.559445062794,away_win,Friendly
+2026-03-31,Norway,Switzerland,1431.941998668325,1528.5665710305414,draw,Friendly
+2026-03-31,Netherlands,Ecuador,1590.3975254398283,1558.5590420370386,draw,Friendly
+2026-03-31,Morocco,Paraguay,1583.8413168391405,1496.1150766706053,home_win,Friendly
+2026-03-31,Côte d'Ivoire,Scotland,1490.046862448271,1460.9234934726119,home_win,Friendly
+2026-03-31,England,Japan,1613.6270141089785,1545.023422406216,away_win,Friendly
+2026-03-31,Canada,Tunisia,1480.1199918552043,1518.551455620814,draw,Friendly
+2026-03-31,Brazil,Croatia,1626.78537154654,1592.0336816071786,home_win,Friendly
+2026-03-31,Austria,Korea Republic,1519.516316221415,1539.099477639791,home_win,Friendly
+2026-03-31,Algeria,Uruguay,1568.3356828349308,1558.2956923831393,draw,Friendly
+2026-03-31,Mexico,Belgium,1558.4133684784551,1576.0083383353037,draw,Friendly
+2026-05-22,Mexico,Ghana,1558.9193599296864,1388.1248373153728,home_win,Friendly
+2026-05-30,Scotland,Curaçao,1451.7597736426735,1379.3379164807948,home_win,Friendly
+2026-05-30,Mexico,Australia,1564.3646155863294,1482.1979798918615,home_win,Friendly
+2026-05-30,Ecuador,Saudi Arabia,1559.4728706889605,1361.0428311802661,home_win,Friendly
+2026-05-31,Brazil,Panama,1635.7884598855837,1392.2626378484456,home_win,Friendly
+2026-05-31,Switzerland,Jordan,1525.855041300685,1423.047435200833,home_win,Friendly
+2026-05-31,United States,Senegal,1489.171950244753,1525.4286998607558,home_win,Friendly
+2026-06-01,Austria,Tunisia,1530.0793687697444,1517.449798659863,home_win,Friendly
+2026-06-01,Canada,Uzbekistan,1481.2216488161553,1389.0452663082015,home_win,Friendly
+2026-06-01,Norway,Sweden,1434.6535283981814,1425.6649985320096,home_win,Friendly
+2026-06-02,Croatia,Belgium,1583.030593268135,1575.5023468840725,away_win,Friendly
+2026-06-02,Haiti,New Zealand,1303.146808832639,1356.719190089313,home_win,Friendly
+2026-06-03,Netherlands,Algeria,1589.4836967879064,1568.0467890906996,away_win,Friendly
+2026-06-04,France,Côte d'Ivoire,1719.0444548148491,1499.2105822782094,away_win,Friendly
+2026-06-04,Spain,Iraq,1712.7226018357414,1357.2867908640133,draw,Friendly
